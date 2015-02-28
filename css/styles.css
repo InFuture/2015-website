@@ -10,21 +10,21 @@
   src: url("../fonts/HelveticaNeueUL.otf") format("opentype");
   font-weight: 100; }
 
-/* line 38, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+/* line 38, /home/liam/Documents/GitHub/infuture/css/styles.scss */
 html {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0; }
 
-/* line 45, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+/* line 45, /home/liam/Documents/GitHub/infuture/css/styles.scss */
 body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0; }
 
-/* line 52, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+/* line 52, /home/liam/Documents/GitHub/infuture/css/styles.scss */
 .background {
   position: fixed;
   z-index: -999;
@@ -40,7 +40,7 @@ body {
   -o-background-size: cover;
   -webkit-background-size: cover; }
 
-/* line 71, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+/* line 71, /home/liam/Documents/GitHub/infuture/css/styles.scss */
 .bg-overlay {
   width: 100%;
   height: 100%;
@@ -60,7 +60,7 @@ body {
   -o-filter: brightness(25%);
   -ms-filter: brightness(25%); }
 
-/* line 96, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+/* line 96, /home/liam/Documents/GitHub/infuture/css/styles.scss */
 .introduction {
   width: 100%;
   height: 100%;
@@ -70,7 +70,7 @@ body {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
-  /* line 106, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+  /* line 106, /home/liam/Documents/GitHub/infuture/css/styles.scss */
   .introduction .content {
     width: 720px;
     max-width: 100%;
@@ -83,21 +83,21 @@ body {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
-    /* line 119, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+    /* line 119, /home/liam/Documents/GitHub/infuture/css/styles.scss */
     .introduction .content h1.name {
       font-size: 96px;
       letter-spacing: 0.1em;
       font-family: "Helvetica", sans-serif;
       font-weight: 100;
       margin: 10px auto; }
-      /* line 128, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+      /* line 128, /home/liam/Documents/GitHub/infuture/css/styles.scss */
       .introduction .content h1.name span.lastname {
         color: #2dc4e0; }
-    /* line 133, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+    /* line 133, /home/liam/Documents/GitHub/infuture/css/styles.scss */
     .introduction .content h2.motto {
       letter-spacing: 0.1em; }
 
-/* line 139, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+/* line 139, /home/liam/Documents/GitHub/infuture/css/styles.scss */
 div.form {
   position: relative;
   top: 50%;
@@ -107,7 +107,7 @@ div.form {
   display: inline-block;
   background-color: transparent;
   color: #FFF; }
-  /* line 145, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+  /* line 145, /home/liam/Documents/GitHub/infuture/css/styles.scss */
   div.form .email-input {
     width: 280px;
     height: 32px;
@@ -123,7 +123,7 @@ div.form {
     font-weight: 300;
     font-size: 18px;
     outline: none; }
-  /* line 167, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+  /* line 167, /home/liam/Documents/GitHub/infuture/css/styles.scss */
   div.form .email-submit {
     display: inline-block;
     height: 48px;
@@ -144,7 +144,7 @@ div.form {
     -o-transition: all 100ms ease-out;
     transition: all 75ms ease-out;
     outline: none; }
-    /* line 195, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+    /* line 195, /home/liam/Documents/GitHub/infuture/css/styles.scss */
     div.form .email-submit:hover {
       background-color: rgba(52, 152, 219, 0.8);
       color: #FFF; }

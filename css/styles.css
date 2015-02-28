@@ -1,32 +1,29 @@
 /* General */
 /* STYLES */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,300);
 @font-face {
   font-family: "Free Sans";
   src: url("../fonts/FreeSans.otf") format("opentype"); }
-/*
+
 @font-face {
-    font-family: "Helvetica Neue";
-    src: url("../fonts/HelveticaNeue.otf") format("opentype");
-    font-weight: 300;
-}
-*/
-@font-face {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica";
   src: url("../fonts/HelveticaNeueUL.otf") format("opentype");
-  font-weight: 300; }
+  font-weight: 100; }
+
+/* line 28, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
 html {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0; }
 
+/* line 35, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
 body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0; }
 
+/* line 42, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
 .background {
   position: fixed;
   z-index: -999;
@@ -42,20 +39,27 @@ body {
   -o-background-size: cover;
   -webkit-background-size: cover; }
 
+/* line 61, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
 .bg-overlay {
   width: 100%;
   height: 100%;
   position: fixed;
   z-index: -998;
-  opacity: 0.2;
+  opacity: 0.7;
   background: #05c6d1;
   background: -webkit-gradient(linear, top, bottom, color-stop(0%, #194fb8), color-stop(100%, #05c6d1));
   background: -webkit-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
   background: -moz-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
   background: -o-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
   background: -ms-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
-  background: linear-gradient(top, #194fb8 0%, #05c6d1 100%); }
+  background: linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  filter: brightness(25%);
+  -webkit-filter: brightness(25%);
+  -moz-filter: brightness(25%);
+  -o-filter: brightness(25%);
+  -ms-filter: brightness(25%); }
 
+/* line 86, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
 .introduction {
   width: 100%;
   height: 100%;
@@ -65,24 +69,31 @@ body {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
+  /* line 96, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
   .introduction .content {
     width: 720px;
     max-width: 100%;
     margin: 0 auto;
     padding: 25px 50px;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 300;
+    font-family: "Helvetica", sans-serif;
     text-align: center;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
+    /* line 109, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
     .introduction .content h1.name {
-      font-size: 96px; }
+      font-size: 96px;
+      letter-spacing: 0.1em;
+      font-family: "Helvetica", sans-serif;
+      font-weight: 100;
+      margin: 40px auto; }
+      /* line 117, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
       .introduction .content h1.name span.lastname {
         color: #2dc4e0; }
-    .introduction .content a {
-      font-family: "Free Sans", sans-serif; }
+    /* line 122, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+    .introduction .content h2.motto {
+      letter-spacing: 0.1em; }
 
 /*# sourceMappingURL=styles.css.map */

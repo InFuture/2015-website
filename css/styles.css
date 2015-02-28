@@ -90,18 +90,18 @@ body {
       font-family: "Helvetica", sans-serif;
       font-weight: 100;
       margin: 10px auto; }
-      /* line 119, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+      /* line 120, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
       .introduction .content h1.name span.lastname {
         color: #2dc4e0; }
-    /* line 124, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+    /* line 125, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
     .introduction .content h2.motto {
       letter-spacing: 0.1em; }
-    /* line 128, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+    /* line 129, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
     .introduction .content div.form {
       display: inline-block;
       background-color: transparent;
       color: #FFF; }
-      /* line 133, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+      /* line 134, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
       .introduction .content div.form .email-input {
         width: 280px;
         height: 32px;
@@ -115,15 +115,15 @@ body {
         border-bottom-left-radius: 7px;
         font-family: "Open Sans", sans-serif;
         font-weight: 300;
-        font-size: 18px; }
-      /* line 153, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+        font-size: 18px;
+        outline: none; }
+      /* line 156, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
       .introduction .content div.form .email-submit {
         display: inline-block;
-        width: 100px;
         height: 48px;
-        margin: 0;
-        margin-left: -15px;
-        padding: 7px 50px 7px 14px;
+        margin-left: -5px;
+        padding: 7px 20px 6px 20px;
+        text-align: center;
         background-color: #3498db;
         color: #FFF;
         border: 1px;
@@ -136,8 +136,9 @@ body {
         -moz-transition: all 100ms ease-out;
         -ms-transition: all 100ms ease-out;
         -o-transition: all 100ms ease-out;
-        transition: all 75ms ease-out; }
-        /* line 179, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
+        transition: all 75ms ease-out;
+        outline: none; }
+        /* line 184, C:/Users/Jay Mo/Desktop/InFuture/css/styles.scss */
         .introduction .content div.form .email-submit:hover {
           background-color: rgba(52, 152, 219, 0.8);
           color: #FFF; }

@@ -115,6 +115,7 @@ body {
             font-family: "Helvetica", sans-serif;
             font-weight: 100;
             margin: 10px auto;
+        
             
             span.lastname {
                 color: #2dc4e0;
@@ -148,16 +149,18 @@ body {
                 font-family: "Open Sans", sans-serif;
                 font-weight: 300;
                 font-size: 18px;
+                
+                outline: none;
             }
             
             .email-submit {
                 display: inline-block;
-                width: 100px;
+                
                 height: 48px;
                 
-                margin: 0;
-                margin-left: -15px;
-                padding: 7px 50px 7px 14px;
+                margin-left: -5px;
+                padding: 7px 20px 6px 20px;
+                text-align: center;
                 
                 background-color: #3498db;
                 color: #FFF;
@@ -176,10 +179,15 @@ body {
                 -o-transition: all 100ms ease-out;
                 transition: all 75ms ease-out;
                 
+                outline: none;
+                
                 &:hover {
                     background-color: rgba(52, 152, 219, 0.8);
                     color: #FFF;
                 }
+                
+                
+                
             }
         }
     }

@@ -1,0 +1,124 @@
+//@import "sass/monomo";
+//Trashing Monomo
+
+/* General */
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@mixin vertical-parent {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* STYLES */
+@font-face {
+    font-family: "Free Sans";
+    src: url("../fonts/FreeSans.otf") format("opentype");
+}
+/*
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue.otf") format("opentype");
+    font-weight: 300;
+}
+*/
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeueUL.otf") format("opentype");
+    font-weight: 300;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,300);
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: fixed;
+    z-index: -999;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    background: url(../images/background.jpg) no-repeat center center scroll;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.bg-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -998;
+    opacity: 0.2;
+    background: #05c6d1;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #194fb8), color-stop(100%, #05c6d1));
+  background: -webkit-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: -moz-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: -o-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: -ms-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+}
+
+
+
+.introduction {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    color: #FFF;
+    
+    @include vertical-parent;
+    
+    .content {
+        width: 720px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 25px 50px;
+        
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        
+        @include vertical-align;
+        
+        h1.name {
+            font-size: 96px;
+            
+            span.lastname {
+                color: #2dc4e0;
+            }
+        }
+        
+        a {
+            font-family: "Free Sans", sans-serif;
+        }
+    }
+}
+

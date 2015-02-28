@@ -1,2 +1,0 @@
-# InFuture
-InFuture hackathon website

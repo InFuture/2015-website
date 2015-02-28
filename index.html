@@ -25,11 +25,22 @@
 
     <!-- Styles -->
     <link href="css/styles.css" rel="stylesheet">
-    
+
     <!--Parse Database-->
     <script src="//www.parsecdn.com/js/parse-1.3.5.min.js"></script>
     <script src="js/parse.js"></script>
-   
+    <script>
+        Parse.initialize("TckU2eAUVMu27DCKVA2YSL1aPdl3vEffBO7pl2D7", "iPRlEEyjGAGl4WKDZb0EU28Tn3zoqVIp9chNew4b");
+
+        var TestObject = Parse.Object.extend("TestObject");
+        var testObject = new TestObject();
+        testObject.save({
+            foo: "bar"
+        }).then(function (object) {
+            alert("yay! it worked");
+        });
+    </script>
+
 </head>
 
 <body onload="ifVisit()">
@@ -39,17 +50,17 @@
     <div class="introduction">
         <div class="content">
             <h1 class="name">IN<span class="lastname">FUTURE</span></h1>
-            <h2 class="motto">Are you ready to innovate the future?</h2>        
+            <h2 class="motto">Are you ready to innovate the future?</h2>
         </div>
     </div>
 
     <center>
-    <div class="form">
-        <input class="email-input" placeholder="your@email.com">
-        <button class="email-submit">Subscribe</button>
-    </div>
+        <div class="form">
+            <input class="email-input" placeholder="your@email.com">
+            <button class="email-submit">Subscribe</button>
+        </div>
     </center>
-    
+
     <!-- jQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 

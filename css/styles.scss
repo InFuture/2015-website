@@ -13,6 +13,14 @@
     transform-style: preserve-3d;
 }
 
+@mixin vertical-bottom {
+    position: relative;
+    top: 50%;
+    /*-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+}
+
 /* STYLES */
 @font-face {
     font-family: "Free Sans";
@@ -125,71 +133,69 @@ body {
         h2.motto {
             letter-spacing: 0.1em;
         }
-        
-        div.form {
-            display: inline-block;
-            background-color: transparent;
+    }
+}
+
+div.form {
+    @include vertical-bottom;
+    display: inline-block;
+    background-color: transparent;
+    color: #FFF;
+    
+    .email-input {
+        width: 280px;
+        height: 32px;
+
+        margin: 0;
+        padding: 7px 14px 7px 14px;
+
+        background-color: transparent;
+        color: #FFF;
+
+        border: 1px solid #d1d3d5;
+        border-right: 0;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+
+        outline: none;
+    }
+
+    .email-submit {
+        display: inline-block;
+
+        height: 48px;
+
+        margin-left: -5px;
+        padding: 7px 20px 6px 20px;
+        text-align: center;
+
+        background-color: #3498db;
+        color: #FFF;
+
+        border: 1px;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+
+        -webkit-transition: all 75ms ease-out;
+        -moz-transition: all 100ms ease-out;
+        -ms-transition: all 100ms ease-out;
+        -o-transition: all 100ms ease-out;
+        transition: all 75ms ease-out;
+
+        outline: none;
+
+        &:hover {
+            background-color: rgba(52, 152, 219, 0.8);
             color: #FFF;
-            
-            .email-input {
-                width: 280px;
-                height: 32px;
-                
-                margin: 0;
-                padding: 7px 14px 7px 14px;
-                
-                background-color: transparent;
-                color: #FFF;
-                
-                border: 1px solid #d1d3d5;
-                border-right: 0;
-                border-top-left-radius: 7px;
-                border-bottom-left-radius: 7px;
-                
-                font-family: "Open Sans", sans-serif;
-                font-weight: 300;
-                font-size: 18px;
-                
-                outline: none;
-            }
-            
-            .email-submit {
-                display: inline-block;
-                
-                height: 48px;
-                
-                margin-left: -5px;
-                padding: 7px 20px 6px 20px;
-                text-align: center;
-                
-                background-color: #3498db;
-                color: #FFF;
-                
-                border: 1px;
-                border-top-right-radius: 7px;
-                border-bottom-right-radius: 7px;
-                
-                font-family: "Open Sans", sans-serif;
-                font-weight: 300;
-                font-size: 18px;
-                
-                -webkit-transition: all 75ms ease-out;
-                -moz-transition: all 100ms ease-out;
-                -ms-transition: all 100ms ease-out;
-                -o-transition: all 100ms ease-out;
-                transition: all 75ms ease-out;
-                
-                outline: none;
-                
-                &:hover {
-                    background-color: rgba(52, 152, 219, 0.8);
-                    color: #FFF;
-                }
-                
-                
-                
-            }
-        }
+        }                
     }
 }
 

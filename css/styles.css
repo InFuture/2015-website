@@ -20,6 +20,17 @@ html,body {
   left: 0;
 }
 
+.background {
+  position: fixed;
+    top: 0;
+    left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -999;
+  background-image: url("../images/hexagon.svg");
+  background-size: 4%;
+  background-repeat: repeat;
+}
 .header {
   position: absolute;
     top: 0;
@@ -34,7 +45,6 @@ html,body {
   height: 100%;
   width: 100%;
   text-align: center;
-  background-color: lightgray;
 }
 .content {
   font-family: Helvetica, sans-serif;

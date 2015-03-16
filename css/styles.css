@@ -11,142 +11,233 @@
   font-weight: 100; }
 
 /* line 38, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-html {
+html,body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0; }
-
-/* line 45, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0; }
-
-/* line 52, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-.background {
-  position: fixed;
-  z-index: -999;
+  padding: 0; 
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../images/background.jpg) no-repeat center center scroll;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover; }
+}
 
-/* line 71, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-.bg-overlay {
-  width: 100%;
-  height: 100%;
+.background {
   position: fixed;
-  z-index: -998;
-  opacity: 0.7;
-  background: #05c6d1;
-  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #194fb8), color-stop(100%, #05c6d1));
-  background: -webkit-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
-  background: -moz-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
-  background: -o-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
-  background: -ms-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
-  background: linear-gradient(top, #194fb8 0%, #05c6d1 100%);
-  filter: brightness(25%);
-  -webkit-filter: brightness(25%);
-  -moz-filter: brightness(25%);
-  -o-filter: brightness(25%);
-  -ms-filter: brightness(25%); }
-
-/* line 96, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-.introduction {
-  width: 100%;
+    top: 0;
+    left: 0;
   height: 100%;
-  margin: 0;
-  padding: 0;
-  color: #FFF;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d; }
-  /* line 106, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-  .introduction .content {
-    width: 720px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 25px 50px;
-    font-family: "Helvetica", sans-serif;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
-    /* line 119, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-    .introduction .content h1.name {
-      font-size: 96px;
-      letter-spacing: 0.1em;
-      font-family: "Helvetica", sans-serif;
-      font-weight: 100;
-      margin: 10px auto; }
-      /* line 128, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-      .introduction .content h1.name span.lastname {
-        color: #2dc4e0; }
-    /* line 133, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-    .introduction .content h2.motto {
-      letter-spacing: 0.1em; }
-
-/* line 139, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-div.form {
+  width: 100%;
+  z-index: -999;
+  background-image: url("../images/hexagon.svg");
+  background-size: 4%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.header {
   position: relative;
-  top: 50%;
-  /*-webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);*/
+    top: 0;
+    left: 0;
+  height: 100%;
+  width: 100%;
+}
+.bg-overlay {
+  position: relative;
+    top: 0;
+    left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.content {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   display: inline-block;
+  overflow: auto;
+  width: 100%;
+  height: 50%;
+}
+.title {
+  margin: 0;
+  line-height: 0;
+  margin-bottom: 7vh;
+}
+.title img {
+  display: inline-block;
+  height: 12vh;
+  /*margin-right: 1vw;*/
+}
+.title p {
+  margin: 0;
+  display: inline-block;
+  font-size: 16vh;
+}
+.description {
+  margin: 0;
+  font-size: 4vh;
+  margin-bottom: 7vh;
+}
+.description span {
+  font-size: 3.8vh;
+  line-height: 3.8vh;
+}
+.description i {
+  font-size: 1vh;
+  vertical-align: middle;
+}
+.header form {
+  -webkit-appearance: none;
+}
+.email-input {
+  font-family: Helvetica, sans-serif;
+  font-size: 3.8vh;
+  width: 34vh;
+  margin: 0;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  display: inline-block;
+}
+.email-submit {
+  font-family: Helvetica, sans-serif;
+  font-size: 3.8vh;
+  margin: 0;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  display: inline-block;
+  background-color: gray;
+  border: 1px solid gray;
+}
+.introduction {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: gray;
+  display: table;
+}
+.introduction .text-container {
+  display: table-cell;
+  text-align: center;
+}
+.introduction p {
+  width: 33.333%;
+  text-align: left;
+  font-size: 3vh;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  display: inline-block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.goals {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: lightgray;
+  display: table;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 3vh;
+}
+.goals .container {
+  display: inline-block;
+}
+.factContainer {
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+.fact {
+  margin: 0;
+  font-size: 4vh;
+}
+.fact span {
+  font-size: 2vh;
+}
+.faq {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: white;
+  display: table;
+  text-align: center;
+  background-image: url("../images/hexagon.svg"); /*did this twice to hide the text from header*/ 
+  background-size: 4%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.faq .container {
+  display: inline-block;
+  padding-bottom: 5vh;
+}
+.questionContainer {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  width: 25%;
+  display: inline-block;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+.questionContainer .q {
+  font-size: 3.3vh;
+}
+.questionContainer .a {
+  font-size: 2.7vh;
+}
+.sponsors {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
   background-color: transparent;
-  color: #FFF; }
-  /* line 145, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-  div.form .email-input {
-    width: 280px;
-    height: 32px;
-    margin: 0;
-    padding: 7px 14px 7px 14px;
-    background-color: transparent;
-    color: #FFF;
-    border: 1px solid #d1d3d5;
-    border-right: 0;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    outline: none; }
-  /* line 167, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-  div.form .email-submit {
-    display: inline-block;
-    height: 48px;
-    margin-left: -5px;
-    padding: 7px 20px 6px 20px;
-    text-align: center;
-    background-color: #3498db;
-    color: #FFF;
-    border: 1px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    -webkit-transition: all 75ms ease-out;
-    -moz-transition: all 100ms ease-out;
-    -ms-transition: all 100ms ease-out;
-    -o-transition: all 100ms ease-out;
-    transition: all 75ms ease-out;
-    outline: none; }
-    /* line 195, /home/liam/Documents/GitHub/infuture/css/styles.scss */
-    div.form .email-submit:hover {
-      background-color: rgba(52, 152, 219, 0.8);
-      color: #FFF; }
-
-/*# sourceMappingURL=styles.css.map */
+  display: table;
+  text-align: center;
+  background-color: lightgray;
+}
+.sponsors .container {
+  display: inline-block;
+  width: 80%;
+  padding-bottom: 5vh;
+}
+.sponsorContainer {
+  width: 25%;
+  display: inline-block;
+  /*margin-left: 3vh;*/
+  margin-right: 4vh;
+}
+.footer {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: gray;
+  padding-left: 5vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 3vh;
+  display: table;
+  padding-left: 5vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  color: white;
+}

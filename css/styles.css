@@ -30,9 +30,10 @@ html,body {
   background-image: url("../images/hexagon.svg");
   background-size: 4%;
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 .header {
-  position: absolute;
+  position: relative;
     top: 0;
     left: 0;
   height: 100%;
@@ -50,7 +51,7 @@ html,body {
   font-family: Helvetica, sans-serif;
   color: black;
   margin: auto;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -109,4 +110,134 @@ html,body {
   display: inline-block;
   background-color: gray;
   border: 1px solid gray;
+}
+.introduction {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: gray;
+  display: table;
+}
+.introduction .text-container {
+  display: table-cell;
+  text-align: center;
+}
+.introduction p {
+  width: 33.333%;
+  text-align: left;
+  font-size: 3vh;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  display: inline-block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.goals {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: lightgray;
+  display: table;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 3vh;
+}
+.goals .container {
+  display: inline-block;
+}
+.factContainer {
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+.fact {
+  margin: 0;
+  font-size: 4vh;
+}
+.fact span {
+  font-size: 2vh;
+}
+.faq {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: white;
+  display: table;
+  text-align: center;
+  background-image: url("../images/hexagon.svg"); /*did this twice to hide the text from header*/ 
+  background-size: 4%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.faq .container {
+  display: inline-block;
+  padding-bottom: 5vh;
+}
+.questionContainer {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  width: 25%;
+  display: inline-block;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+.questionContainer .q {
+  font-size: 3.3vh;
+}
+.questionContainer .a {
+  font-size: 2.7vh;
+}
+.sponsors {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: transparent;
+  display: table;
+  text-align: center;
+  background-color: lightgray;
+}
+.sponsors .container {
+  display: inline-block;
+  width: 80%;
+  padding-bottom: 5vh;
+}
+.sponsorContainer {
+  width: 25%;
+  display: inline-block;
+  /*margin-left: 3vh;*/
+  margin-right: 4vh;
+}
+.footer {
+  position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-color: gray;
+  padding-left: 5vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 3vh;
+  display: table;
+  padding-left: 5vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  color: white;
 }

@@ -230,14 +230,19 @@ html,body {
   position: relative;
     top: 0;
     left: 0;
-  width: 100%;
+    right: 0;
+  /*width: 100%;*/
   background-color: gray;
   padding-left: 5vh;
   font-family: Helvetica, sans-serif;
   font-size: 3vh;
-  display: table;
+  /*display: table;*/
   padding-left: 5vh;
+  padding-right: 0;
   padding-top: 3vh;
   padding-bottom: 3vh;
   color: white;
+}
+.footer p {
+  margin: 0;
 }

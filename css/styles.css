@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Helvetica";
-  src: url("../fonts/HelveticaNeueUL.otf") format("opentype");
+  src: url("../fonts/HelveticaNeue.otf") format("opentype");
   font-weight: 100; }
 
 /* line 38, /home/liam/Documents/GitHub/infuture/css/styles.scss */
@@ -28,7 +28,7 @@ html,body {
   width: 100%;
   z-index: -999;
   background-image: url("../images/hexagon.svg");
-  background-size: 4%;
+  background-size: 6%;
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -151,7 +151,7 @@ html,body {
 .header {
   text-align: center;
   margin-top: 5vh;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
   font-family: Helvetica, sans-serif;
   font-size: 3vh;
 }
@@ -235,7 +235,7 @@ html,body {
   background-color: gray;
   padding-left: 5vh;
   font-family: Helvetica, sans-serif;
-  font-size: 3vh;
+  font-size: 2vh;
   /*display: table;*/
   padding-left: 5vh;
   padding-right: 0;

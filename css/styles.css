@@ -183,7 +183,7 @@ html,body {
   display: table;
   text-align: center;
   background-image: url("../images/hexagon.svg"); /*did this twice to hide the text from header*/ 
-  background-size: 4%;
+  background-size: 6%;
   background-repeat: repeat;
   background-attachment: fixed;
 }

@@ -117,23 +117,23 @@ html,body {
     left: 0;
   width: 100%;
   background-color: gray;
-  display: table;
+  /*display: table;*/
+  z-index: 1;
 }
 .introduction .text-container {
   display: table-cell;
   text-align: center;
 }
 .introduction p {
-  width: 33.333%;
   text-align: left;
-  font-size: 3vh;
+  font-size: 3.5vh;
   color: white;
   font-family: Helvetica, sans-serif;
   display: inline-block;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 27vw;
+  margin-right: 27vw;
   top: 0;
   left: 0;
   bottom: 0;
@@ -145,8 +145,9 @@ html,body {
     left: 0;
   width: 100%;
   background-color: lightgray;
-  display: table;
+  /*display: table;*/
   text-align: center;
+  z-index: 1;
 }
 .header {
   text-align: center;
@@ -180,12 +181,14 @@ html,body {
     left: 0;
   width: 100%;
   background-color: white;
-  display: table;
+  /*display: table;*/
   text-align: center;
   background-image: url("../images/hexagon.svg"); /*did this twice to hide the text from header*/ 
   background-size: 6%;
   background-repeat: repeat;
   background-attachment: fixed;
+  overflow: hidden;
+  z-index: 1;
 }
 .faq .container {
   display: inline-block;
@@ -211,9 +214,10 @@ html,body {
     left: 0;
   width: 100%;
   background-color: transparent;
-  display: table;
+  /*display: table;*/
   text-align: center;
   background-color: lightgray;
+  z-index: 1;
 }
 .sponsors .container {
   display: inline-block;
@@ -235,13 +239,14 @@ html,body {
   background-color: gray;
   padding-left: 5vh;
   font-family: Helvetica, sans-serif;
-  font-size: 2vh;
+  font-size: 2.5vh;
   /*display: table;*/
   padding-left: 5vh;
   padding-right: 0;
   padding-top: 3vh;
   padding-bottom: 3vh;
   color: white;
+  z-index: 1;
 }
 .footer p {
   margin: 0;

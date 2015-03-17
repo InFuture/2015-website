@@ -2,30 +2,40 @@
 /* General */
 /* STYLES */
 @font-face {
-  font-family: 'proxima';
-  src: url("fonts/proxima.eot?iado9k");
-  src: url("fonts/proxima.eot?#iefixiado9k") format("embedded-opentype"), url("fonts/proxima.woff?iado9k") format("woff"), url("fonts/proxima.ttf?iado9k") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+	font-family: 'proxima';
+	src:url('fonts/proxima.eot?iado9k');
+	src:url('fonts/proxima.eot?#iefixiado9k') format('embedded-opentype'),
+		url('fonts/proxima.woff?iado9k') format('woff'),
+		url('fonts/proxima.ttf?iado9k') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$body-font: 'proxima';
+
 @font-face {
   font-family: "Free Sans";
   src: url("../fonts/FreeSans.otf") format("opentype"); }
+
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/HelveticaNeue.otf") format("opentype");
   font-weight: 400; }
-html, body {
+
+html,body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0; 
   top: 0;
-  left: 0; }
+  left: 0;
+}
 
 html, button, input, select, textarea,
-.pure-g [class*="pure-u"] {
-  /* Set your content font stack here: */
-  font-family: Helvetica, sans-serif; }
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: Helvetica, sans-serif;
+}
 
 /*.background {
   position: fixed;
@@ -41,37 +51,37 @@ html, button, input, select, textarea,
 }*/
 .banner {
   position: relative;
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
   /*height: 100%;*/
   width: 100%;
-  display: table; }
-
-.banner form {
-  font-size: 3vh; }
-
+  display: table;
+}
+.banner form{
+  font-size: 3vh;
+}
 .faqheader {
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-size: 7vh !important;
-  font-weight: 700;
-  margin-bottom: 2vh;
-  margin-top: 0vh;
-  letter-spacing: 0px; }
-
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size:7vh !important;
+    font-weight: 700;
+    margin-bottom:2vh;
+    margin-top:0vh;
+    letter-spacing: 0px;
+}
 .bg-overlay {
   position: relative;
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
   /*height: 100%;*/
   width: 100%;
   text-align: center;
-  display: table-cell; }
-
+  display: table-cell;
+}
 .content {
   font-family: Helvetica, sans-serif;
   color: black;
@@ -84,39 +94,39 @@ html, button, input, select, textarea,
   margin-bottom: 14vh;
   margin-left: auto;
   margin-right: auto;
-  display: table; }
-
+  display: table;
+}
 .title {
   margin: 0;
   line-height: 0;
-  margin-bottom: 7vh; }
-
+  margin-bottom: 7vh;
+}
 .title img {
   display: inline-block;
   height: 12vh;
-  /*margin-right: 1vw;*/ }
-
+  /*margin-right: 1vw;*/
+}
 .title p {
   margin: 0;
   display: inline-block;
-  font-size: 16vh; }
-
+  font-size: 16vh;
+}
 .description {
   margin: 0;
   font-size: 4vh;
-  margin-bottom: 7vh; }
-
+  margin-bottom: 7vh;
+}
 .description span {
   font-size: 3.8vh;
-  line-height: 3.8vh; }
-
+  line-height: 3.8vh;
+}
 .description i {
   font-size: 1vh;
-  vertical-align: middle; }
-
+  vertical-align: middle;
+}
 .header form {
-  -webkit-appearance: none; }
-
+  -webkit-appearance: none;
+}
 .email-input {
   font-family: Helvetica, sans-serif;
   font-size: 3.8vh;
@@ -124,8 +134,8 @@ html, button, input, select, textarea,
   margin: 0;
   padding-left: 3vh;
   padding-right: 3vh;
-  display: inline-block; }
-
+  display: inline-block;
+}
 .email-submit {
   font-family: Helvetica, sans-serif;
   font-size: 3.8vh;
@@ -134,21 +144,21 @@ html, button, input, select, textarea,
   padding-right: 3vh;
   display: inline-block;
   background-color: gray;
-  border: 1px solid gray; }
-
+  border: 1px solid gray;
+}
 .introduction {
   position: relative;
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
   width: 100%;
   background-color: gray;
   /*display: table;*/
-  z-index: 1; }
-
+  z-index: 1;
+}
 .introduction .text-container {
   display: table-cell;
-  text-align: center; }
-
+  text-align: center;
+}
 .introduction p {
   text-align: left;
   font-size: 3.5vh;
@@ -162,30 +172,30 @@ html, button, input, select, textarea,
   top: 0;
   left: 0;
   bottom: 0;
-  right: 0; }
-
+  right: 0;
+}
 .goals {
   position: relative;
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
   width: 100%;
   background-color: lightgray;
   /*display: table;*/
   text-align: center;
-  z-index: 1; }
-
+  z-index: 1;
+}
 .header {
   text-align: center;
   margin-top: 5vh;
   margin-bottom: 3vh;
   font-family: Helvetica, sans-serif;
   font-size: 3vh;
-  font-weight: 700; }
-
+  font-weight:700;
+}
 .goals .container {
   display: inline-block;
-  min-width: 60%; }
-
+  min-width: 60%
+}
 .factContainer {
   display: inline-block;
   text-align: center;
@@ -193,77 +203,77 @@ html, button, input, select, textarea,
   margin-top: 0;
   margin-bottom: 5vh;
   margin-left: 5vh;
-  margin-right: 5vh; }
-
+  margin-right: 5vh;
+}
 .fact {
   margin: 0;
   font-size: 7vh;
-  font-weight: 300; }
-
+  font-weight: 300;
+}
 .fact span {
-  font-size: 4vh; }
-
+  font-size: 4vh;
+}
 .faq {
   position: relative;
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
   width: 100%;
   background-color: white;
   /*display: table;*/
   text-align: center;
-  /*  background-image: url("../images/hexagon.svg"); did this twice to hide the text from header 
-    background-size: 6%;
-    background-repeat: repeat;
-    background-attachment: fixed;*/
+/*  background-image: url("../images/hexagon.svg"); did this twice to hide the text from header 
+  background-size: 6%;
+  background-repeat: repeat;
+  background-attachment: fixed;*/
   overflow: hidden;
   z-index: 1;
-  font-weight: 400; }
-
+  font-weight: 400;
+}
 .faq .container {
   display: inline-block;
-  padding-bottom: 5vh; }
-
+  padding-bottom: 5vh;
+}
 .questionContainer {
   text-align: left;
   font-family: Helvetica, sans-serif;
   width: 25%;
   display: inline-block;
   padding-left: 1vh;
-  padding-right: 1vh; }
-
+  padding-right: 1vh;
+}
 .questionContainer .q {
-  font-size: 3.3vh; }
-
+  font-size: 3.3vh;
+}
 .questionContainer .a {
-  font-size: 2.7vh; }
-
+  font-size: 2.7vh;
+}
 .sponsors {
   position: relative;
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
   width: 100%;
   background-color: transparent;
   /*display: table;*/
   text-align: center;
   background-color: lightgray;
-  z-index: 1; }
-
+  z-index: 1;
+}
 .sponsors .container {
   display: inline-block;
   width: 80%;
-  padding-bottom: 5vh; }
-
+  padding-bottom: 5vh;
+}
 .sponsorContainer {
   width: 25%;
   display: inline-block;
   /*margin-left: 3vh;*/
-  margin-right: 4vh; }
-
+  margin-right: 4vh;
+}
 .footer {
   position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   /*width: 100%;*/
   background-color: gray;
   padding-left: 5vh;
@@ -275,9 +285,12 @@ html, button, input, select, textarea,
   padding-top: 3vh;
   padding-bottom: 3vh;
   color: white;
-  z-index: 1; }
-
+  z-index: 1;
+}
 .footer p {
-  margin: 0; }
+  margin: 0;
+}
 
-/*# sourceMappingURL=styles.css.map */
+@media screen {
+  
+}

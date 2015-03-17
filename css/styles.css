@@ -25,7 +25,7 @@ html, button, input, select, textarea,
     font-family: Helvetica, sans-serif;
 }
 
-.background {
+/*.background {
   position: fixed;
     top: 0;
     left: 0;
@@ -36,13 +36,14 @@ html, button, input, select, textarea,
   background-size: 6%;
   background-repeat: repeat;
   background-attachment: fixed;
-}
+}*/
 .banner {
   position: relative;
     top: 0;
     left: 0;
-  height: 100%;
+  /*height: 100%;*/
   width: 100%;
+  display: table;
 }
 .banner form{
   font-size: 3vh;
@@ -64,23 +65,24 @@ html, button, input, select, textarea,
   position: relative;
     top: 0;
     left: 0;
-  height: 100%;
+  /*height: 100%;*/
   width: 100%;
   text-align: center;
+  display: table-cell;
 }
 .content {
   font-family: Helvetica, sans-serif;
   color: black;
-  margin: auto;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  display: inline-block;
-  /*overflow: auto;*/
-  width: 100%;
-  height: 50%;
+  margin-top: 14vh;
+  margin-bottom: 14vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
 }
 .title {
   margin: 0;
@@ -193,11 +195,11 @@ html, button, input, select, textarea,
 }
 .fact {
   margin: 0;
-  font-size: 6vh;
+  font-size: 7vh;
   font-weight: 300;
 }
 .fact span {
-  font-size: 3vh;
+  font-size: 4vh;
 }
 .faq {
   position: relative;
@@ -207,10 +209,10 @@ html, button, input, select, textarea,
   background-color: white;
   /*display: table;*/
   text-align: center;
-  background-image: url("../images/hexagon.svg"); /*did this twice to hide the text from header*/ 
+/*  background-image: url("../images/hexagon.svg"); did this twice to hide the text from header 
   background-size: 6%;
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   overflow: hidden;
   z-index: 1;
   font-weight: 400;
@@ -275,4 +277,8 @@ html, button, input, select, textarea,
 }
 .footer p {
   margin: 0;
+}
+
+@media screen {
+  
 }

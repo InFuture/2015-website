@@ -130,7 +130,30 @@ body {
 
 
 .faq {
-    background-color: #000;
+    background-color: #34495e;
+    color: #FFF;
+    padding: 75px 0 75px 0;
+    text-align: center;
+    
+    .title {
+        font-size: 48px;
+        font-weight: 400;
+    }
+    
+    .question {
+        font-family: $body-font;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        margin: 45px auto 10px auto;
+    }
+    
+    .answer {
+        font-family: $body-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 2;
+    }
 }
 
 

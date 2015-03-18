@@ -13,7 +13,8 @@ html {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  top: 0; }
 
 body {
   width: 100%;
@@ -22,275 +23,32 @@ body {
   padding: 0; }
 
 .introduction {
+  position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url(../images/warm-bg.jpg) no-repeat center center scroll; }
-  .introduction .content h1.title {
-    color: #000;
-    font-family: "Kozuka";
-    font-size: 72px; }
-  .introduction .content h2.caption {
-    color: #4E4E4E;
-    font-family: "Kozuka";
-    font-size: 48px; }
-
-/*.background {
-  position: fixed;
-    top: 0;
-    left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -999;
-  background-image: url("../images/hexagon.svg");
-  background-size: 6%;
-  background-repeat: repeat;
-  background-attachment: fixed;
-}*/
-.banner {
-  position: relative;
-  top: 0;
-  left: 0;
-  /*height: 100%;*/
-  width: 100%;
-  display: table; }
-
-.banner form {
-  font-size: 3vh; }
-
-.faqheader {
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-size: 7vh !important;
-  font-weight: 700;
-  margin-bottom: 2vh;
-  margin-top: 0vh;
-  letter-spacing: 0px; }
-
-.bg-overlay {
-  position: relative;
-  top: 0;
-  left: 0;
-  /*height: 100%;*/
-  width: 100%;
-  text-align: center;
-  display: table-cell; }
-
-.content {
-  font-family: Helvetica, sans-serif;
-  color: black;
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin-top: 14vh;
-  margin-bottom: 14vh;
-  margin-left: auto;
-  margin-right: auto;
-  display: table; }
-
-.title {
-  margin: 0;
-  line-height: 0;
-  margin-bottom: 7vh; }
-
-.title img {
-  display: inline-block;
-  height: 12vh;
-  /*margin-right: 1vw;*/ }
-
-.title p {
-  margin: 0;
-  display: inline-block;
-  font-size: 16vh; }
-
-.description {
-  margin: 0;
-  font-size: 4vh;
-  margin-bottom: 7vh; }
-
-.description span {
-  font-size: 3.8vh;
-  line-height: 3.8vh; }
-
-.description i {
-  font-size: 1vh;
-  vertical-align: middle; }
-
-.header form {
-  -webkit-appearance: none; }
-
-.email-input {
-  font-family: Helvetica, sans-serif;
-  font-size: 3.8vh;
-  width: 34vh;
-  margin: 0;
-  padding-left: 3vh;
-  padding-right: 3vh;
-  display: inline-block; }
-
-.email-submit {
-  font-family: Helvetica, sans-serif;
-  font-size: 3.8vh;
-  margin: 0;
-  padding-left: 3vh;
-  padding-right: 3vh;
-  display: inline-block;
-  background-color: gray;
-  border: 1px solid gray; }
-
-.introduction {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: gray;
-  /*display: table;*/
-  z-index: 1; }
-
-.introduction .text-container {
-  display: table-cell;
-  text-align: center; }
-
-.introduction p {
-  text-align: left;
-  font-size: 3.5vh;
-  color: white;
-  font-family: Helvetica, sans-serif;
-  display: inline-block;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-left: 27vw;
-  margin-right: 27vw;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }
-
-.goals {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: lightgray;
-  /*display: table;*/
-  text-align: center;
-  z-index: 1; }
-
-.header {
-  text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 3vh;
-  font-family: Helvetica, sans-serif;
-  font-size: 3vh;
-  font-weight: 700; }
-
-.goals .container {
-  display: inline-block;
-  min-width: 60%; }
-
-.factContainer {
-  display: inline-block;
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  margin-top: 0;
-  margin-bottom: 5vh;
-  margin-left: 5vh;
-  margin-right: 5vh; }
-
-.fact {
-  margin: 0;
-  font-size: 7vh;
-  font-weight: 300; }
-
-.fact span {
-  font-size: 4vh; }
-
-.faq {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  /*display: table;*/
-  text-align: center;
-  /*  background-image: url("../images/hexagon.svg"); did this twice to hide the text from header 
-    background-size: 6%;
-    background-repeat: repeat;
-    background-attachment: fixed;*/
-  overflow: hidden;
-  z-index: 1;
-  font-weight: 400; }
-
-.faq .container {
-  display: inline-block;
-  padding-bottom: 5vh; }
-
-.questionContainer {
-  text-align: left;
-  font-family: Helvetica, sans-serif;
-  width: 25%;
-  display: inline-block;
-  padding-left: 1vh;
-  padding-right: 1vh; }
-
-.questionContainer .q {
-  font-size: 3.3vh; }
-
-.questionContainer .a {
-  font-size: 2.7vh; }
-
-.sponsors {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: transparent;
-  /*display: table;*/
-  text-align: center;
-  background-color: lightgray;
-  z-index: 1; }
-
-.sponsors .container {
-  display: inline-block;
-  width: 80%;
-  padding-bottom: 5vh; }
-
-.sponsorContainer {
-  width: 25%;
-  display: inline-block;
-  /*margin-left: 3vh;*/
-  margin-right: 4vh; }
-
-.footer {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  /*width: 100%;*/
-  background-color: gray;
-  padding-left: 5vh;
-  font-family: Helvetica, sans-serif;
-  font-size: 2.5vh;
-  /*display: table;*/
-  padding-left: 5vh;
-  padding-right: 0;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  color: white;
-  z-index: 1; }
-
-.footer p {
-  margin: 0; }
+  background: url(../images/warm-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .introduction .content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .introduction .content h1.title {
+      color: #000;
+      font-family: "Kozuka";
+      font-weight: 300;
+      font-size: 72px; }
+    .introduction .content h2.caption {
+      color: #4E4E4E;
+      font-family: "Kozuka";
+      font-weight: 300;
+      font-size: 48px; }
 
 /*# sourceMappingURL=styles.css.map */

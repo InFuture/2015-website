@@ -15,8 +15,11 @@
 }
 
 /* STYLES */
-$body-font: 'proxima';
+$body-font: 'Open Sans', sans-serif;
 $title-font: 'Kozuka';
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 @font-face {
     font-family: "Kozuka";
@@ -47,8 +50,6 @@ body {
 }
     
 .introduction {
-    position: absolute;
-    top: 0;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -72,22 +73,54 @@ body {
             color: #000;
             font-family: $title-font;
             font-weight: 300;
-            font-size: 72px;
+            font-size: 96px;
         }
         
         h2.caption {
             margin: 0;
+            margin-top: -25px;
             padding: 0;
             
             color: #4E4E4E;
             font-family: $title-font;
             //merge solve
             font-weight: 300;
-            font-size: 48px;
+            font-size: 36px;
         }
     }
 }
 
+.statistics {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    .row {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .fact {
+        text-align: center;
+        font-family: $body-font;
+        
+        .numbers {
+            font-weight: 400;
+            font-size: 48px;
+            color: #1D1D1D;
+            margin: 5px;
+            padding: 0;
+        }
+        
+        .object {
+            font-weight: 300;
+            font-size: 24px;
+            color: #4E4E4E;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
 
 
 

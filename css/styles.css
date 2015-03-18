@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 /* General */
 /* STYLES */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @font-face {
   font-family: "Kozuka";
   src: url("../fonts/KGPEL.otf") format("opentype");
@@ -23,8 +24,6 @@ body {
   padding: 0; }
 
 .introduction {
-  position: absolute;
-  top: 0;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -50,14 +49,39 @@ body {
       color: #000;
       font-family: "Kozuka";
       font-weight: 300;
-      font-size: 72px; }
+      font-size: 96px; }
     .introduction .content h2.caption {
       margin: 0;
+      margin-top: -25px;
       padding: 0;
       color: #4E4E4E;
       font-family: "Kozuka";
       font-weight: 300;
-      font-size: 48px; }
+      font-size: 36px; }
+
+.statistics {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+  .statistics .row {
+    max-width: 100%;
+    margin: 0;
+    padding: 0; }
+  .statistics .fact {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+    .statistics .fact .numbers {
+      font-weight: 400;
+      font-size: 48px;
+      color: #1D1D1D;
+      margin: 5px;
+      padding: 0; }
+    .statistics .fact .object {
+      font-weight: 300;
+      font-size: 24px;
+      color: #4E4E4E;
+      margin: 0;
+      padding: 0; }
 
 /*.background {
   position: fixed;

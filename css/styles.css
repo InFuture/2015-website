@@ -87,6 +87,34 @@ body {
 .faq {
   background-color: #000; }
 
+.footer {
+  padding: 75px 0 75px 0; }
+  .footer .title {
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase; }
+  .footer .sponsors {
+    height: 200px;
+    background-position: center center !important;
+    background-origin: content-box !important;
+    padding: 0 30px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    -webkit-filter: grayscale(20%);
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -ms-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out; }
+    .footer .sponsors:hover {
+      -webkit-filter: grayscale(20%);
+      opacity: 1;
+      filter: alpha(opacity=70); }
+
 /*.background {
   position: fixed;
     top: 0;

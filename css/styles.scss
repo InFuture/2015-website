@@ -1,41 +1,87 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 /* General */
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@mixin parent-element {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
 /* STYLES */
-@font-face {
-	font-family: 'proxima';
-	src:url('fonts/proxima.eot?iado9k');
-	src:url('fonts/proxima.eot?#iefixiado9k') format('embedded-opentype'),
-		url('fonts/proxima.woff?iado9k') format('woff'),
-		url('fonts/proxima.ttf?iado9k') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
 $body-font: 'proxima';
+$title-font: 'Kozuka';
 
 @font-face {
-  font-family: "Free Sans";
-  src: url("../fonts/FreeSans.otf") format("opentype"); }
+    font-family: "Kozuka";
+    src: url("../fonts/KZKEL.otf") format("opentype"); 
+    font-weight: 300;
+}
 
 @font-face {
-  font-family: "Helvetica";
-  src: url("../fonts/HelveticaNeue.otf") format("opentype");
-  font-weight: 400; }
-
-html,body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0; 
-  top: 0;
-  left: 0;
+    font-family: "Helvetica";
+    src: url("../fonts/HelveticaNeue.otf") format("opentype");
+    font-weight: 400; 
 }
 
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-    /* Set your content font stack here: */
-    font-family: Helvetica, sans-serif;
+html{ 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
 }
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+    
+.introduction {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/warm-bg.jpg) no-repeat center center scroll;    
+//    background-color: #000;
+    
+    .content {
+//        @include vertical-align;
+        
+        h1.title {
+            color: #000;
+            font-family: $title-font;
+            font-size: 72px;
+        }
+        
+        h2.caption {
+            color: #4E4E4E;
+            font-family: $title-font;
+            font-size: 48px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 /*.background {
   position: fixed;

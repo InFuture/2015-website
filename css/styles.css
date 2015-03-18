@@ -25,7 +25,7 @@ body {
 
 .introduction {
   width: 100%;
-  height: 95%;
+  height: 100%;
   margin: 0;
   padding: 0;
   background: url(../images/warm-bg.jpg) no-repeat center center scroll;
@@ -329,6 +329,7 @@ body {
   z-index: 1;
 }
 .footer p {
+<<<<<<< Updated upstream
   margin: 0;
 }
 
@@ -337,3 +338,52 @@ body {
 }*/
 
 /*# sourceMappingURL=styles.css.map */
+  /*margin: 0; }*/
+ #see-more {
+      text-align: center;
+      line-height: 101px;
+      color: white;
+      font-size: 20px;
+      display: block;
+      width: 170px;
+      height: 170px;
+      background-color: #808080;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      position: absolute;
+      bottom: -105px;
+      left: 50%;
+      opacity: .8;
+      text-decoration: none;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+      cursor: pointer;
+  }
+  #see-more:hover {
+      opacity: 1;
+      width: 180px;
+      height: 180px;
+  }
+  #see-more:hover .uline:after {
+      width: 90px;
+  }
+  .uline {
+    position: relative;
+  }
+  .uline:after {
+      content: "";
+      display: block;
+      margin: -40px auto;
+      width: 0%;
+      height: 1px;
+      background-color: #fff;
+      -webkit-transition: width .3s;
+      -moz-transition: width .3s;
+      transition: width .3s;
+  }

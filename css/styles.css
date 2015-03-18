@@ -32,7 +32,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url(../images/warm-bg.jpg) no-repeat center center scroll;
+  background: url(../images/color-bg.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,14 +50,14 @@ body {
     .introduction .content h1.title {
       margin: 5px;
       padding: 0;
-      color: #000;
+      color: #FFF;
       font-family: "Kozuka";
       font-weight: 300;
       font-size: 96px; }
     .introduction .content h2.caption {
       margin: 15px;
       padding: 0;
-      color: #4E4E4E;
+      color: #D0D0D0;
       font-family: "Kozuka";
       font-weight: 300;
       font-size: 36px; }
@@ -93,6 +93,8 @@ body {
   background-color: #000; }
 
 .footer {
+  width: 100%;
+  margin: 0;
   padding: 75px 0 75px 0; }
   .footer .title {
     font-size: 36px;

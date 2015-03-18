@@ -61,12 +61,13 @@ body {
 .statistics {
   width: 100%;
   margin: 0;
-  padding: 75px 0; }
+  padding: 50px 0; }
   .statistics .row {
     max-width: 100%;
     margin: 0;
     padding: 0; }
   .statistics .fact {
+    padding: 12px 0 12px 0;
     text-align: center;
     font-family: "Open Sans", sans-serif; }
     .statistics .fact .numbers {
@@ -82,6 +83,9 @@ body {
       margin: 7px;
       padding: 0;
       text-transform: uppercase; }
+
+.faq {
+  background-color: #000; }
 
 /*.background {
   position: fixed;

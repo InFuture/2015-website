@@ -92,7 +92,7 @@ body {
 .statistics {
     width: 100%;
     margin: 0;
-    padding: 75px 0;
+    padding: 50px 0;
     
     .row {
         max-width: 100%;
@@ -101,6 +101,7 @@ body {
     }
     
     .fact {
+        padding: 12px 0 12px 0;
         text-align: center;
         font-family: $body-font;
         
@@ -124,7 +125,9 @@ body {
 }
 
 
-
+.faq {
+    background-color: #000;
+}
 
 
 

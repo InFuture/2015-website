@@ -95,6 +95,11 @@ html{
     padding: 0; 
     top: 0;
     left: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 body {
@@ -104,14 +109,21 @@ body {
     padding: 0; 
     top: 0;
     left: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
     
 .introduction {
+    position: relative;
     z-index: 0;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+    top: 0;
     background: url(../images/color-bg.jpg) no-repeat center center scroll;    
 //    background-color: #000;
     -webkit-background-size: cover;
@@ -143,6 +155,10 @@ body {
             //merge solve
             font-weight: 300;
             font-size: 36px;
+        }
+
+        .pure-form {
+            font-size: 30px;
         }
     }
 }
@@ -199,7 +215,7 @@ body {
         font-family: $body-font;
         font-size: 28px;
         font-weight: 400;
-        text-align: center;
+        text-align: left;
         margin: 45px auto 10px auto;
     }
     
@@ -207,11 +223,13 @@ body {
         font-family: $body-font;
         font-size: 18px;
         font-weight: 400;
+        text-align: left;
         line-height: 2;
     }
 
     a {
-      color:
+        color: white;
+        text-decoration: underline;
     }
 }
 
@@ -264,7 +282,7 @@ body {
     display: block;
     width: 170px;
     height: 85px;
-    background-color: #808080;
+    background-color: rgba(128,128,128,.3);
 //    -webkit-border-radius: 50%;
 //    -moz-border-radius: 50%;
 //    border-radius: 50%;
@@ -276,7 +294,7 @@ body {
     position: absolute;
     bottom: -5px;
     left: 50%;
-    opacity: .8;
+    opacity: 1;
     text-decoration: none;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);

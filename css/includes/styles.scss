@@ -37,19 +37,32 @@ font-size: 24px;
 font-weight: 100;
 }
 @media only screen and (max-device-width: 480px) {
-.title p {
-font-size: 12vh;
+  .introduction {
+      .title {
+          font-size: 80px !important;
+      }
+      .caption {
+          font-size: 25px !important;
+      }
+      .pure-form {
+          font-size: 20px !important;
+      }
+  }
+  .row {
+      padding-left: 1em !important;
+      padding-right: 1em !important;
+  }
+  .footer {
+      padding-bottom: 37.5px !important;
+      .title {
+          margin-bottom: 10px !important;
+      }
+  }
 }
-.title img {
-height: 10vh;
-}
-.description {
-font-size: 3.1vh;
-}
-.pure-g {
-padding-left: 1em !important;
-padding-right: 1em !important;
-}
+@media only screen and (max-device-height: 550px) {
+  #see-more {
+      display: none !important;
+  }
 }
 
 
@@ -88,21 +101,7 @@ $title-font: 'Kozuka';
     font-weight: 400; 
 }
 
-html{ 
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0; 
-    top: 0;
-    left: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-body {
+html, body{ 
     width: 100%;
     height: 100%;
     margin: 0;
@@ -124,6 +123,7 @@ body {
     margin: 0;
     padding: 0;
     top: 0;
+    overflow: hidden;
     background: url(../images/color-bg.jpg) no-repeat center center scroll;    
 //    background-color: #000;
     -webkit-background-size: cover;
@@ -158,7 +158,11 @@ body {
         }
 
         .pure-form {
-            font-size: 30px;
+            font-size: 20px;
+            z-index: 5 !important;
+        }
+        .email, .submit {
+            z-index: 5 !important;
         }
     }
 }
@@ -203,7 +207,7 @@ body {
 .faq {
     background-color: #34495e;
     color: #FFF;
-    padding: 75px 0 75px 0;
+    padding: 37.5px 0 75px 0;
     text-align: center;
     
     .title {
@@ -237,7 +241,7 @@ body {
 .footer {
     width: 100%;
     margin: 0;
-    padding: 75px 0 75px 0;
+    padding: 37.5px 0 75px 0;
     
     .title {
         font-size: 36px;
@@ -256,7 +260,7 @@ body {
         background-repeat: no-repeat !important;
         
         -webkit-filter: grayscale(20%);
-        opacity: 0.7;
+        opacity: 1;
         filter: alpha(opacity=70);
         -webkit-transition: all 200ms ease-out;
         -moz-transition: all 200ms ease-out;
@@ -266,7 +270,7 @@ body {
         
         &:hover{
             -webkit-filter: grayscale(20%);
-            opacity: 1;
+            opacity: 0.7;
             filter: alpha(opacity=70);
         }
     }
@@ -292,7 +296,7 @@ body {
     -webkit-border-radius: 170px 170px 0 0;
     
     position: absolute;
-    bottom: -5px;
+    bottom: 0px;
     left: 50%;
     opacity: 1;
     text-decoration: none;

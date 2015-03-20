@@ -3,7 +3,6 @@ background: rgb(128, 128, 128);
 }
 .pure-g > div {
 text-align: left;
-font-family: Helvetica, sans-serif;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
@@ -141,7 +140,7 @@ html, body{
             padding: 0;
             
             color: #FFF;
-            font-family: $title-font;
+            font-family: $title-font !important;
             font-weight: 300;
             font-size: 96px;
         }
@@ -151,7 +150,7 @@ html, body{
             padding: 0;
             
             color: #D0D0D0;
-            font-family: $title-font;
+            font-family: $title-font !important;
             //merge solve
             font-weight: 300;
             font-size: 36px;
@@ -182,7 +181,7 @@ html, body{
     .fact {
         padding: 12px 0 12px 0;
         text-align: center;
-        font-family: $body-font;
+        font-family: $body-font !important;
         
         .numbers {
             font-weight: 400;
@@ -216,7 +215,7 @@ html, body{
     }
     
     .question {
-        font-family: $body-font;
+        font-family: $body-font !important;
         font-size: 28px;
         font-weight: 400;
         text-align: left;
@@ -224,7 +223,7 @@ html, body{
     }
     
     .answer {
-        font-family: $body-font;
+        font-family: $body-font !important;
         font-size: 18px;
         font-weight: 400;
         text-align: left;
@@ -245,7 +244,7 @@ html, body{
     
     .title {
         font-size: 36px;
-        font-family: $body-font;
+        font-family: $body-font !important;
         font-weight: 400;
         text-align: center;
         text-transform: uppercase;

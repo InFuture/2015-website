@@ -86,6 +86,12 @@ font-weight: 100;
 $body-font: 'Open Sans', sans-serif;
 $title-font: 'Kozuka';
 
+$color-white: #FFF;
+$color-black: #000;
+$color-gray: #555459;
+$color-lgray: #707070;
+$color-elgray: #c5c5c5;
+$color-emerald: #2ecc71;
 /* STYLES */
 
 @font-face {
@@ -147,9 +153,10 @@ html, body{
             padding: 0;
             
             color: #FFF;
-            font-family: $title-font !important;
+            font-family: $body-font !important;
             font-weight: 300;
             font-size: 96px;
+            text-transform: uppercase;
         }
         
         h2.caption {
@@ -167,8 +174,56 @@ html, body{
             font-size: 20px;
             z-index: 5 !important;
         }
+        
         .email, .submit {
             z-index: 5 !important;
+        }
+        
+        .input-box {
+            display: inline;
+            width: 375px;
+
+            margin: 10px auto;
+            padding: 14px 14px;
+
+            font-family: $body-font !important;
+            font-size: 18px !important;
+            font-weight: 300 !important;
+
+            color: $color-gray;
+
+            border: 1px solid $color-elgray;
+            border-radius: 5px;
+            outline: 0;
+        }
+        
+        .btnSubscribe {
+            display: inline;
+
+            margin: 25px auto;
+            padding: 14px 14px;
+
+            font-family: $body-font !important;
+            font-size: 18px !important;
+            font-weight: 400 !important;
+
+            background-color: $color-emerald;
+            color: $color-white;
+            opacity: 0.9;
+
+            border: 1px solid $color-emerald;
+            border-radius: 5px;
+            outline: 0;
+
+            -webkit-transition: all 150ms ease-in;
+            -moz-transition: all 150ms ease-in;
+            -ms-transition: all 150ms ease-in;
+            -o-transition: all 150ms ease-in;
+            transition: all 150ms ease-in;
+
+            &:hover {
+                opacity: 0.75;
+            }
         }
     }
 }

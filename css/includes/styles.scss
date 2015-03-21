@@ -135,6 +135,13 @@ html, body{
     .content {
         @include vertical-align;
         text-align: center;
+        .logo {
+          height: 96px;
+          background-position: center center !important;
+          background-origin: content-box !important;
+          background-size: contain !important;
+          background-repeat: no-repeat !important;
+        }
         h1.title {
             margin: 5px;
             padding: 0;
@@ -204,7 +211,11 @@ html, body{
 
 
 .faq {
-    background-color: #34495e;
+    background: url(../images/background2.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #FFF;
     padding: 37.5px 0 75px 0;
     text-align: center;

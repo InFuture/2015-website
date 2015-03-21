@@ -37,14 +37,22 @@ font-weight: 100;
 }
 @media only screen and (max-device-width: 480px) {
   .introduction {
+      .logo {
+        height: 38px !important;
+        width: 21.041px !important;
+      }
       .title {
-          font-size: 80px !important;
+          font-size: 50px !important;
       }
       .caption {
           font-size: 25px !important;
       }
-      .pure-form {
+      form {
           font-size: 20px !important;
+
+          input.input-box {
+              width: auto !important;
+          }
       }
   }
   .row {
@@ -142,7 +150,9 @@ html, body{
         @include vertical-align;
         text-align: center;
         .logo {
-          height: 96px;
+          height: 68px;
+          width: 37.653px;
+          display: inline-block;
           background-position: center center !important;
           background-origin: content-box !important;
           background-size: contain !important;
@@ -151,8 +161,8 @@ html, body{
         h1.title {
             margin: 5px;
             padding: 0;
-            
-            color: #FFF;
+            display: inline-block;
+            color: #f7fafc;
             font-family: $body-font !important;
             font-weight: 300;
             font-size: 96px;
@@ -208,7 +218,7 @@ html, body{
             font-weight: 400 !important;
 
             background-color: $color-emerald;
-            color: $color-white;
+            color: #f7fafc;;
             opacity: 0.9;
 
             border: 1px solid $color-emerald;
@@ -271,7 +281,7 @@ html, body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #FFF;
+    color: #f7fafc !important;
     padding: 37.5px 0 75px 0;
     text-align: center;
     
@@ -297,7 +307,7 @@ html, body{
     }
 
     a {
-        color: white;
+        color: #f7fafc;
         text-decoration: underline;
     }
 }
@@ -332,11 +342,14 @@ html, body{
         -ms-transition: all 200ms ease-out;
         -o-transition: all 200ms ease-out;
         transition: all 200ms ease-out;
+
+        border-bottom: solid 1px #7EC9C1;
         
         &:hover{
-            -webkit-filter: grayscale(20%);
-            opacity: 0.7;
-            filter: alpha(opacity=70);
+            // -webkit-filter: grayscale(20%);
+            // opacity: 0.7;
+            // filter: alpha(opacity=70);
+            border-bottom: solid 3px #B74F94;
         }
     }
 }
@@ -346,7 +359,7 @@ html, body{
     z-index: 1;
     text-align: center;
     line-height: 101px;
-    color: white;
+    color: #f7fafc;;
     font-size: 20px;
     display: block;
     width: 170px;

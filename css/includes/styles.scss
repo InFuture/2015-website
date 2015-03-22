@@ -262,91 +262,110 @@ html, body{
             animation-duration: 2s
         }
 
-        @-webkit-keyframes slideInDown {
+        @-webkit-keyframes fadeInDown {
             0% {
-                -webkit-transform: translateY(-100%);
-                transform: translateY(-100%);
-                visibility: visible
+                opacity: 0;
+                -webkit-transform: translate3d(0, -100%, 0);
+                transform: translate3d(0, -100%, 0)
             }
 
             100% {
-                -webkit-transform: translateY(0);
-                transform: translateY(0)
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none
             }
         }
 
-        @keyframes slideInDown {
+        @keyframes fadeInDown {
             0% {
-                -webkit-transform: translateY(-100%);
-                transform: translateY(-100%);
-                visibility: visible
+                opacity: 0;
+                -webkit-transform: translate3d(0, -100%, 0);
+                transform: translate3d(0, -100%, 0)
             }
 
             100% {
-                -webkit-transform: translateY(0);
-                transform: translateY(0)
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none
             }
+            animation-delay: 5s;
         }
 
-        .slideInDown {
-            -webkit-animation-name: slideInDown;
-            animation-name: slideInDown
+        .fadeInDown {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+            -webkit-animation-delay: 0.5s; 
+            animation-delay: 0.5s;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
         }
 
-        @-webkit-keyframes slideInUp {
-          0% {
-              -webkit-transform: translateY(100%);
-              transform: translateY(100%);
-              visibility: visible
-          }
-
-          100% {
-              -webkit-transform: translateY(0);
-              transform: translateY(0)
-          }
-        }
-
-        @keyframes slideInUp {
+        @-webkit-keyframes fadeInUp {
             0% {
-                -webkit-transform: translateY(100%);
-                transform: translateY(100%);
-                visibility: visible
+                opacity: 0;
+                -webkit-transform: translate3d(0, 100%, 0);
+                transform: translate3d(0, 100%, 0)
             }
 
             100% {
-                -webkit-transform: translateY(0);
-                transform: translateY(0)
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none
             }
         }
 
-        .slideInUp {
-            -webkit-animation-name: slideInUp;
-            animation-name: slideInUp
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, 100%, 0);
+                transform: translate3d(0, 100%, 0)
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none
+            }
         }
+
+        .fadeInUp {
+            -webkit-animation-name: fadeInUp;
+            animation-name: fadeInUp;
+            -webkit-animation-delay: 0.5s; 
+            animation-delay: 0.5s;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+        }
+
+
 
         @-webkit-keyframes fadeIn {
             0% {
-                opacity: 0
+                opacity: 0;
             }
 
             100% {
-                opacity: 1
+                opacity: 1;
             }
         }
 
         @keyframes fadeIn {
             0% {
-                opacity: 0
+                opacity: 0;
             }
 
             100% {
-                opacity: 1
+                opacity: 1;
             }
         }
 
         .fadeIn {
             -webkit-animation-name: fadeIn;
-            animation-name: fadeIn
+            animation-name: fadeIn;
+            -webkit-animation-delay: 0.5s; 
+            animation-delay: 0.5s;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
         }
     }
 }

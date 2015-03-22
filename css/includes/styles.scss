@@ -337,8 +337,6 @@ html, body{
             animation-duration: 1.5s;
         }
 
-
-
         @-webkit-keyframes fadeIn {
             0% {
                 opacity: 0;
@@ -570,7 +568,12 @@ html, body{
     -moz-transition: all .3s;
     transition: all .3s;
     cursor: pointer;
-
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     &:hover {
         opacity: 1;
         width: 180px;
@@ -578,6 +581,25 @@ html, body{
         
         .uline:after {
             width: 90px;
+        }
+    }
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
         }
     }
 }

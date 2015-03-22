@@ -320,7 +320,34 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 37.5px 0 75px 0;
-    
+    margin-left: auto;
+    margin-right: auto;
+
+    img{
+        //height: 150px;
+        max-height: 150px;
+        max-width: 150px;
+        background-position: center center !important;
+        background-origin: content-box !important;
+        padding: 0 30px !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        
+        // -webkit-filter: grayscale(20%);
+        opacity: 1;
+        // filter: alpha(opacity=70);
+        &:hover{
+            // -webkit-filter: grayscale(20%);
+            // opacity: 0.7;
+            // filter: alpha(opacity=70);
+            //border-bottom: solid 3px #B74F94;
+        }
+    }
+
+    .container{
+      text-align: center
+    }
+
     .title {
         font-size: 36px;
         font-family: $body-font !important;
@@ -331,6 +358,7 @@ html, body{
     
     .sponsors {
         height: 150px;
+        max-width: 20%;
         background-position: center center !important;
         background-origin: content-box !important;
         padding: 0 30px !important;
@@ -347,7 +375,6 @@ html, body{
         transition: all 500ms ease-out;
 
         border-bottom: solid 1px #7EC9C1;
-        
         &:hover{
             // -webkit-filter: grayscale(20%);
             // opacity: 0.7;

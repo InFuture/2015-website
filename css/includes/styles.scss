@@ -145,7 +145,7 @@ html, body{
     padding: 0;
     top: 0;
     overflow: hidden;
-    background: url(../images/color-bg.jpg) no-repeat center center scroll;    
+    background: url(../images/bluebg.png) no-repeat center center scroll;    
 //    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -284,7 +284,7 @@ html, body{
 
 
 .faq {
-    background: url(../images/background2.png) no-repeat center center scroll;
+    background: url(../images/bluebg2.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -403,12 +403,12 @@ html, body{
         transition: all 500ms ease-out;
 
 
-        border-bottom: solid 1px #7EC9C1;
+        border-bottom: solid 1px #005fd0;
         &:hover{
             // -webkit-filter: grayscale(20%);
             // opacity: 0.7;
             // filter: alpha(opacity=70);
-            border-bottom: solid 3px #B74F94;
+            border-bottom: solid 3px #34d8ff;
         }
     }
 }

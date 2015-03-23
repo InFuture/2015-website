@@ -82,11 +82,10 @@ font-weight: 100;
   #see-more {
       display: none !important;
   }
+  #back-to-top {
+      display: none !important;
+  }
 }
-
-
-
-
 
 /* General */
 @mixin vertical-align {
@@ -127,6 +126,7 @@ $color-emerald: #2ecc71;
 }
 
 html, body{ 
+    position: relative;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -609,7 +609,51 @@ html, body{
         }
     }
 }
- 
+
+#back-to-top {
+    z-index: 1;
+    text-align: center;
+    line-height: 101px;
+    color: #f7fafc;;
+    font-size: 20px;
+    display: block;
+    width: 170px;
+    height: 85px;
+    background-color: rgba(128,128,128,.6);
+//    -webkit-border-radius: 50%;
+//    -moz-border-radius: 50%;
+//    border-radius: 50%;
+//    border-bottom: 0;
+    border-radius: 170px 170px 0 0;
+    -moz-border-radius: 170px 170px 0 0;
+    -webkit-border-radius: 170px 170px 0 0;
+    
+    position: relative;
+    bottom: 0px;
+    left: 50%;
+    opacity: 1;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+    overflow: hidden;
+    &:hover {
+        opacity: 1;
+        width: 180px;
+        height: 95px;
+        bottom:10px;
+        
+        .uline:after {
+            width: 110px;
+        }
+    }
+}
+
 .uline {
     position: relative;
     

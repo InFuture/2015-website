@@ -48,12 +48,34 @@ font-weight: 100;
   #menuButton {
         display: block !important;
         line-height: normal !important;
+        &:hover .topSection {
+            width: 21px !important;
+            margin-left: 35px !important;
+          }
+
+          &:hover .botSection {
+            width: 21px !important;
+            margin-left: 35px !important;
+          }
   }
   .button {
       width: 100% !important;
       margin: 1em auto !important;
       line-height: 55px !important;
   }
+  .menuButtonSection {
+        top: 0 !important;
+        left: 0 !important;
+        margin: 3.5px 14px !important;
+      height: 7px !important;
+      width: 42px !important;
+    }
+    .topSection {
+      margin-top: 14px !important;
+    }
+    .botSection{
+      margin-bottom: 14px !important;
+    }
   .introduction {
       .logo {
         height: 38px !important;

@@ -37,13 +37,17 @@ font-weight: 100;
 }
 @media only screen and (max-device-width: 480px) {
   #menuButton, #navS, #navSBG, #closeButton, .button {
-      height: 55px !important;
+      height: 70px !important;
   }
   #menuButton, #closeButton {
-      width: 55px !important
+      width: 70px !important
   }
   #navSBG {
       padding: 0 !important;
+  }
+  #menuButton {
+        display: block !important;
+        line-height: normal !important;
   }
   .button {
       width: 100% !important;
@@ -96,14 +100,16 @@ font-weight: 100;
   #see-more {
       display: none !important;
   }
-  #back-to-top {
-      display: none !important;
-  }
 }
 @media screen and (max-width: 730px) {
   .button {
       width: 100% !important;
       margin: 0 auto !important;
+  }
+}
+@media screen and (max-height: 405px) {
+  #see-more {
+      display: none !important;
   }
 }
 
@@ -557,7 +563,7 @@ html, body{
             // -webkit-filter: grayscale(20%);
             // opacity: 0.7;
             // filter: alpha(opacity=70);
-            border-bottom: solid 3px #34d8ff;
+            border-bottom: solid 3px $color-emerald;
         }
     }
 }
@@ -718,6 +724,8 @@ html, body{
 #menuButton {
   background-color: rgba(41,208,253,.3);
   transition: background-color 0.5s;
+  display: none;
+  z-index: 11;
 }
 .menuButtonSection {
   position: relative;
@@ -766,11 +774,11 @@ html, body{
   height: 110px;
   width: 110px;
   cursor: pointer;
-  z-index: 22;
 }
 #closeButton {
   display: none;
   transition: background-color 0.5s;
+  z-index: 22;
 }
 #closeButton:hover {
   background-color: #3771c8;

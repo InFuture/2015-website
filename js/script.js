@@ -1,29 +1,37 @@
 $(document).ready(function(){
   $("#menuButton").click(function(event){
-    $("#menuButton").hide();
+    $("#menuButton").fadeTo("fast", 0);
     $("#closeButton").show("fast");
     $("#navS").fadeTo("fast", 1);
-    event.stopPropagation();
+    event.stopPropagation(); //doesn't let this element do the same actions as clicking html
   });
   $("#closeButton").click(function(){
     $(this).hide("fast");
-    $("#menuButton").show();
+    $("#menuButton").fadeTo("fast", 1);
     $("#navS").fadeTo("fast", 0);
-    $("#navS").hide("fast");
+    $("#navS").hide();
   });
   $(".button").click(function(){
     $("#closeButton").hide("fast");
-    $("#menuButton").show();
+    $("#menuButton").fadeTo("fast", 1);
     $("#navS").fadeTo("fast", 0);
-    $("#navS").hide("fast");
+    $("#navS").hide();
   });
   $("#navS").click(function(event){
     event.stopPropagation();
   });
-  $("html").click(function(){
-    $("#closeButton").hide("fast");
-    $("#menuButton").show();
-    $("#navS").fadeTo("fast", 0);
-    $("#navS").hide("fast");
+  var width = $(window).width();
+  if (width >= 480){
+    $("html").click(function(event){
+      event.stopPropagation();
+    });
+  }
+  else {
+    $("html").click(function(){ //hides menu when clicking outside of popout menu
+      $("#closeButton").hide("fast");
+      $("#menuButton").fadeTo("fast", 1);
+      $("#navS").fadeTo("fast", 0);
+      $("#navS").hide();
   });
+  }
 });

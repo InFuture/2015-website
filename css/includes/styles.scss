@@ -65,8 +65,8 @@ font-weight: 100;
           margin-left: 0 !important;
           margin-right: 0 !important;
           .sponsors {
-              height: 120px;
-              width: 150px;
+              height: 120px !important;
+              width: 150px !important;
           }
       }
       padding-bottom: 37.5px !important;
@@ -417,12 +417,13 @@ html, body{
     background-size: cover;
     background-color: #23ccfd;
     color: #f7fafc !important;
-    padding: 37.5px 0 75px 0;
+    padding: 30px 0 65px 0;
     text-align: center;
     
     .title {
         font-size: 48px;
         font-weight: 400;
+        margin-bottom: 5px !important;
     }
     
     .question {
@@ -451,7 +452,7 @@ html, body{
 .footer {
     width: 100%;
     margin: 0;
-    padding: 37.5px 0 75px 0;
+    padding: 30px 0 75px 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -508,6 +509,7 @@ html, body{
         font-weight: 400;
         text-align: center;
         text-transform: uppercase;
+        margin-bottom: 20px !important;
     }
 
     .sponsors {
@@ -623,6 +625,7 @@ html, body{
         transition: width .3s;
     }
 }
+
 
 /*.background {
   position: fixed;

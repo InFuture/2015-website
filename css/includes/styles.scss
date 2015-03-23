@@ -649,7 +649,7 @@ html, body{
     -webkit-border-radius: 170px 170px 0 0;
     
     position: relative;
-    bottom: -20px;
+    bottom: 0px;
     left: 50%;
     opacity: 1;
     text-decoration: none;
@@ -666,7 +666,7 @@ html, body{
         opacity: 1;
         width: 180px;
         height: 95px;
-        bottom:-20px;
+        bottom:10px;
         
         .uline:after {
             width: 110px;

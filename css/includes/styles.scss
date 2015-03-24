@@ -581,12 +581,14 @@ html, body{
         transition: all 500ms ease-out;
 
 
-        border-bottom: solid 1px #005fd0;
+        border-bottom: solid 2px #005fd0;
+        border-right: solid 1px #005fd0;
         &:hover{
             // -webkit-filter: grayscale(20%);
             // opacity: 0.7;
             // filter: alpha(opacity=70);
-            border-bottom: solid 3px $color-emerald;
+            border-bottom: solid 4px $color-emerald;
+            border-right: solid 2px $color-emerald;
         }
     }
 }

@@ -494,6 +494,11 @@ html, body{
     a {
         color: #f7fafc;
         text-decoration: underline;
+        -webkit-transition: all 250ms ease-out;
+        -moz-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        -o-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
         &:hover {
             color: $color-emerald;
             text-decoration: underline;
@@ -586,11 +591,11 @@ html, body{
         // -webkit-filter: grayscale(20%);
         opacity: 1;
         // filter: alpha(opacity=70);
-        -webkit-transition: all 500ms ease-out;
-        -moz-transition: all 500ms ease-out;
-        -ms-transition: all 500ms ease-out;
-        -o-transition: all 500ms ease-out;
-        transition: all 500ms ease-out;
+        -webkit-transition: all 350ms ease-out;
+        -moz-transition: all 350ms ease-out;
+        -ms-transition: all 350ms ease-out;
+        -o-transition: all 350ms ease-out;
+        transition: all 350ms ease-out;
 
 
         border-bottom: solid 0px #005fd0;
@@ -614,6 +619,11 @@ html, body{
         a {
             color: #333;
             text-decoration: underline;
+            -webkit-transition: all 250ms ease-out;
+            -moz-transition: all 250ms ease-out;
+            -ms-transition: all 250ms ease-out;
+            -o-transition: all 250ms ease-out;
+            transition: all 250ms ease-out;
             &:hover {
                 color: $color-emerald;
                 text-decoration: underline;

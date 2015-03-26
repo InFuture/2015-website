@@ -494,6 +494,10 @@ html, body{
     a {
         color: #f7fafc;
         text-decoration: underline;
+        &:hover {
+            color: $color-emerald;
+            text-decoration: underline;
+        }
     }
     .contact {
         font-family: $body-font !important;
@@ -607,6 +611,14 @@ html, body{
         text-align: center;
         margin-top: 50px;
         margin-bottom: 0px !important;
+        a {
+            color: #333;
+            text-decoration: underline;
+            &:hover {
+                color: $color-emerald;
+                text-decoration: underline;
+            }
+        }
     }
 }
 

@@ -634,6 +634,16 @@ html, body{
 
   /*margin: 0; }*/
 #see-more {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     z-index: 1;
     text-align: center;
     line-height: 101px;
@@ -664,12 +674,6 @@ html, body{
     -moz-transition: all .3s;
     transition: all .3s;
     cursor: pointer;
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    -webkit-animation-delay: 0.5s; 
-    animation-delay: 0.5s;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
     &:hover {
         opacity: 1;
         width: 180px;

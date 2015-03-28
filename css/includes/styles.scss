@@ -193,6 +193,10 @@ html, body{
     vertical-align: baseline;
     background: transparent;
 }
+
+body {
+    background-color: #f7f7f7 !important;
+}
     
 .introduction {
     position: relative;
@@ -229,7 +233,7 @@ html, body{
             margin: 5px;
             padding: 0;
             display: inline-block;
-            color: #f7fafc;
+            color: #f7f7f7;
             font-family: $body-font !important;
             font-weight: 300;
             font-size: 96px;
@@ -272,6 +276,8 @@ html, body{
             border: 1px solid $color-elgray;
             border-radius: 5px;
             outline: 0;
+
+            background-color: #f7f7f7;
         }
         
         .btnSubscribe {
@@ -285,7 +291,7 @@ html, body{
             font-weight: 400 !important;
 
             background-color: $color-emerald;
-            color: #f7fafc;;
+            color: #f7f7f7;
             opacity: 0.9;
 
             border: 1px solid $color-emerald;
@@ -431,6 +437,7 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 50px 0;
+    background-color: #f7f7f7 !important;
     
     .row {
         max-width: 100%;
@@ -446,7 +453,7 @@ html, body{
         .numbers {
             font-weight: 400;
             font-size: 48px;
-            color: #1D1D1D;
+            color: #3a3a3a;
             margin: 7px;
             padding: 0;
         }
@@ -454,7 +461,7 @@ html, body{
         .object {
             font-weight: 300;
             font-size: 18px;
-            color: #4E4E4E;
+            color: #5E5E5E;
             margin: 7px;
             padding: 0;
             text-transform: uppercase;
@@ -470,7 +477,7 @@ html, body{
     -o-background-size: cover;
     background-size: cover;
     background-color: #23ccfd;
-    color: #f7fafc !important;
+    color: #f7f7f7 !important;
     padding: 30px 0 65px 0;
     text-align: center;
     
@@ -478,6 +485,7 @@ html, body{
         font-size: 48px;
         font-weight: 400;
         margin-bottom: 5px !important;
+        color: #f7f7f7 !important;
     }
     
     .question {
@@ -486,6 +494,7 @@ html, body{
         font-weight: 400;
         text-align: left;
         margin: 45px auto 10px auto;
+        color: #f7f7f7 !important;
     }
     
     .answer {
@@ -494,10 +503,11 @@ html, body{
         font-weight: 400;
         text-align: left;
         line-height: 2;
+        color: #f7f7f7 !important;
     }
 
     a {
-        color: #f7fafc;
+        color: #f7f7f7;
         text-decoration: underline;
         -webkit-transition: all 250ms ease-out;
         -moz-transition: all 250ms ease-out;
@@ -527,6 +537,7 @@ html, body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #f7f7f7 !important;
 
     .roww {
       width: 80%;
@@ -581,6 +592,7 @@ html, body{
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 50px !important;
+        color: #3a3a3a;
     }
 
     .sponsors {
@@ -621,8 +633,9 @@ html, body{
         text-align: center;
         margin-top: 50px;
         margin-bottom: 0px !important;
+        color: #3a3a3a;
         a {
-            color: #333;
+            color: #3a3a3a;
             text-decoration: underline;
             -webkit-transition: all 250ms ease-out;
             -moz-transition: all 250ms ease-out;
@@ -652,12 +665,13 @@ html, body{
     z-index: 1;
     text-align: center;
     line-height: 101px;
-    color: #f7fafc;;
+    color: #f7f7f7;
     font-size: 20px;
     display: block;
     width: 170px;
     height: 85px;
     background-color: rgba(128,128,128,.3);
+    font-family: $body-font !important;
 //    -webkit-border-radius: 50%;
 //    -moz-border-radius: 50%;
 //    border-radius: 50%;
@@ -713,12 +727,13 @@ html, body{
     z-index: 1;
     text-align: center;
     line-height: 101px;
-    color: #f7fafc;;
+    color: #f7f7f7;
     font-size: 20px;
     display: block;
     width: 170px;
     height: 85px;
     background-color: rgba(128,128,128,.6);
+    font-family: $body-font !important;
 //    -webkit-border-radius: 50%;
 //    -moz-border-radius: 50%;
 //    border-radius: 50%;

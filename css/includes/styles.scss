@@ -100,6 +100,16 @@ font-weight: 100;
           }
       }
   }
+  .faq {
+        .row {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        .contact {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+  }
   .footer {
       .roww {
           width: 100% !important;
@@ -117,6 +127,10 @@ font-weight: 100;
       .sponsors {
           margin-bottom: 1em !important;
       }
+        .contact {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
   }
 }
 @media only screen and (max-device-height: 550px) {

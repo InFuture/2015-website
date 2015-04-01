@@ -1,40 +1,7 @@
 .button-gray {
 background: rgb(128, 128, 128);
 }
-.pure-g > div {
-text-align: left;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}
-.pure-g {
-padding-top: 2em !important;
-padding-left: 6em !important;
-padding-right: 6em !important;
-padding-bottom: 2em !important;
-letter-spacing: 0vh;
-}
-.pure-goals {
-display: inline-block;
-padding-top: 2em !important;
-padding-left: 0em !important;
-padding-right: 0em !important;
-padding-bottom: 2em !important;
-letter-spacing: 0vh;
-width: 100%;
-}
-.l-box {
-padding: 1em;
-}
-.q {
-font-size: 32px;
-font-weight: 600;
-margin-top: 0vh;
-}
-.a {
-font-size: 24px;
-font-weight: 100;
-}
+
 @media only screen and (max-device-width: 480px) {
   #menuButton, #navS, #navSBG, #closeButton, .button {
       height: 70px !important;
@@ -110,29 +77,8 @@ font-weight: 100;
             margin-right: 1em;
         }
   }
-  .footer {
-      .roww {
-          width: 100% !important;
-          margin-left: 0 !important;
-          margin-right: 0 !important;
-          .sponsors {
-              height: 120px !important;
-              width: 150px !important;
-          }
-      }
-      padding-bottom: 37.5px !important;
-      .title {
-          // margin-bottom: 10px !important;
-      }
-      .sponsors {
-          margin-bottom: 1em !important;
-      }
-        .contact {
-            margin-left: 1em;
-            margin-right: 1em;
-        }
-  }
 }
+
 @media only screen and (max-device-height: 550px) {
   #see-more {
       display: none !important;
@@ -769,130 +715,4 @@ body {
         -moz-transition: width .3s;
         transition: width .3s;
     }
-}
-
-#navS {
-  display: none;
-  position: fixed;
-    top: 0;
-    left: 0;
-  height: 110px;
-  width: 100%;
-  z-index: 20;
-  background-color: transparent;
-}
-#navS A {
-  text-decoration: none;
-}
-#navSBG {
-  position: absolute;
-    top: 0;
-    left: 0;
-    padding: auto 110px auto 160px;
-  height: 110px;
-  width: 100%;
-  z-index: 21;
-  background-color: rgba(39,37,50, 0.8);
-  text-align: center;
-  display: table;
-}
-#menuButton {
-  background-color: rgba(41,208,253,.3);
-  transition: background-color 0.5s;
-  display: none;
-  z-index: 11;
-}
-.menuButtonSection {
-  position: relative;
-    margin: 5% 20%;
-  height: 10%;
-  width: 60%;
-  background-color: white;
-  display: inline-block;
-  -webkit-transition: width 1s, margin-left 1s, transform 1s;
-  -moz-transition: width 1s, margin-left 1s, transform 1s;
-  -o-transition: width 1s, margin-left 1s, transform 1s;
-  -ms-transition: width 1s, margin-left 1s, transform 1s;
-    transition: width 1s, margin-left 1s, transform 1s;
-}
-.topSection {
-  margin-top: 20%;
-}
-.botSection{
-  margin-bottom: 20%;
-}
-#menuButton:hover {
-  background-color: #006DD5;
-}
-#menuButton:hover .topSection{
-  width: 30%;
-  margin-left: 50%;
-  -webkit-transform: rotate(40deg) translate(30%,100%);
-  -mos-transform: rotate(40deg) translate(30%,100%);
-  -o-transform: rotate(40deg) translate(30%,100%);
-  -ms-transform: rotate(40deg) translate(30%,100%);
-  transform: rotate(40deg) translate(30%,100%);
-}
-#menuButton:hover .botSection{
-  width: 30%;
-  margin-left: 50%;
-  -webkit-transform: rotate(-40deg) translate(30%,-100%);
-  -mos-transform: rotate(-40deg) translate(30%,-100%);
-  -o-transform: rotate(-40deg) translate(30%,-100%);
-  -ms-transform: rotate(-40deg) translate(30%,-100%);
-  transform: rotate(-40deg) translate(30%,-100%);
-}
-#closeButton, #menuButton {
-  position: fixed;
-    top: 0;
-    left: 0;
-  height: 110px;
-  width: 110px;
-  cursor: pointer;
-}
-#closeButton {
-  display: none;
-  transition: background-color 0.5s;
-  z-index: 22;
-}
-#closeButton:hover {
-  background-color: #3771c8;
-}
-.closeButtonSection {
-  position: absolute;
-    margin: 45% 20%;
-  height: 10%;
-  width: 60%;
-  background-color: white;
-}
-.closeButtonSection:first-child {
-  transform: rotate(45deg);
-}
-.closeButtonSection:last-child {
-  transform: rotate(-45deg);
-}
-.button {
-  position: relative;
-    top: 0;
-    left: 0;
-    margin: 0;
-  height: 110px;
-  margin: 0 20px;;
-  z-index: 21;
-  font-size: 4.5vw;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 110px;
-  color: white;
-  background-color: transparent !important;
-  cursor: pointer;
-  transition: color 0.5s;
-  display: inline-block;
-  font-family: $body-font;
-}
-.button:hover {
-  color: #006DD5;
-}
-.buttonText{
-  margin: 0;
 }

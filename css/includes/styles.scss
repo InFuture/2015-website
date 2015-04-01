@@ -554,8 +554,9 @@ body {
     background-color: #f7f7f7 !important;
 
     .sponsor-container{
-        height: 100px;
-        width: 125px;
+        display: inline-block;
+        height: 120px;
+        width: 170px;
         
         background-position: center center !important;
         background-origin: content-box !important;
@@ -563,7 +564,6 @@ body {
         background-size: contain !important;
         background-repeat: no-repeat !important;
 
-        // -webkit-filter: grayscale(20%);
         opacity: 1;
         // filter: alpha(opacity=70);
         -webkit-transition: all 200ms ease-out;
@@ -572,11 +572,6 @@ body {
         -o-transition: all 200ms ease-out;
         transition: all 200ms ease-out;
         
-        border-bottom: solid 3px #7EC9C1;
-        
-        &:hover{
-            border-bottom: solid 3px #B74F94;
-        }
     }
     
     .container{
@@ -594,7 +589,7 @@ body {
     }
 
     .sponsors {
-        height: 150px;
+        height: 120px;
         width: 170px;
         // max-width: 20%;
         background-position: center center !important;
@@ -613,7 +608,7 @@ body {
         transition: all 350ms ease-out;
 
 
-        border-bottom: solid 0px #005fd0;
+        border-bottom: solid 2px #F7F7F7;
         // border-right: solid 1px #005fd0;
         &:hover{
             // -webkit-filter: grayscale(20%);

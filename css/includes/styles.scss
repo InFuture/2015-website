@@ -173,12 +173,13 @@ font-weight: 100;
 $body-font: 'Open Sans', sans-serif;
 $title-font: 'Kozuka', sans-serif;
 
-$color-white: #FFF;
+$color-white: #F7F7F7;
 $color-black: #000;
 $color-gray: #555459;
 $color-lgray: #707070;
 $color-elgray: #c5c5c5;
 $color-emerald: #2ecc71;
+
 /* STYLES */
 
 @font-face {
@@ -209,7 +210,7 @@ html, body{
 }
 
 body {
-    background-color: #f7f7f7 !important;
+    background-color: $color-white !important;
 }
     
 .introduction {
@@ -247,7 +248,7 @@ body {
             margin: 5px;
             padding: 0;
             display: inline-block;
-            color: #f7f7f7;
+            color: $color-white;
             font-family: $body-font !important;
             font-weight: 300;
             font-size: 96px;
@@ -291,7 +292,7 @@ body {
             border-radius: 5px;
             outline: 0;
 
-            background-color: #f7f7f7;
+            background-color: $color-white;
         }
         
         .btnSubscribe {
@@ -305,7 +306,7 @@ body {
             font-weight: 400 !important;
 
             background-color: $color-emerald;
-            color: #f7f7f7;
+            color: $color-white;
             opacity: 0.9;
 
             border: 1px solid $color-emerald;
@@ -451,7 +452,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 50px 0;
-    background-color: #f7f7f7 !important;
+    background-color: $color-white !important;
     
     .row {
         max-width: 100%;
@@ -491,7 +492,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-color: #23ccfd;
-    color: #f7f7f7 !important;
+    color: $color-white !important;
     padding: 30px 0 65px 0;
     text-align: center;
     
@@ -499,7 +500,7 @@ body {
         font-size: 48px;
         font-weight: 400;
         margin-bottom: 5px !important;
-        color: #f7f7f7 !important;
+        color: $color-white !important;
     }
     
     .question {
@@ -508,7 +509,7 @@ body {
         font-weight: 400;
         text-align: left;
         margin: 45px auto 10px auto;
-        color: #f7f7f7 !important;
+        color: $color-white !important;
     }
     
     .answer {
@@ -517,11 +518,11 @@ body {
         font-weight: 400;
         text-align: left;
         line-height: 2;
-        color: #f7f7f7 !important;
+        color: $color-white !important;
     }
 
     a {
-        color: #f7f7f7;
+        color: $color-white;
         text-decoration: underline;
         -webkit-transition: all 250ms ease-out;
         -moz-transition: all 250ms ease-out;
@@ -551,7 +552,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #f7f7f7 !important;
+    background-color: $color-white !important;
 
     .sponsor-container{
         display: inline-block;
@@ -589,36 +590,28 @@ body {
     }
 
     .sponsors {
-        height: 120px;
-        width: 170px;
-        // max-width: 20%;
+        height: 100%;
+        width: 100%;
+        
         background-position: center center !important;
         background-origin: content-box !important;
-        padding: 0 30px !important;
         background-size: contain !important;
         background-repeat: no-repeat !important;
         
-        // -webkit-filter: grayscale(20%);
-        opacity: 1;
-        // filter: alpha(opacity=70);
-        -webkit-transition: all 350ms ease-out;
-        -moz-transition: all 350ms ease-out;
-        -ms-transition: all 350ms ease-out;
-        -o-transition: all 350ms ease-out;
-        transition: all 350ms ease-out;
+        -webkit-transition: all 250ms ease-out;
+        -moz-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        -o-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
 
 
-        border-bottom: solid 2px #F7F7F7;
-        // border-right: solid 1px #005fd0;
-        &:hover{
-            // -webkit-filter: grayscale(20%);
-            // opacity: 0.7;
-            // filter: alpha(opacity=70);
-            
+        border-bottom: solid 2px $color-white;
+        
+        &:hover {
             border-bottom: solid 2px $color-emerald;
-            // border-right: solid 2px $color-emerald;
         }
     }
+    
     .contact {
         font-size: 28px;
         font-family: $body-font !important;
@@ -627,6 +620,7 @@ body {
         margin-top: 50px;
         margin-bottom: 0px !important;
         color: #3a3a3a;
+    
         a {
             color: #3a3a3a;
             text-decoration: underline;
@@ -658,7 +652,7 @@ body {
     z-index: 1;
     text-align: center;
     line-height: 101px;
-    color: #f7f7f7;
+    color: $color-white;
     font-size: 20px;
     display: block;
     width: 170px;
@@ -720,7 +714,7 @@ body {
     z-index: 1;
     text-align: center;
     line-height: 101px;
-    color: #f7f7f7;
+    color: $color-white;
     font-size: 20px;
     display: block;
     width: 170px;
@@ -770,7 +764,7 @@ body {
         margin: -40px auto;
         width: 0%;
         height: 1px;
-        background-color: #fff;
+        background-color: $color-white;
         -webkit-transition: width .3s;
         -moz-transition: width .3s;
         transition: width .3s;

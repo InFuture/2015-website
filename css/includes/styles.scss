@@ -553,48 +553,32 @@ body {
     text-align: center;
     background-color: #f7f7f7 !important;
 
-    .roww {
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
-      text-align: center;
-      display: table;
-    }
-    // .sponsor-container{
-    //     height: 150px;
-    //     width: 170px;
-    //     background-position: center center !important;
-    //     background-origin: content-box !important;
-    //     padding: 0 30px !important;
-    //     background-size: contain !important;
-    //     background-repeat: no-repeat !important;
-    //     display: inline-block;
+    .sponsor-container{
+        height: 100px;
+        width: 125px;
         
-    //     // -webkit-filter: grayscale(20%);
-    //     opacity: 1;
-    //     // filter: alpha(opacity=70);
-    //     -webkit-transition: all 400ms ease-out;
-    //     -moz-transition: all 400ms ease-out;
-    //     -ms-transition: all 400ms ease-out;
-    //     -o-transition: all 400ms ease-out;
-    //     transition: all 400ms ease-out;
-    //     border-bottom: solid 1px #7EC9C1;
-    //     &:hover{
-    //         // -webkit-filter: grayscale(20%);
-    //         // opacity: 0.7;
-    //         // filter: alpha(opacity=70);
-    //         border-bottom: solid 3px #B74F94;
-    //     }
-    // }
+        background-position: center center !important;
+        background-origin: content-box !important;
+        padding: 0 !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
 
-    .sponsor-container {
-        display: inline-block;
-        text-align: center;
-
-        margin-left: 10px;
-        margin-right: 10px;
+        // -webkit-filter: grayscale(20%);
+        opacity: 1;
+        // filter: alpha(opacity=70);
+        -webkit-transition: all 200ms ease-out;
+        -moz-transition: all 200ms ease-out;
+        -ms-transition: all 200ms ease-out;
+        -o-transition: all 200ms ease-out;
+        transition: all 200ms ease-out;
+        
+        border-bottom: solid 3px #7EC9C1;
+        
+        &:hover{
+            border-bottom: solid 3px #B74F94;
+        }
     }
-
+    
     .container{
       text-align: center
     }

@@ -491,15 +491,14 @@ body {
 }
 
 
-.footer {
+.sponsors-section {
     width: 100%;
     margin: 0;
     padding: 30px 0 0 0;
     margin: 0 auto;
     text-align: center;
     background-color: $color-white;
-
-    
+ 
     .container {
         text-align: center;
     }
@@ -572,6 +571,9 @@ body {
             }
         }
     }
+}
+
+.footer {
 }
 
   /*margin: 0; }*/

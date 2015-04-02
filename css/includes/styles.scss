@@ -495,34 +495,13 @@ body {
     width: 100%;
     margin: 0;
     padding: 30px 0 75px 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
-    background-color: $color-white !important;
+    background-color: $color-white;
 
-    .sponsor-container{
-        display: inline-block;
-        height: 120px;
-        width: 170px;
-        
-        background-position: center center !important;
-        background-origin: content-box !important;
-        padding: 0 !important;
-        background-size: contain !important;
-        background-repeat: no-repeat !important;
-
-        opacity: 1;
-        // filter: alpha(opacity=70);
-        -webkit-transition: all 200ms ease-out;
-        -moz-transition: all 200ms ease-out;
-        -ms-transition: all 200ms ease-out;
-        -o-transition: all 200ms ease-out;
-        transition: all 200ms ease-out;
-        
-    }
     
-    .container{
-      text-align: center
+    .container {
+        text-align: center;
     }
 
     .title {
@@ -531,32 +510,44 @@ body {
         font-weight: 400;
         text-align: center;
         text-transform: uppercase;
-        margin-bottom: 50px !important;
+        margin-bottom: 20px;
         color: #3a3a3a;
     }
 
-    .sponsors {
-        height: 100%;
-        width: 100%;
+    .sponsor-container {
+        display: inline-block;
+        height: 120px;
+        width: 200px;
         
-        background-position: center center !important;
-        background-origin: content-box !important;
-        background-size: contain !important;
-        background-repeat: no-repeat !important;
+        margin: 0px auto;
+        padding: 0;  
         
-        -webkit-transition: all 250ms ease-out;
-        -moz-transition: all 250ms ease-out;
-        -ms-transition: all 250ms ease-out;
-        -o-transition: all 250ms ease-out;
-        transition: all 250ms ease-out;
+        .sponsors {
+            height: 100%;
+            width: 140px;
 
+            margin: 5px auto;
+            padding: 0px 10px;
 
-        border-bottom: solid 2px $color-white;
-        
-        &:hover {
-            border-bottom: solid 2px $color-emerald;
+            background-position: center center !important;
+            background-origin: content-box !important;
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+
+            -webkit-transition: all 250ms ease-out;
+            -moz-transition: all 250ms ease-out;
+            -ms-transition: all 250ms ease-out;
+            -o-transition: all 250ms ease-out;
+            transition: all 250ms ease-out;
+
+            border-bottom: solid 2px $color-white;
+
+            &:hover {
+                border-bottom: solid 2px $color-emerald;
+            }
         }
     }
+    
     
     .contact {
         font-size: 28px;
@@ -689,6 +680,7 @@ body {
     transition: all .3s;
     cursor: pointer;
     overflow: hidden;
+    
     &:hover {
         opacity: 1;
         width: 180px;

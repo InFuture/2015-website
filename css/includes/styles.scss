@@ -117,7 +117,7 @@ background: rgb(128, 128, 128);
 }
 
 $body-font: 'Open Sans', sans-serif;
-$title-font: 'Kozuka', sans-serif;
+$title-font: 'Raleway', sans-serif;
 
 $color-white: #f7f7f7;
 $color-black: #1D1D1D;
@@ -204,18 +204,18 @@ body {
         }
         
         h1.title {
+            display: inline-block;
             margin: 10px;
             padding: 0;
-            display: inline-block;
             color: $color-darkwhite;
-            font-family: $body-font !important;
-            font-weight: 300;
+            font-family: $title-font !important;
+            font-weight: 200;
             font-size: 96px;
             text-transform: uppercase;
             
             span {
                 font-weight: 400;
-                color: $color-white;    
+                color: $color-white;  
             }
         }
         
@@ -224,10 +224,11 @@ body {
             padding: 0;
             
             color: $color-bluewhite;
-            font-family: $title-font !important;
-            //merge solve
+            font-family: $body-font !important;
             font-weight: 300;
             font-size: 36px;
+            
+            text-shadow: 0px 0px 3px $color-elgray;
         }
 
 
@@ -302,7 +303,7 @@ body {
 //    top: -175px;
     
     margin: 0;
-    padding: 25px 0;
+    padding: 5px 0;
     
 //    opacity: 0.7;
     
@@ -340,12 +341,11 @@ body {
 
 
 .faq {
-    background: url(../images/bluebg2.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: #23ccfd;
+    background: url(../images/gradient3.png) no-repeat top center scroll;
     color: $color-white !important;
     padding: 30px 0 65px 0;
     text-align: center;

@@ -119,12 +119,13 @@ background: rgb(128, 128, 128);
 $body-font: 'Open Sans', sans-serif;
 $title-font: 'Kozuka', sans-serif;
 
-$color-white: #F7F7F7;
-$color-black: #000;
+$color-white: #f7f7f7;
+$color-black: #1D1D1D;
 $color-gray: #555459;
 $color-lgray: #707070;
 $color-elgray: #c5c5c5;
 $color-emerald: #2ecc71;
+$color-bluewhite: #d6eff7;
 
 /* STYLES */
 
@@ -173,8 +174,7 @@ body {
     
     
     overflow: hidden;
-    background: url(../images/test.png) no-repeat center center scroll;    
-//    background-color: #000;
+    background: url(../images/gradient2.png) no-repeat bottom center scroll;    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -186,6 +186,7 @@ body {
     .content {
         @include vertical-align;
         text-align: center;
+    
         .logo {
           height: 68px;
           width: 37.653px;
@@ -195,6 +196,7 @@ body {
           background-size: contain !important;
           background-repeat: no-repeat !important;
         }
+        
         h1.title {
             margin: 5px;
             padding: 0;
@@ -217,9 +219,9 @@ body {
             font-size: 36px;
         }
 
-        .pure-form {
-            font-size: 20px;
-            z-index: 5 !important;
+        .subscriptionForm {
+            position: relative;
+            bottom: 25px;
         }
         
         .email, .submit {
@@ -410,7 +412,7 @@ body {
     
 //    opacity: 0.7;
     
-    background-color: $color-white !important;
+    background-color: $color-bluewhite !important;
     
     .row {
         max-width: 100%;
@@ -426,7 +428,7 @@ body {
         .numbers {
             font-weight: 400;
             font-size: 48px;
-            color: #3a3a3a;
+            color: $color-black;
             margin: 7px;
             padding: 0;
         }
@@ -434,7 +436,7 @@ body {
         .object {
             font-weight: 300;
             font-size: 18px;
-            color: #5E5E5E;
+            color: $color-gray;
             margin: 7px;
             padding: 0;
             text-transform: uppercase;

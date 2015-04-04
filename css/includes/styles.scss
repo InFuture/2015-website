@@ -3,47 +3,47 @@ background: rgb(128, 128, 128);
 }
 
 @media only screen and (max-device-width: 480px) {
-  #menuButton, #navS, #navSBG, #closeButton, .button {
-      height: 70px !important;
-  }
-  #menuButton, #closeButton {
-      width: 70px !important
-  }
-  #navSBG {
-      padding: 0 !important;
-  }
-  #menuButton {
-        display: block !important;
-        line-height: normal !important;
-        &:hover .topSection {
-            width: 21px !important;
-            margin-left: 35px !important;
-          }
+  // #menuButton, #navS, #navSBG, #closeButton, .button {
+  //     height: 70px !important;
+  // }
+  // #menuButton, #closeButton {
+  //     width: 70px !important
+  // }
+  // #navSBG {
+  //     padding: 0 !important;
+  // }
+  // #menuButton {
+  //       display: block !important;
+  //       line-height: normal !important;
+  //       &:hover .topSection {
+  //           width: 21px !important;
+  //           margin-left: 35px !important;
+  //         }
 
-          &:hover .botSection {
-            width: 21px !important;
-            margin-left: 35px !important;
-          }
-  }
-  .button {
-      width: 100% !important;
-      margin: 1em auto !important;
-      line-height: 55px !important;
-  }
-  .menuButtonSection {
-        top: 0 !important;
-        left: 0 !important;
-        margin: 10.5px 14px !important;
-      height: 7px !important;
-      width: 42px !important;
-      display: block !important;
-    }
-    .topSection {
-      margin-top: 14px !important;
-    }
-    .botSection{
-      margin-bottom: 14px !important;
-    }
+  //         &:hover .botSection {
+  //           width: 21px !important;
+  //           margin-left: 35px !important;
+  //         }
+  // }
+  // .button {
+  //     width: 100% !important;
+  //     margin: 1em auto !important;
+  //     line-height: 55px !important;
+  // }
+  // .menuButtonSection {
+  //       top: 0 !important;
+  //       left: 0 !important;
+  //       margin: 10.5px 14px !important;
+  //     height: 7px !important;
+  //     width: 42px !important;
+  //     display: block !important;
+  //   }
+  //   .topSection {
+  //     margin-top: 14px !important;
+  //   }
+  //   .botSection{
+  //     margin-bottom: 14px !important;
+  //   }
   .introduction {
       .logo {
         height: 38px !important;
@@ -68,14 +68,19 @@ background: rgb(128, 128, 128);
       }
   }
   .faq {
+    padding-bottom: 0px !important;
         .row {
-            margin-left: 1em;
-            margin-right: 1em;
+            margin-left: 1em !important;
+            margin-right: 1em !important;
         }
         .contact {
-            margin-left: 1em;
-            margin-right: 1em;
+            margin-left: 1em !important;
+            margin-right: 1em !important;
+            margin-top: 180px !important;
         }
+  }
+  .sponsors-section {
+    padding-top: 120px !important;
   }
 }
 
@@ -158,7 +163,7 @@ html, body{
 }
 
 body {
-    background-color: $color-white !important;
+    background-color: #225eff !important;
 }
     
 .introduction {
@@ -356,15 +361,16 @@ body {
     background: #225eff no-repeat bottom center scroll;
     background-image: url(../images/infuturesil2.svg);
     // background-image: url(../images/infuturesil2.svg),-webkit-gradient(to bottom,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil2.svg),-webkit-linear-gradient(top,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil2.svg),-moz-linear-gradient(top,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil2.svg),-o-linear-gradient(top,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil2.svg),linear-gradient(to bottom,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
+    background-image: url(../images/infuturesil2.svg),-webkit-linear-gradient(top,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil2.svg),-moz-linear-gradient(top,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil2.svg),-o-linear-gradient(top,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil2.svg),linear-gradient(to bottom,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
     color: $color-white !important;
-    padding: 75px 0 65px 0;
+    padding: 75px 0 40px 0;
     text-align: center;
     
     .title {
+        font-family: $body-font !important;
         font-size: 48px;
         font-weight: 400;
         margin-bottom: 5px !important;
@@ -407,7 +413,7 @@ body {
         font-size: 28px;
         font-weight: 400;
         text-align: center;
-        margin-top: 250px;
+        margin-top: 275px;
         margin-bottom: 0px !important;
     }
     .citybg {
@@ -485,11 +491,11 @@ body {
     .special-sponsor-container {
         @extend .sponsor-container;
         width: 350px;
-        height: 140px;
+        height: 210px;
         
         .special-sponsors {
             @extend .sponsors;
-            width: 300px;
+            width: 245px;
             margin: 15px auto;
         }
     }

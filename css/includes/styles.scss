@@ -60,10 +60,10 @@ background: rgb(128, 128, 128);
 
           input.input-box {
               margin-top: 15px !important;
-              width: auto !important;
+              width: 90% !important;
           }
           button.btnSubscribe {
-              margin: 0 !important;
+              margin-top: 20px !important;
           }
       }
   }
@@ -81,6 +81,9 @@ background: rgb(128, 128, 128);
   }
   .sponsors-section {
     padding-top: 120px !important;
+    .special-sponsor-container {
+        width: 100% !important;
+    }
   }
 }
 
@@ -203,6 +206,7 @@ body {
         transform: translateY(-50%);
         
         text-align: center;
+        z-index: 10;
     
         .logo {
           height: 68px;
@@ -490,7 +494,7 @@ body {
     
     .special-sponsor-container {
         @extend .sponsor-container;
-        width: 350px;
+        // width: 350px;
         height: 210px;
         
         .special-sponsors {
@@ -670,6 +674,33 @@ body {
         transition: width .3s;
     }
 }
+.rocket-container {
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 68px;
+        width: 100px;
+        margin-left:auto;
+        margin-right:auto;
+
+        -webkit-transition: all 150ms ease-in;
+        -moz-transition: all 150ms ease-in;
+        -ms-transition: all 150ms ease-in;
+        -o-transition: all 150ms ease-in;
+        transition: all 150ms ease-in;
+        
+        .rocket {
+            height: 100%;
+            background-image: url(../images/rocket.svg);
+            background-position: center center !important;
+            background-origin: content-box !important;
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+            z-index: 0;
+        }
+}
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -789,4 +820,38 @@ body {
     animation-delay: 0.5s;
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
+}
+
+@-webkit-keyframes flyThrough {
+    0% {
+        -webkit-transform: translate3d(0, 1500%, 0);
+        transform: translate3d(0, 1500%, 0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, -1500%, 0);
+        transform: translate3d(0, -1500%, 0)
+    }
+}
+
+@keyframes flyThrough {
+    0% {
+        -webkit-transform: translate3d(0, 1500%, 0);
+        transform: translate3d(0, 1500%, 0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, -1500%, 0);
+        transform: translate3d(0, -1500%, 0)
+    }
+    animation-delay: 5s;
+}
+
+.flyThrough {
+    -webkit-animation-name: flyThrough;
+    animation-name: flyThrough;
+    -webkit-animation-delay: 1.0s; 
+    animation-delay: 1.0s;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
 }

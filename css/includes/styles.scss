@@ -469,7 +469,13 @@ body {
         width: 200px;
         
         margin: 0px auto;
-        padding: 0;  
+        padding: 0; 
+
+        background: url(../images/dish.svg);
+        background-position: center center !important;
+        background-origin: content-box !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
         
         .sponsors {
             height: 100%;

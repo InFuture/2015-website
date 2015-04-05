@@ -338,7 +338,7 @@ body {
         
         .numbers {
             font-weight: 400;
-            font-size: 48px;
+            font-size: 60px;
             color: $color-white;
             margin: 7px;
             padding: 0;
@@ -346,7 +346,7 @@ body {
         
         .object {
             font-weight: 300;
-            font-size: 18px;
+            font-size: 25px;
             color: $color-bluewhite;
             margin: 7px;
             padding: 0;
@@ -438,11 +438,16 @@ body {
 .sponsors-section {
     width: 100%;
     margin: 0;
-    padding: 30px 0 0 0;
+    padding: 30px 0 170px 0;
     margin: 0 auto;
     text-align: center;
     background-color: #666666;
     // overflow: hidden;
+    // background: #a77b36;
+    // background: -webkit-linear-gradient(top,#a77b36,#a1773a,#946f43,#86664b,#795d53,#5f4c64,#584768);
+    // background: -moz-linear-gradient(top,#a77b36,#a1773a,#946f43,#86664b,#795d53,#5f4c64,#584768);
+    // background: -o-linear-gradient(top,#a77b36,#a1773a,#946f43,#86664b,#795d53,#5f4c64,#584768);
+    // background: linear-gradient(to bottom,#a77b36,#a1773a,#946f43,#86664b,#795d53,#5f4c64,#584768);
  
     .container {
         text-align: center;
@@ -484,7 +489,7 @@ body {
             -o-transition: all 250ms ease-out;
             transition: all 250ms ease-out;
 
-            border-bottom: solid 2px #666666;
+            border-bottom: solid 2px rgba(255,255,255,0.0);
 
             &:hover {
                 border-bottom: solid 2px #acdeff;
@@ -824,25 +829,25 @@ body {
 
 @-webkit-keyframes flyThrough {
     0% {
-        -webkit-transform: translate3d(0, 1500%, 0);
-        transform: translate3d(0, 1500%, 0)
+        -webkit-transform: translate3d(0, 3000%, 0);
+        transform: translate3d(0, 3000%, 0)
     }
 
     100% {
-        -webkit-transform: translate3d(0, -1500%, 0);
-        transform: translate3d(0, -1500%, 0)
+        -webkit-transform: translate3d(0, -3000%, 0);
+        transform: translate3d(0, -3000%, 0)
     }
 }
 
 @keyframes flyThrough {
     0% {
-        -webkit-transform: translate3d(0, 1500%, 0);
-        transform: translate3d(0, 1500%, 0)
+        -webkit-transform: translate3d(0, 3000%, 0);
+        transform: translate3d(0, 3000%, 0)
     }
 
     100% {
-        -webkit-transform: translate3d(0, -1500%, 0);
-        transform: translate3d(0, -1500%, 0)
+        -webkit-transform: translate3d(0, -3000%, 0);
+        transform: translate3d(0, -3000%, 0)
     }
     animation-delay: 5s;
 }

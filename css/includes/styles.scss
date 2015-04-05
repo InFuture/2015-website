@@ -365,10 +365,10 @@ body {
     background: #225eff no-repeat bottom center scroll;
     background-image: url(../images/infuturesil2.svg);
     // background-image: url(../images/infuturesil2.svg),-webkit-gradient(to bottom,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil2.svg),-webkit-linear-gradient(top,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
-    background-image: url(../images/infuturesil2.svg),-moz-linear-gradient(top,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
-    background-image: url(../images/infuturesil2.svg),-o-linear-gradient(top,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
-    background-image: url(../images/infuturesil2.svg),linear-gradient(to bottom,#225eff,#2c71ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil2.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil2.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil2.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil2.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
     color: $color-white !important;
     padding: 75px 0 40px 0;
     text-align: center;
@@ -855,8 +855,8 @@ body {
 .flyThrough {
     -webkit-animation-name: flyThrough;
     animation-name: flyThrough;
-    -webkit-animation-delay: 1.0s; 
+    -webkit-animation-delay: 1.0s;
     animation-delay: 1.0s;
-    -webkit-animation-duration: 2.5s;
-    animation-duration: 2.5s;
+    -webkit-animation-duration: 3.5s;
+    animation-duration: 3.5s;
 }

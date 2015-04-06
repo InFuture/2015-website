@@ -331,12 +331,12 @@ body {
     margin: 0 auto;
     text-align: center;
 
-    // background: #999999;
-    background: #D4B65C;  //blue alternative: #A5B7BE or #94B7E4
-    background: -webkit-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
-    background: -moz-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
-    background: -o-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
-    background: linear-gradient(to bottom,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
+    background: #999999;
+    // background: #D4B65C;  //blue alternative: #A5B7BE or #94B7E4
+    // background: -webkit-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
+    // background: -moz-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
+    // background: -o-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
+    // background: linear-gradient(to bottom,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
  
     .container {
         text-align: center;
@@ -656,8 +656,8 @@ body {
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-delay: 0.5s; 
-    animation-delay: 0.5s;
+    -webkit-animation-delay: 1.5s; 
+    animation-delay: 1.5s;
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
@@ -693,8 +693,8 @@ body {
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-delay: 0.5s; 
-    animation-delay: 0.5s;
+    -webkit-animation-delay: 1.3s; 
+    animation-delay: 1.3s;
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
@@ -722,8 +722,8 @@ body {
 .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-delay: 0.5s; 
-    animation-delay: 0.5s;
+    -webkit-animation-delay: 1.5s; 
+    animation-delay: 1.5s;
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
@@ -756,8 +756,8 @@ body {
 .flyThrough {
     -webkit-animation-name: flyThrough;
     animation-name: flyThrough;
-    -webkit-animation-delay: 1.0s;
-    animation-delay: 1.0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     -webkit-animation-duration: 6.0s;
     animation-duration: 6.0s;
 }

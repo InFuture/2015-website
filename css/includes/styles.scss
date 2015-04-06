@@ -471,7 +471,8 @@ body {
         margin: 0px auto;
         padding: 0; 
 
-        background: url(../images/dish.svg);
+        background: url(../solarpanel.svg);
+        // background: url(../images/dish.svg);
         background-position: center center !important;
         background-origin: content-box !important;
         background-size: contain !important;
@@ -863,6 +864,6 @@ body {
     animation-name: flyThrough;
     -webkit-animation-delay: 1.0s;
     animation-delay: 1.0s;
-    -webkit-animation-duration: 3.5s;
-    animation-duration: 3.5s;
+    -webkit-animation-duration: 6.0s;
+    animation-duration: 6.0s;
 }

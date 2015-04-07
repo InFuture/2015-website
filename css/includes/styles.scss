@@ -73,17 +73,19 @@ body {
     
     
     overflow: hidden;
+
     // background: url(../images/gradient2.png) no-repeat bottom center scroll;    
     // -webkit-background-size: cover;
     // -moz-background-size: cover;
     // -o-background-size: cover;
     // background-size: cover;
     // background-color: #23ccfd;
-    background: #0033bc;
-    background: -webkit-linear-gradient(top,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
-    background: -moz-linear-gradient(top,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
-    background: -o-linear-gradient(top,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
-    background: linear-gradient(to bottom,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
+    background: #0033bc no-repeat top center scroll;
+    background-image: url(../images/stars.svg);
+    background-image: url(../images/stars.svg),-webkit-linear-gradient(top,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
+    background-image: url(../images/stars.svg),-moz-linear-gradient(top,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
+    background-image: url(../images/stars.svg),-o-linear-gradient(top,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
+    background-image: url(../images/stars.svg),linear-gradient(to bottom,#0033bc,#0038cf,#003ee6,#074bff,#225eff);
     
     @include parent-element;
     
@@ -100,7 +102,14 @@ body {
         .logo {
           height: 71px;
           width: 138px;
-          display: inline-block;
+
+          // display: inline-block;   //logo to left side of words
+
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 25px;
+
           background-position: center center !important;
           background-origin: content-box !important;
           background-size: contain !important;
@@ -224,11 +233,11 @@ body {
         padding: 12px 0 12px 0;
         text-align: center;
         font-family: $body-font !important;
-        // background: url(../images/cloud.svg);
-        // background-position: center center !important;
-        // background-origin: content-box !important;
-        // background-size: contain !important;
-        // background-repeat: no-repeat !important;
+        background: url(../images/cloud.svg);
+        background-position: center center !important;
+        background-origin: content-box !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
         
         .numbers {
             font-weight: 400;
@@ -316,6 +325,9 @@ body {
         color: $color-black;
         a {
             color: $color-black;
+            &:hover {
+                color: #0033BC;
+            }
         }
     }
     .citybg {
@@ -397,7 +409,7 @@ body {
             border-bottom: solid 2px rgba(255,255,255,0.0);
 
             &:hover {
-                border-bottom: solid 2px #acdeff;
+                border-bottom: solid 2px #0033BC;
             }
         }
     }
@@ -432,7 +444,7 @@ body {
             -o-transition: all 250ms ease-out;
             transition: all 250ms ease-out;
             &:hover {
-                color: #acdeff;
+                color: #0033BC;
                 text-decoration: underline;
             }
         }

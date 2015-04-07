@@ -98,8 +98,8 @@ body {
         z-index: 10;
     
         .logo {
-          height: 68px;
-          width: 37.653px;
+          height: 71px;
+          width: 138px;
           display: inline-block;
           background-position: center center !important;
           background-origin: content-box !important;
@@ -111,7 +111,7 @@ body {
             display: inline-block;
             margin: 10px;
             padding: 0;
-            color: $color-darkwhite;
+            color: #229aff;
             font-family: $title-font !important;
             font-weight: 200;
             font-size: 96px;
@@ -224,6 +224,11 @@ body {
         padding: 12px 0 12px 0;
         text-align: center;
         font-family: $body-font !important;
+        // background: url(../images/cloud.svg);
+        // background-position: center center !important;
+        // background-origin: content-box !important;
+        // background-size: contain !important;
+        // background-repeat: no-repeat !important;
         
         .numbers {
             font-weight: 400;
@@ -308,6 +313,10 @@ body {
         text-align: center;
         margin-top: 300px;
         margin-bottom: 0px !important;
+        color: $color-black;
+        a {
+            color: $color-black;
+        }
     }
     .citybg {
         position: relative;
@@ -331,7 +340,7 @@ body {
     margin: 0 auto;
     text-align: center;
 
-    background: #999999;
+    background: #d2d2d2;
     // background: #D4B65C;  //blue alternative: #A5B7BE or #94B7E4
     // background: -webkit-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
     // background: -moz-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
@@ -349,7 +358,7 @@ body {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 20px;
-        color: $color-white;
+        color: $color-black;
     }
 
     .sponsor-container {
@@ -412,10 +421,10 @@ body {
         text-align: center;
         margin-top: 50px;
         margin-bottom: 0px !important;
-        color: $color-white;
+        color: $color-black;
     
         a {
-            color: $color-white;
+            color: $color-black;
             text-decoration: underline;
             -webkit-transition: all 250ms ease-out;
             -moz-transition: all 250ms ease-out;

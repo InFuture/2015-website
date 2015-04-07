@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="315.96222"
+   height="162.20833"
+   id="svg13439"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 18">
+  <defs
+     id="defs13441" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="30.401666"
+     inkscape:cy="153.34562"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1536"
+     inkscape:window-height="814"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata13444">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-155.60737,-307.22982)">
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\path4078.png"
+       sodipodi:nodetypes="ccccscccccccc"
+       d="m 309.90044,385.36025 c -30.50738,38.9644 -54.62318,71.97711 -85.66251,73.01982 -28.98136,0 -57.35809,-39.23628 -57.35809,-66.23209 0,-33.7873 24.15317,-74.38309 61.08087,-74.38309 25.29804,0 46.55085,14.74059 60.24678,25.14719 27.13331,20.61676 26.89694,20.53615 74.51445,58.3125 l 18.55899,0.0374 c -39.99686,-31.58319 -40.17582,-31.42515 -89.32347,-68.40374 -23.66598,-16.93476 -41.16003,-28.23865 -70.86744,-25.10701 -37.23289,4.08349 -65.48265,42.57266 -65.48265,83.38884 0,32.26567 29.2888,78.29808 68.66195,78.29808 39.7224,0 58.58734,-37.7524 93.02355,-78.14339 z"
+       id="path13361"
+       inkscape:connector-curvature="0"
+       style="fill:#229aff;fill-opacity:1" />
+    <path
+       style="fill:#ececec;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       id="path13425"
+       d="m 317.27653,391.30773 c 30.50738,-38.96439 54.62318,-71.97711 85.66251,-73.01982 28.98135,0 57.35809,39.23629 57.35809,66.23209 0,33.78727 -24.15317,74.38306 -61.08088,74.38306 -25.29804,0 -46.55084,-14.74059 -60.24677,-25.14719 -27.13331,-20.61672 -26.89694,-20.53611 -74.51445,-58.31247 l -18.55899,-0.0374 c 39.99685,31.58317 40.17582,31.42513 89.32347,68.40369 23.66598,16.93475 41.16002,28.23865 70.86743,25.10701 37.2329,-4.08349 65.48266,-42.57266 65.48266,-83.3888 0,-32.26571 -29.2888,-78.29808 -68.66195,-78.29808 -39.7224,0 -58.58734,37.75236 -93.02355,78.14338 z"
+       sodipodi:nodetypes="ccccscccccccc"
+       inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\path4078.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

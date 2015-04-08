@@ -1,7 +1,8 @@
 function mailchimp(){
-    $('.input-box').value = "";
-    $('.input-box').attr('placeholder','Thanks! Please check your email for confirmation');
 	var hipHopMagician = $(".input-box").val();
+	$(".input-box").val("");
+	$('.input-box').attr('placeholder','Thanks! Please check your email. :)');
+
 	
 	$.post("/signup/", { email: hipHopMagician });
 	return false;

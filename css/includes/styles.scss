@@ -508,6 +508,23 @@ body {
         }
     }
 
+    .contact {
+        font-family: $body-font !important;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 25px;
+        color: $color-white;
+        text-decoration: underline;
+        
+        a {
+            color: $color-white;
+            
+            &:hover {
+                color: #2199FF;
+            }
+        }
+    }
 }
 
 .footer {
@@ -522,31 +539,20 @@ body {
     // background-image: url(../images/footer.svg);
 
     .container {
-        margin-left:auto;
-        margin-right:auto;
-
-        // .contact {
-        //     font-size: 28px;
-        //     font-family: $body-font !important;
-        //     font-weight: 400;
-        //     text-align: center;
-        //     margin-bottom: 0px !important;
-        //     color: $color-white;
+        margin-left: auto;
+        margin-right: auto;
         
-        //     a {
-        //         color: $color-white;
-        //         text-decoration: underline;
-        //         -webkit-transition: all 250ms ease-out;
-        //         -moz-transition: all 250ms ease-out;
-        //         -ms-transition: all 250ms ease-out;
-        //         -o-transition: all 250ms ease-out;
-        //         transition: all 250ms ease-out;
-        //         &:hover {
-        //             color: #2199FF;
-        //             text-decoration: underline;
-        //         }
-        //     }
-        // }
+        .footer-text {
+            display: inline;
+            margin: 0 5px;
+            color: $color-white;
+            text-align: left;
+            font-size: 14px;
+            line-height: 1.5;
+            font-family: $body-font;
+            font-weight: 400;
+        }
+
         .arrow-container {
             height: 50px;
             width: 50px;
@@ -911,7 +917,7 @@ $colors: (
     "facebook": "#3B5998",
     "twitter": "#3CF",
     "google": "#DC4A38",
-    "dribbble": "#F26798",
+    "email": "#F26798",
     "skype": "#00AFF0",
     "mail": "#7C7C7C"
 );

@@ -25,6 +25,7 @@ $color-emerald: #2ecc71;
 $color-bluewhite: #d6eff7;
 $color-darkwhite: #ecf0f1;
 $color-blue: #229aff;
+$color-red: #e74c3c;
 /* STYLES */
 
 @font-face {
@@ -263,6 +264,16 @@ body {
         background-color: transparent;
         color: $color-emerald;
     }
+}
+
+.valid {
+   border: $color-emerald solid 2px;
+   color: $color-emerald;
+}
+
+.invalid {
+   border: $color-red solid 2px;
+   color: $color-red;
 }
 
 .statistics {

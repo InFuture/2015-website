@@ -2449,9 +2449,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497476"
-     inkscape:cx="3959.7995"
-     inkscape:cy="99.620418"
+     inkscape:zoom="0.70000002"
+     inkscape:cx="3925.949"
+     inkscape:cy="95.206497"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2459,10 +2459,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1536"
-     inkscape:window-height="814"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1518"
+     inkscape:window-height="798"
+     inkscape:window-x="1"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-smooth-nodes="true" />
   <metadata
@@ -3464,5 +3464,13 @@
        width="7919.9995"
        height="438.71512"
        transform="translate(-2407.6302,-60.167267)" />
+    <use
+       transform="translate(-695.92191,-60.247992)"
+       height="438.71512"
+       width="7919.9995"
+       y="0"
+       x="0"
+       xlink:href="#use5748"
+       id="use7385" />
   </g>
 </svg>

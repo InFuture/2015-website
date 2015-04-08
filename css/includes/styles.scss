@@ -322,9 +322,9 @@ body {
         text-align: center;
         margin-top: 300px;
         margin-bottom: 0px !important;
-        color: $color-black;
+        color: $color-white;
         a {
-            color: $color-black;
+            color: $color-white;
             &:hover {
                 color: #0033BC;
             }
@@ -352,12 +352,13 @@ body {
     margin: 0 auto;
     text-align: center;
 
-    background: #d2d2d2;
+    background: #2c5aa0;
+    // background: #A5B7BE;
     // background: #D4B65C;  //blue alternative: #A5B7BE or #94B7E4
-    // background: -webkit-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
-    // background: -moz-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
-    // background: -o-linear-gradient(top,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
-    // background: linear-gradient(to bottom,#999999,#D4B65C,#D4B65C,#D4B65C,#D4B65C,#D4B65C);
+    // background: -webkit-linear-gradient(top,#2c5aa0,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7);
+    // background: -moz-linear-gradient(top,#2c5aa0,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7);
+    // background: -o-linear-gradient(top,#2c5aa0,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7);
+    // background: linear-gradient(to bottom,#2c5aa0,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7);
  
     .container {
         text-align: center;
@@ -370,7 +371,7 @@ body {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 20px;
-        color: $color-black;
+        color: $color-white;
     }
 
     .sponsor-container {
@@ -383,6 +384,7 @@ body {
 
         // background: url(../images/bluesolarpanel.svg);
         // background: url(../images/dish.svg);
+        // background: #D3E5FF;
         background-position: center center !important;
         background-origin: content-box !important;
         background-size: contain !important;
@@ -433,10 +435,10 @@ body {
         text-align: center;
         margin-top: 50px;
         margin-bottom: 0px !important;
-        color: $color-black;
+        color: $color-white;
     
         a {
-            color: $color-black;
+            color: $color-white;
             text-decoration: underline;
             -webkit-transition: all 250ms ease-out;
             -moz-transition: all 250ms ease-out;
@@ -900,8 +902,8 @@ background: rgb(128, 128, 128);
     }
   .introduction {
       .logo {
-        height: 38px !important;
-        width: 21.041px !important;
+        height: 36.979px !important;
+        width: 71.875px !important;
       }
       .title {
           font-size: 50px !important;

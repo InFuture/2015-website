@@ -358,7 +358,8 @@ body {
     margin: 0 auto;
     text-align: center;
 
-    background: #2c5aa0;
+    background: #2c5aa0 no-repeat bottom center scroll;
+    background-image: url(../images/train.svg);
     // background: #A5B7BE;
     // background: #D4B65C;  //blue alternative: #A5B7BE or #94B7E4
     // background: -webkit-linear-gradient(top,#2c5aa0,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7,#D7D7D7);

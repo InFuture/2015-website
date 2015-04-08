@@ -24,7 +24,7 @@ $color-elgray: #c5c5c5;
 $color-emerald: #2ecc71;
 $color-bluewhite: #d6eff7;
 $color-darkwhite: #ecf0f1;
-
+$color-blue: #229aff;
 /* STYLES */
 
 @font-face {
@@ -100,27 +100,32 @@ body {
         z-index: 10;
     
         .logo {
-          height: 71px;
-          width: 138px;
-
-          // display: inline-block;   //logo to left side of words
-
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          margin-bottom: 25px;
-
-          background-position: center center !important;
-          background-origin: content-box !important;
-          background-size: contain !important;
-          background-repeat: no-repeat !important;
+//            width: 250px;
+//
+//            // display: inline-block;   //logo to left side of words
+//
+//            display: block;
+//            margin: 0 auto 15%;
+//
+//            background-position: center center !important;
+//            background-origin: content-box !important;
+//            background-size: contain !important;
+//            background-repeat: no-repeat !important;
+            
+              width: 190px;
+              height: 100px;
+              margin: 0 auto;
+              background-image: url("../images/finallogo.svg");
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center center;
         }
         
         h1.title {
             display: inline-block;
-            margin: 10px;
+            margin: 50px auto 0;
             padding: 0;
-            color: #229aff;
+            color: $color-blue;
             font-family: $title-font !important;
             font-weight: 200;
             font-size: 96px;
@@ -133,39 +138,91 @@ body {
         }
         
         h2.caption {
-            margin: 15px;
+            margin: 8px auto 15px auto;
             padding: 0;
             
             color: $color-bluewhite;
-            font-family: $body-font !important;
+            font-family: $title-font !important;
             font-weight: 300;
-            font-size: 36px;
+            font-size: 24px;
             
             text-shadow: 0px 0px 3px $color-elgray;
+            text-transform: uppercase;
         }
 
 
     }
 }
 
-.subscriptionForm {
-    /*
-    position: relative;
-    top: 65%;
-    -webkit-transform: translateY(-65%);
-    -ms-transform: translateY(-65%);
-    transform: translateY(-65%);
-    */
+.scroll-arrow-container {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    
+    .scroll-arrow {
+        width: 46px;
+        height: 46px;
+        
+        margin: 0 auto;
+        background-color: $color-white;
+        color: $color-blue;
+        
+        text-align: center;
+        border-radius: 50%;
+        font-size: 32px;
+        
+        -webkit-transition: all 250ms ease-out;
+        -moz-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        -o-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+        
+        .fa {
+            line-height: 22px;
+        }
+        
+        &:hover {
+            width: 55px;
+            height: 55px;
+            font-size: 38px;
+            background-color: $color-blue;
+            color: $color-white;    
+            
+            .fa {
+                line-height: 32px;
+            }
+        }
+    }
+}
+//.scroll-arrow {
+//    
+//    a {
+//        width: 46px;
+//        height: 46px;
+//        color: $color-emerald;
+//        text-align: center;
+//        background-color: #FFF;
+//        border-radius: 50%;
+//        font-size: 38px;
+//        line-height: 20px;
+//    }
+//    
+//    &:hover {
+//        width: 50px;
+//        height: 50px;
+//        margin-left: -25px;
+//    }
+//}
 
-    // margin-top: 70px;
+.subscriptionForm {
+    margin: 65px auto 0 auto !important;
 }
 
 .input-box {
     display: inline;
-    width: 375px;
+    width: 345px;
 
-    margin: 10px auto;
-    padding: 14px 14px;
+    padding: 7px 14px;
 
     font-family: $body-font !important;
     font-size: 18px !important;
@@ -173,8 +230,8 @@ body {
 
     color: $color-gray;
 
-    border: 1px solid $color-elgray;
-    border-radius: 5px;
+    border: 2px solid $color-white;
+    border-radius: 3px;
     outline: 0;
 
     background-color: $color-white;
@@ -182,10 +239,8 @@ body {
 
 .btnSubscribe {
     display: inline;
-
-    margin: 25px auto;
-    padding: 14px 14px;
-
+    
+    padding: 7px 14px;
     font-family: $body-font !important;
     font-size: 18px !important;
     font-weight: 400 !important;
@@ -194,8 +249,8 @@ body {
     color: $color-white;
     opacity: 0.9;
 
-    border: 1px solid $color-emerald;
-    border-radius: 5px;
+    border: 2px solid $color-emerald;
+    border-radius: 3px;
     outline: 0;
 
     -webkit-transition: all 150ms ease-in;
@@ -205,7 +260,8 @@ body {
     transition: all 150ms ease-in;
 
     &:hover {
-        opacity: 0.75;
+        background-color: transparent;
+        color: $color-emerald;
     }
 }
 
@@ -272,12 +328,12 @@ body {
     // background-size: cover;
     // background: url(../images/gradient6.png) no-repeat top center scroll;
     background: #225eff no-repeat bottom center scroll;
-    background-image: url(../images/infuturesil3.svg);
+    background-image: url(../images/infuturesil4.svg);
     // background-image: url(../images/infuturesil3.svg),-webkit-gradient(to bottom,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil3.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
-    background-image: url(../images/infuturesil3.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
-    background-image: url(../images/infuturesil3.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
-    background-image: url(../images/infuturesil3.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
+    background-image: url(../images/infuturesil4.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
+    background-image: url(../images/infuturesil4.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
+    background-image: url(../images/infuturesil4.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
+    background-image: url(../images/infuturesil4.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
     color: $color-white !important;
     padding: 75px 0 29px 0;
     margin: 0;
@@ -488,6 +544,7 @@ body {
             margin-right: auto;
             text-align:center;
             line-height:50px;
+            
             .up-arrow {
                 font-size: 38px;
                 color: $color-white;
@@ -898,6 +955,7 @@ body {
     box-shadow: 0 0 30px 0 rgba(0,0,0,.05);
     transition: $transition;
     margin-top: 30px;
+    border-radius: 50%;
     
     &:before {
         content: '';
@@ -1085,10 +1143,10 @@ background: rgb(128, 128, 128);
   }
   .faq {
     padding-bottom: 0px !important;
-    background-image: url(../images/infuturesil3.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
-    background-image: url(../images/infuturesil3.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
-    background-image: url(../images/infuturesil3.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
-    background-image: url(../images/infuturesil3.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/infuturesil4.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/infuturesil4.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/infuturesil4.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/infuturesil4.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
         .row {
             margin-left: 1em !important;
             margin-right: 1em !important;

@@ -1,3 +1,10 @@
+function mailchimp(){
+	var hipHopMagician = $(".input-box").val();
+	
+	$.post("/signup/", { email: hipHopMagician });
+	return false;
+}
+
 $(document).ready(function(){
   $("#menuButton").click(function(event){
     $("#menuButton").fadeTo("fast", 0);

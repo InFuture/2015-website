@@ -15,8 +15,8 @@
    id="svg9620"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="fbbanner.svg"
-   inkscape:export-filename="C:\Users\Brandon\Documents\dev\GitHub\InFuture\images\fbbanner.png"
+   sodipodi:docname="twitterbanner.svg"
+   inkscape:export-filename="C:\Users\Brandon\Documents\dev\GitHub\InFuture\images\twitterbanner.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -5983,7 +5983,7 @@
        x2="919.23883"
        y2="1079.9479"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.78125001,0,0,0.46296297,0,580.00006)" />
+       gradientTransform="matrix(0.78125001,0,0,0.46296297,2.2780867e-8,580.00009)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -5992,9 +5992,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42426407"
-     inkscape:cx="778.38778"
-     inkscape:cy="273.97636"
+     inkscape:zoom="0.6"
+     inkscape:cx="746.80081"
+     inkscape:cy="277.25522"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -10084,24 +10084,6 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11165)" />
-    <path
-       style="fill:#229aff;fill-opacity:1"
-       inkscape:connector-curvature="0"
-       id="path5202"
-       d="m 747.4629,736.16627 c -14.18746,17.56234 -26.68105,31.98887 -34.78524,38.90579 -5.94898,5.07802 -19.70029,16.05571 -31.50505,16.05571 -29.68949,0 -49.31867,-22.88526 -49.31867,-52.59185 0,-29.70028 19.75879,-52.47178 49.43406,-52.47178 22.13044,0 36.44277,11.83805 47.26944,20.06436 10.72385,8.14859 40.81473,32.11842 40.81473,32.11842 l 3.77477,2.80036 -12.03531,14.53555 10.21039,-0.12638 12.80954,-15.54078 c -32.51463,-25.63079 -10.37149,-8.12187 -53.36524,-41.86824 -18.70802,-13.38668 -27.30041,-19.72386 -49.5131,-19.72386 -35.98454,0 -57.18591,24.28031 -57.18591,60.30481 0,36.01978 21.08133,60.27101 57.06898,60.27101 11.06206,0 22.6535,-5.65382 34.45662,-16.13425 11.80475,-10.48046 24.22724,-23.94898 37.90435,-41.72352 z"
-       sodipodi:nodetypes="cscccscccccccscccc"
-       inkscape:export-filename="C:\Users\Brandon\Documents\dev\GitHub\InFuture\path4078.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Brandon\Documents\dev\GitHub\InFuture\path4078.png"
-       sodipodi:nodetypes="cscccscccccccscccc"
-       d="m 753.48451,741.05803 c 14.18595,-17.56249 26.68114,-31.989 34.7837,-38.90579 5.95054,-5.07817 19.70194,-16.05586 31.50655,-16.05586 29.68797,0 49.31884,22.88527 49.31884,52.59186 0,29.70027 -19.75884,52.47192 -49.43408,52.47192 -22.13046,0 -36.4428,-11.8382 -47.26938,-20.06451 -10.72555,-8.1486 -40.81478,-32.11826 -40.81478,-32.11826 l -3.77487,-2.80053 12.03545,-14.53554 -10.21204,0.12638 -12.80797,15.54079 c 32.51464,25.63095 10.3715,8.12203 53.36531,41.86823 18.70798,13.38668 27.30032,19.72387 49.51142,19.72387 35.98616,0 57.18594,-24.28031 57.18594,-60.30481 0,-36.01978 -21.07978,-60.27103 -57.06908,-60.27103 -11.06203,0 -22.65179,5.65382 -34.45655,16.13443 -11.80306,10.48044 -24.22556,23.94882 -37.90422,41.7235 z"
-       id="path5204"
-       inkscape:connector-curvature="0"
-       style="fill:#f2f2f2;fill-opacity:1" />
     <text
        xml:space="preserve"
        style="font-size:112.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Raleway;-inkscape-font-specification:Raleway"
@@ -10126,5 +10108,15 @@
          id="tspan19461"
          x="440.27881"
          y="973.56769">HACKATHON FOR THE INNOVATORS OF TOMORROW </tspan></text>
+    <path
+       style="fill:#229aff"
+       inkscape:connector-curvature="0"
+       d="m 720.962,763.64385 c -9.18148,11.9573 -23.06046,18.8434 -38.1672,18.8434 -26.47683,0 -48.04263,-21.56581 -48.04263,-48.04264 0,-26.47683 21.5658,-48.04263 48.04263,-48.04263 19.05691,0 37.15297,6.13878 52.20633,17.72239 l 39.98214,31.22771 -14.19927,18.20282 h 13.5587 l 15.64055,-20.01776 -48.4163,-37.84692 c -16.97506,-13.07827 -37.25973,-19.96438 -58.71877,-19.96438 -32.40208,0 -58.71877,26.31668 -58.71877,58.71877 0,32.40208 26.31669,58.71874 58.71877,58.71874 18.41634,0 35.39141,-8.3808 46.60135,-23.00705 l 25.35584,-32.45547 2.56227,-3.25622 -13.50532,0 -22.90032,29.19924 z"
+       id="path3" />
+    <path
+       style="fill:#f2f2f2"
+       inkscape:connector-curvature="0"
+       d="m 818.27502,675.72584 c -18.41634,0 -35.39141,8.38077 -46.60135,23.00708 l -25.03555,32.02842 -2.88256,3.73665 13.50532,0 22.84694,-29.19924 c 9.18148,-11.95728 23.06046,-18.84339 38.1672,-18.84339 26.47683,0 48.04263,21.5658 48.04263,48.04263 0,26.47683 -21.5658,48.04266 -48.04263,48.04266 -19.05691,0 -37.15297,-6.1388 -52.20633,-17.72242 l -39.98214,-31.22771 14.19927,-18.20282 h -13.5587 l -15.64055,20.01776 48.4163,37.84692 c 16.97506,13.07827 37.25973,19.96437 58.71877,19.96437 32.40208,0 58.71877,-26.31667 58.71877,-58.71876 0,-32.40209 -26.2633,-58.77215 -58.66539,-58.77215 z"
+       id="path5" />
   </g>
 </svg>

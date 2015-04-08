@@ -11,11 +11,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="851"
-   height="315"
+   height="315.00003"
    id="svg9620"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="New document 8">
+   sodipodi:docname="twitterbanner.svg"
+   inkscape:export-filename="C:\Users\Brandon\Documents\dev\GitHub\InFuture\images\twitterbanner.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs9622">
     <linearGradient
@@ -5980,7 +5983,7 @@
        x2="919.23883"
        y2="1079.9479"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.44322917,0,0,0.29166666,0,765.00007)" />
+       gradientTransform="matrix(0.44322917,0,0,0.29166668,1.2924345e-8,765.00009)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -5989,9 +5992,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2"
-     inkscape:cx="426.05848"
-     inkscape:cy="161.76961"
+     inkscape:zoom="0.84852814"
+     inkscape:cx="569.31828"
+     inkscape:cy="180.29532"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -6020,14 +6023,14 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(0,-765.00006)">
+     transform="translate(0,-765.00012)">
     <rect
        style="fill:url(#linearGradient12701);fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect12185"
        width="851"
        height="315"
        x="0"
-       y="765.00006" />
+       y="765.00012" />
     <path
        transform="matrix(0.11956786,0,0,0.06211924,150.16844,1059.8179)"
        d="m 5442.8569,278.71512 c 0,50.49461 -85.0659,91.42857 -190,91.42857 -104.9341,0 -190,-40.93396 -190,-91.42857 0,-50.49461 85.0659,-91.42858 190,-91.42858 104.9341,0 190,40.93397 190,91.42858 z"
@@ -6048,10 +6051,10 @@
        sodipodi:rx="190"
        sodipodi:ry="91.428574"
        d="m 5442.8569,278.71512 c 0,50.49461 -85.0659,91.42857 -190,91.42857 -104.9341,0 -190,-40.93396 -190,-91.42857 0,-50.49461 85.0659,-91.42858 190,-91.42858 104.9341,0 190,40.93397 190,91.42858 z"
-       transform="matrix(0.11956786,0,0,0.06211924,33.201998,1054.2919)"
+       transform="matrix(0.11956786,0,0,0.06211924,33.201999,1054.2919)"
        clip-path="url(#clipPath12177)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,68.972726,967.6933)"
+       transform="matrix(-0.10744948,0,0,0.10744948,68.972725,967.69332)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -6063,7 +6066,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12173)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,41.877652,967.6933)"
+       transform="matrix(0.10744948,0,0,0.10744948,41.877652,967.69332)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -6075,7 +6078,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12169)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,216.88463,968.15383)"
+       transform="matrix(-0.10744948,0,0,0.10744948,216.88463,968.15385)"
        y="896.21399"
        x="834.69049"
        height="59.285793"
@@ -6087,7 +6090,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12165)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54444)"
        y="896.21399"
        x="834.69049"
        height="59.285793"
@@ -6109,7 +6112,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(0.10744948,0,0,0.10744948,235.28674,967.6933)" />
+       transform="matrix(0.10744948,0,0,0.10744948,235.28674,967.69332)" />
     <rect
        clip-path="url(#clipPath12153)"
        inkscape:export-ydpi="90"
@@ -6121,11 +6124,11 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54444)" />
     <path
        transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,154.28242,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="-0.003529752"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="-0.0035286121"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6155,7 +6158,7 @@
        width="39.26635"
        id="rect55054"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54444)" />
     <path
        clip-path="url(#clipPath12141)"
        inkscape:export-ydpi="90"
@@ -6175,13 +6178,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.0035245679"
-       inkscape:transform-center-y="-0.57580193"
+       inkscape:transform-center-x="-0.0035224863"
+       inkscape:transform-center-y="-0.57581982"
        transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,276.77482,1057.3982)" />
     <path
-       transform="matrix(-0.01128251,1.1050428e-4,0.00662261,0.01536272,172.92935,1064.0244)"
-       inkscape:transform-center-y="-0.72670528"
-       inkscape:transform-center-x="-0.80212636"
+       transform="matrix(-0.01128252,1.1050428e-4,0.00662261,0.01536272,172.92935,1064.0244)"
+       inkscape:transform-center-y="-0.72672323"
+       inkscape:transform-center-x="-0.80212199"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6201,7 +6204,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12137)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54442)"
+       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54444)"
        style="fill:#3771c8;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect55094"
        width="39.26635"
@@ -6223,9 +6226,9 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,277.63962,967.6933)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,277.63962,967.69332)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,243.0409,969.84237)"
+       transform="matrix(-0.10744948,0,0,0.10744948,243.0409,969.84239)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -6247,11 +6250,11 @@
        height="59.285793"
        x="834.69049"
        y="896.21399"
-       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54442)" />
+       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54444)" />
     <path
-       transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,84.217952,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="0.0035272666"
+       transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,84.217953,1057.3982)"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="0.0035269605"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6271,7 +6274,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12117)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,21.615751,968.15383)"
+       transform="matrix(0.10744948,0,0,0.10744948,21.615751,968.15385)"
        y="896.21399"
        x="834.69049"
        height="59.285793"
@@ -6288,8 +6291,8 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        transform="matrix(-0.01485799,1.4552421e-4,0.00872135,0.02023124,92.49008,1062.0027)"
-       inkscape:transform-center-y="-0.95689116"
-       inkscape:transform-center-x="-1.0563336"
+       inkscape:transform-center-y="-0.95690914"
+       inkscape:transform-center-x="-1.0563329"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6305,7 +6308,7 @@
        style="fill:#3771c8;fill-opacity:1;fill-rule:nonzero;stroke:none"
        sodipodi:type="star" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,125.70605,967.6933)"
+       transform="matrix(-0.10744948,0,0,0.10744948,125.70605,967.69332)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -6327,7 +6330,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,97.124493,969.84237)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,97.124493,969.84239)" />
     <rect
        clip-path="url(#clipPath12097)"
        inkscape:export-ydpi="90"
@@ -6339,9 +6342,9 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,68.972726,961.03155)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,68.972725,961.03157)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,101.42247,965.3295)"
+       transform="matrix(-0.10744948,0,0,0.10744948,101.42247,965.32952)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -6363,11 +6366,11 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <path
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,378.04317,1063.5312)"
-       inkscape:transform-center-y="-0.57587901"
-       inkscape:transform-center-x="0.0035202837"
+       inkscape:transform-center-y="-0.57589693"
+       inkscape:transform-center-x="0.0035232367"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6387,7 +6390,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12085)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -6417,8 +6420,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0035202837"
-       inkscape:transform-center-y="-0.57587901"
+       inkscape:transform-center-x="0.0035232367"
+       inkscape:transform-center-y="-0.57589693"
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,378.04317,1063.5312)" />
     <rect
        rx="1.4023697"
@@ -6433,7 +6436,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12073)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,963.67747)" />
     <rect
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46830"
@@ -6445,7 +6448,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12069)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <path
        sodipodi:type="star"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6461,8 +6464,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.45390926"
-       inkscape:transform-center-y="-1.4803076"
+       inkscape:transform-center-x="0.45391207"
+       inkscape:transform-center-y="-1.4803256"
        transform="matrix(0.00638447,2.2511312e-4,-0.00374756,0.03129607,363.74666,1078.4823)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
@@ -6470,8 +6473,8 @@
        clip-path="url(#clipPath12065)" />
     <path
        transform="matrix(-0.00638447,2.2511312e-4,0.00374756,0.03129607,377.99065,1078.4823)"
-       inkscape:transform-center-y="-1.4803072"
-       inkscape:transform-center-x="-0.45390431"
+       inkscape:transform-center-y="-1.4803252"
+       inkscape:transform-center-x="-0.45390142"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6501,9 +6504,9 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12057)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
        id="rect46838"
        width="84.142181"
@@ -6529,8 +6532,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="1.6340667"
-       inkscape:transform-center-y="-1.4802841"
+       inkscape:transform-center-x="1.6340692"
+       inkscape:transform-center-y="-1.480302"
        transform="matrix(0.02298409,2.2511419e-4,-0.01349124,0.03129607,323.83237,1051.9397)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
@@ -6551,9 +6554,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.004540092"
-       inkscape:transform-center-y="-0.74009437"
-       transform="matrix(0.02564446,1.1255656e-4,-1.8446176e-4,0.01564802,363.09358,1053.9058)"
+       inkscape:transform-center-x="0.0045429462"
+       inkscape:transform-center-y="-0.74011222"
+       transform="matrix(0.02564446,1.1255656e-4,-1.8446177e-4,0.01564802,363.09358,1053.9058)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -6569,7 +6572,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12041)"
-       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.4238)" />
+       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.42381)" />
     <path
        sodipodi:type="star"
        style="fill:#3771c8;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6616,7 +6619,7 @@
        transform="matrix(0.14380459,0,0,0.0889816,-196.95457,1048.34)"
        clip-path="url(#clipPath12029)" />
     <path
-       transform="matrix(0.07118494,0,0,0.06220671,389.26278,1127.2864)"
+       transform="matrix(0.07118494,0,0,0.06220671,389.26278,1127.2865)"
        sodipodi:end="6.2831853"
        sodipodi:start="3.1415927"
        d="m 1380,-636.00001 c 0,-167.89457 208.6353,-304 466,-303.99999 257.3647,10e-6 466,136.10544 466,304 l -466,0 z"
@@ -6632,7 +6635,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12025)" />
     <path
-       transform="matrix(0,0.04373074,0.04735429,0,434.83789,1035.6599)"
+       transform="matrix(0,0.04373074,0.04735429,0,434.8379,1035.6599)"
        sodipodi:open="true"
        sodipodi:end="6.2831853"
        sodipodi:start="3.1415927"
@@ -6649,7 +6652,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12021)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="939.55969"
        x="-4.2471449e-009"
        height="140.44017"
@@ -6661,7 +6664,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath12017)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath12013)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -6673,7 +6676,7 @@
        id="rect46860"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,963.67747)"
        clip-path="url(#clipPath12009)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -6687,7 +6690,7 @@
        ry="8.3602228"
        rx="1.4023697" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="842.85675"
        x="42.632042"
        height="164.02403"
@@ -6704,8 +6707,8 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        transform="matrix(0.02298409,2.2511419e-4,-0.01349124,0.03129607,323.83237,1051.9397)"
-       inkscape:transform-center-y="-1.4802841"
-       inkscape:transform-center-x="1.6340667"
+       inkscape:transform-center-y="-1.480302"
+       inkscape:transform-center-x="1.6340692"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6721,7 +6724,7 @@
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        sodipodi:type="star" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="919.92828"
        x="172.77196"
        height="71.142952"
@@ -6733,7 +6736,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11997)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="882.38062"
        x="251.30467"
        height="136.35733"
@@ -6745,7 +6748,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11993)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="912.0235"
        x="347.78772"
        height="67.190567"
@@ -6757,7 +6760,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11989)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11985)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -6769,7 +6772,7 @@
        id="rect46874"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="856.69012"
        x="408.37009"
        height="173.905"
@@ -6791,9 +6794,9 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11977)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="912.0235"
        x="484.65897"
        height="51.38102"
@@ -6810,8 +6813,8 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        transform="matrix(0.00638447,2.2511312e-4,-0.00374756,0.03129607,363.74666,1078.4823)"
-       inkscape:transform-center-y="-1.4803076"
-       inkscape:transform-center-x="0.45390926"
+       inkscape:transform-center-y="-1.4803256"
+       inkscape:transform-center-x="0.45391207"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6828,8 +6831,8 @@
        sodipodi:type="star" />
     <path
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,378.04317,1063.5312)"
-       inkscape:transform-center-y="-0.57587901"
-       inkscape:transform-center-x="0.0035202837"
+       inkscape:transform-center-y="-0.57589693"
+       inkscape:transform-center-x="0.0035232367"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6867,11 +6870,11 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0035202837"
-       inkscape:transform-center-y="-0.57587901"
+       inkscape:transform-center-x="0.0035232367"
+       inkscape:transform-center-y="-0.57589693"
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,378.04317,1063.5312)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -6883,7 +6886,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11957)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="919.92828"
        x="596.84857"
        height="75.095337"
@@ -6895,7 +6898,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11953)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="872.49963"
        x="762.88916"
        height="112.64301"
@@ -6907,7 +6910,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11949)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="912.0235"
        x="650.69958"
        height="71.142952"
@@ -6919,7 +6922,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11945)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="896.21399"
        x="834.69049"
        height="59.285793"
@@ -6931,7 +6934,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11941)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="927.83307"
        x="985.02454"
        height="59.285793"
@@ -6943,7 +6946,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11937)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="925.85687"
        x="1130.871"
        height="49.404827"
@@ -6955,7 +6958,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11933)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="908.07111"
        x="951.36768"
        height="51.38102"
@@ -6968,8 +6971,8 @@
        clip-path="url(#clipPath11929)" />
     <path
        transform="matrix(0.02298409,2.2511419e-4,-0.01349124,0.03129607,323.83237,1063.6183)"
-       inkscape:transform-center-y="-1.4804312"
-       inkscape:transform-center-x="1.6340667"
+       inkscape:transform-center-y="-1.4804492"
+       inkscape:transform-center-x="1.6340692"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -6989,7 +6992,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11925)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
        id="rect46902"
        width="84.142181"
@@ -7015,17 +7018,17 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="1.0563363"
-       inkscape:transform-center-y="-0.95690613"
-       transform="matrix(0.01485799,1.4552421e-4,-0.00872135,0.02023124,355.85544,1062.6387)"
+       inkscape:transform-center-x="1.056329"
+       inkscape:transform-center-y="-0.95682405"
+       transform="matrix(0.01485799,1.4552421e-4,-0.00872135,0.02023124,355.85545,1062.6388)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11917)" />
     <path
-       transform="matrix(-0.00933223,9.140322e-5,0.00547785,0.01270715,377.49718,1065.9267)"
-       inkscape:transform-center-y="-0.60101139"
-       inkscape:transform-center-x="-0.66348276"
+       transform="matrix(-0.00933223,9.1403221e-5,0.00547785,0.01270715,377.49718,1065.9267)"
+       inkscape:transform-center-y="-0.60102936"
+       inkscape:transform-center-x="-0.66347987"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7059,8 +7062,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.45390926"
-       inkscape:transform-center-y="-1.4803076"
+       inkscape:transform-center-x="0.45391207"
+       inkscape:transform-center-y="-1.4803256"
        transform="matrix(0.00638447,2.2511312e-4,-0.00374756,0.03129607,363.74666,1078.4823)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
@@ -7081,17 +7084,17 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.66348293"
-       inkscape:transform-center-y="-0.60101547"
-       transform="matrix(-0.00933223,9.140322e-5,0.00547785,0.01270715,415.10089,1065.922)"
+       inkscape:transform-center-x="-0.66347973"
+       inkscape:transform-center-y="-0.6010334"
+       transform="matrix(-0.00933223,9.1403221e-5,0.00547785,0.01270715,415.10089,1065.922)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11905)" />
     <path
        transform="matrix(0.01453294,1.4234049e-4,-0.00853055,0.01978864,434.73318,1067.0161)"
-       inkscape:transform-center-y="-0.93606701"
-       inkscape:transform-center-x="1.0332325"
+       inkscape:transform-center-y="-0.93608498"
+       inkscape:transform-center-x="1.0332359"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7111,7 +7114,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11901)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11897)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -7141,8 +7144,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.45390431"
-       inkscape:transform-center-y="-1.4803072"
+       inkscape:transform-center-x="-0.45390142"
+       inkscape:transform-center-y="-1.4803252"
        transform="matrix(-0.00638447,2.2511312e-4,0.00374756,0.03129607,377.99065,1078.4823)" />
     <path
        sodipodi:type="star"
@@ -7159,9 +7162,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0018996573"
-       inkscape:transform-center-y="-0.30935129"
-       transform="matrix(0.0107194,4.7048594e-5,-7.7104957e-5,0.00654088,423.6258,1067.318)"
+       inkscape:transform-center-x="0.0019029393"
+       inkscape:transform-center-y="-0.30936924"
+       transform="matrix(0.0107194,4.7048595e-5,-7.7104957e-5,0.00654088,423.6258,1067.318)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -7183,7 +7186,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11885)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        ry="0"
        rx="0"
        y="1006.8809"
@@ -7197,7 +7200,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11881)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="988.12024"
        x="1251.8275"
        height="54.497795"
@@ -7215,15 +7218,15 @@
        width="49.363419"
        id="rect46934"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11873)" />
     <path
        transform="matrix(-0.01348401,1.3206617e-4,0.00791485,0.01836036,337.63119,1066.7301)"
-       inkscape:transform-center-y="-0.86842407"
-       inkscape:transform-center-x="-0.9586518"
+       inkscape:transform-center-y="-0.86844204"
+       inkscape:transform-center-x="-0.95864925"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7243,7 +7246,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11869)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="734.16614"
        x="169.51053"
        height="345.8338"
@@ -7255,7 +7258,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11865)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,961.40813)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46940"
        width="2.8047395"
@@ -7277,13 +7280,13 @@
        sodipodi:rx="79.903069"
        sodipodi:ry="79.903069"
        d="m 698.62151,399.05618 c 0,44.12925 -35.77382,79.90307 -79.90307,79.90307 -44.12924,0 -79.90306,-35.77382 -79.90306,-79.90307 0,-44.12924 35.77382,-79.90307 79.90306,-79.90307 44.12925,0 79.90307,35.77383 79.90307,79.90307 z"
-       transform="matrix(0.06034668,0,0,0.05314963,306.53969,1027.9253)"
+       transform="matrix(0.06034668,0,0,0.05314963,306.53969,1019.9253)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11857)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46944"
        width="103.45955"
@@ -7332,13 +7335,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.66348276"
-       inkscape:transform-center-y="-0.60101139"
-       transform="matrix(-0.00933223,9.140322e-5,0.00547785,0.01270715,377.49718,1065.9267)" />
+       inkscape:transform-center-x="-0.66347987"
+       inkscape:transform-center-y="-0.60102936"
+       transform="matrix(-0.00933223,9.1403221e-5,0.00547785,0.01270715,377.49718,1065.9267)" />
     <path
        transform="matrix(-0.00638447,2.2511312e-4,0.00374756,0.03129607,377.99065,1078.4823)"
-       inkscape:transform-center-y="-1.4803072"
-       inkscape:transform-center-x="-0.45390431"
+       inkscape:transform-center-y="-1.4803252"
+       inkscape:transform-center-x="-0.45390142"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7358,7 +7361,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11841)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11837)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -7370,7 +7373,7 @@
        x="536.26624"
        y="888.3092" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10954879,322.34844,969.6591)"
+       transform="matrix(0.10744948,0,0,0.10954879,322.34844,969.65911)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -7382,7 +7385,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11833)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="931.78546"
        x="539.44489"
        height="148.21448"
@@ -7394,7 +7397,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11829)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46962"
        width="39.26635"
@@ -7406,7 +7409,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11825)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
        id="rect46964"
        width="39.26635"
@@ -7426,13 +7429,13 @@
        sodipodi:rx="172"
        sodipodi:ry="42"
        d="m 1456,526 c 0,23.19596 -77.007,42 -172,42 -94.993,0 -172,-18.80404 -172,-42 0,-23.19596 77.007,-42 172,-42 94.993,0 172,18.80404 172,42 z"
-       transform="matrix(0.03599016,0,0,0.03342304,348.52968,1043.382)"
+       transform="matrix(0.03599016,0,0,0.03342304,348.52969,1043.382)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11817)" />
     <path
-       transform="matrix(0.04664513,0,0,0.03342304,334.84871,1042.4061)"
+       transform="matrix(0.04664513,0,0,0.03342304,334.84872,1042.4061)"
        d="m 1456,526 c 0,23.19596 -77.007,42 -172,42 -94.993,0 -172,-18.80404 -172,-42 0,-23.19596 77.007,-42 172,-42 94.993,0 172,18.80404 172,42 z"
        sodipodi:ry="42"
        sodipodi:rx="172"
@@ -7446,7 +7449,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11813)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46970"
        width="2.8047395"
@@ -7460,7 +7463,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11809)" />
     <path
-       transform="matrix(0.03599016,0,0,0.03342304,348.52968,1041.3823)"
+       transform="matrix(0.03599016,0,0,0.03342304,348.52969,1041.3824)"
        d="m 1456,526 c 0,23.19596 -77.007,42 -172,42 -94.993,0 -172,-18.80404 -172,-42 0,-23.19596 77.007,-42 172,-42 94.993,0 172,18.80404 172,42 z"
        sodipodi:ry="42"
        sodipodi:rx="172"
@@ -7474,7 +7477,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11805)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="958.73993"
        x="718.01331"
        height="121.26"
@@ -7486,9 +7489,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11801)" />
     <path
-       transform="matrix(0.01128251,1.1050428e-4,-0.00662261,0.01536272,400.22703,1070.1576)"
-       inkscape:transform-center-y="-0.72658237"
-       inkscape:transform-center-x="0.80213221"
+       transform="matrix(0.01128252,1.1050428e-4,-0.00662261,0.01536272,400.22703,1070.1576)"
+       inkscape:transform-center-y="-0.72660035"
+       inkscape:transform-center-x="0.80213226"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7508,7 +7511,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11797)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
        id="rect46978"
        width="41.303986"
@@ -7520,7 +7523,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11793)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46980"
        width="39.266277"
@@ -7532,9 +7535,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11789)" />
     <path
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,410.48073,1067.4847)"
-       inkscape:transform-center-y="-0.52303548"
-       inkscape:transform-center-x="0.0019095756"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,410.48074,1067.4847)"
+       inkscape:transform-center-y="-0.52305344"
+       inkscape:transform-center-x="0.0019027557"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7560,7 +7563,7 @@
        height="109.08586"
        x="-1096.2792"
        y="970.91406"
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -7572,13 +7575,13 @@
        width="21.832092"
        id="rect46986"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11777)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="990.67603"
        x="-1163.593"
        height="89.323929"
@@ -7590,7 +7593,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11773)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
        id="rect46990"
        width="49.363419"
@@ -7616,8 +7619,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.9586518"
-       inkscape:transform-center-y="-0.86842407"
+       inkscape:transform-center-x="-0.95864925"
+       inkscape:transform-center-y="-0.86844204"
        transform="matrix(-0.01348401,1.3206617e-4,0.00791485,0.01836036,337.63119,1066.7301)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
@@ -7630,7 +7633,7 @@
        height="89.323929"
        x="-1163.593"
        y="990.67603"
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -7642,15 +7645,15 @@
        width="49.363419"
        id="rect46996"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11757)" />
     <path
-       transform="matrix(-0.01348401,1.025044e-4,0.00791485,0.01425057,453.35642,1071.4292)"
-       inkscape:transform-center-y="-0.6739755"
-       inkscape:transform-center-x="-0.95864123"
+       transform="matrix(-0.01348401,1.0250441e-4,0.00791485,0.01425057,453.35642,1071.4292)"
+       inkscape:transform-center-y="-0.67399351"
+       inkscape:transform-center-x="-0.95863774"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7670,7 +7673,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11753)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="974.86646"
        x="-1298.2205"
        height="105.13348"
@@ -7692,7 +7695,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11745)"
-       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.4238)" />
+       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.42381)" />
     <path
        transform="matrix(0.01201703,0.00251263,-0.00251263,0.01201703,452.41434,1074.6171)"
        d="m 1882.4,-740.24 c -77.9587,86.6208 20.5337,316.28994 -93.4615,292.08611 -113.9952,-24.20383 69.3212,-194.0384 33.2847,-304.86304 -36.0364,-110.82464 -284.1819,-140.36229 -206.2232,-226.98309 77.9587,-86.62078 133.3816,157.05311 247.3768,181.25695 113.9951,24.20383 263.6483,-175.92765 299.6847,-65.10302 36.0365,110.82464 -202.7028,36.98529 -280.6615,123.60609 z"
@@ -7738,7 +7741,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11733)"
-       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.4238)" />
+       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.42381)" />
     <path
        sodipodi:type="star"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7754,7 +7757,7 @@
        inkscape:rounded="0.38"
        inkscape:randomized="0"
        d="m 1882.4,-740.24 c -77.9587,86.6208 20.5337,316.28994 -93.4615,292.08611 -113.9952,-24.20383 69.3212,-194.0384 33.2847,-304.86304 -36.0364,-110.82464 -284.1819,-140.36229 -206.2232,-226.98309 77.9587,-86.62078 133.3816,157.05311 247.3768,181.25695 113.9951,24.20383 263.6483,-175.92765 299.6847,-65.10302 36.0365,110.82464 -202.7028,36.98529 -280.6615,123.60609 z"
-       transform="matrix(7.637592e-4,0.01129695,-0.01129695,7.637592e-4,472.41208,1047.1243)"
+       transform="matrix(7.637613e-4,0.01129695,-0.01129695,7.637613e-4,472.41208,1047.1243)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -7784,7 +7787,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11721)"
-       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.4238)" />
+       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.42381)" />
     <path
        transform="matrix(-0.00350418,0.01054496,-0.01054496,-0.00350418,487.79245,1044.6648)"
        d="m 1882.4,-740.24 c -77.9587,86.6208 20.5337,316.28994 -93.4615,292.08611 -113.9952,-24.20383 69.3212,-194.0384 33.2847,-304.86304 -36.0364,-110.82464 -284.1819,-140.36229 -206.2232,-226.98309 77.9587,-86.62078 133.3816,157.05311 247.3768,181.25695 113.9951,24.20383 263.6483,-175.92765 299.6847,-65.10302 36.0365,110.82464 -202.7028,36.98529 -280.6615,123.60609 z"
@@ -7820,7 +7823,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11713)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11709)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -7836,9 +7839,9 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(0.0107194,4.7048594e-5,-7.7104957e-5,0.00654088,423.6258,1067.318)"
-       inkscape:transform-center-y="-0.30935129"
-       inkscape:transform-center-x="0.0018996573"
+       transform="matrix(0.0107194,4.7048595e-5,-7.7104957e-5,0.00654088,423.6258,1067.318)"
+       inkscape:transform-center-y="-0.30936924"
+       inkscape:transform-center-x="0.0019029393"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7854,7 +7857,7 @@
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        sodipodi:type="star" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="908.07111"
        x="951.36768"
        height="51.38102"
@@ -7880,15 +7883,15 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0018996573"
-       inkscape:transform-center-y="-0.30935129"
-       transform="matrix(0.0107194,4.7048594e-5,-7.7104957e-5,0.00654088,423.6258,1067.318)"
+       inkscape:transform-center-x="0.0019029393"
+       inkscape:transform-center-y="-0.30936924"
+       transform="matrix(0.0107194,4.7048595e-5,-7.7104957e-5,0.00654088,423.6258,1067.318)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11697)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11693)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -7918,11 +7921,11 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0019095756"
-       inkscape:transform-center-y="-0.52303548"
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,410.48073,1067.4847)" />
+       inkscape:transform-center-x="0.0019027557"
+       inkscape:transform-center-y="-0.52305344"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,410.48074,1067.4847)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect47112"
        width="39.266277"
@@ -7934,9 +7937,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11685)" />
     <path
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,410.48073,1067.4847)"
-       inkscape:transform-center-y="-0.52303548"
-       inkscape:transform-center-x="0.0019095756"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,410.48074,1067.4847)"
+       inkscape:transform-center-y="-0.52305344"
+       inkscape:transform-center-x="0.0019027557"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -7956,7 +7959,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11681)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11677)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -7986,11 +7989,11 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.80213221"
-       inkscape:transform-center-y="-0.72658237"
-       transform="matrix(0.01128251,1.1050428e-4,-0.00662261,0.01536272,400.22703,1070.1576)" />
+       inkscape:transform-center-x="0.80213226"
+       inkscape:transform-center-y="-0.72660035"
+       transform="matrix(0.01128252,1.1050428e-4,-0.00662261,0.01536272,400.22703,1070.1576)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="958.73993"
        x="718.01331"
        height="121.26"
@@ -8002,9 +8005,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11669)" />
     <path
-       transform="matrix(0.01128251,1.1050428e-4,-0.00662261,0.01536272,400.22703,1070.1576)"
-       inkscape:transform-center-y="-0.72658237"
-       inkscape:transform-center-x="0.80213221"
+       transform="matrix(0.01128252,1.1050428e-4,-0.00662261,0.01536272,400.22703,1070.1576)"
+       inkscape:transform-center-y="-0.72660035"
+       inkscape:transform-center-x="0.80213226"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8024,7 +8027,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11665)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11661)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -8036,7 +8039,7 @@
        x="539.44489"
        y="931.78546" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11657)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -8048,7 +8051,7 @@
        id="rect47126"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="931.78546"
        x="539.44489"
        height="148.21448"
@@ -8060,7 +8063,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11653)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.1260913,322.34844,954.76781)"
+       transform="matrix(0.10744948,0,0,0.12609131,322.34844,954.76782)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect47130"
        width="39.26635"
@@ -8086,15 +8089,15 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="1.6340667"
-       inkscape:transform-center-y="-1.4802841"
+       inkscape:transform-center-x="1.6340692"
+       inkscape:transform-center-y="-1.480302"
        transform="matrix(0.02298409,2.2511419e-4,-0.01349124,0.03129607,323.83237,1051.9397)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11645)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        clip-path="url(#clipPath11641)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -8110,9 +8113,9 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(0.02564446,1.1255656e-4,-1.8446176e-4,0.01564802,363.09358,1053.9058)"
-       inkscape:transform-center-y="-0.74009437"
-       inkscape:transform-center-x="0.004540092"
+       transform="matrix(0.02564446,1.1255656e-4,-1.8446177e-4,0.01564802,363.09358,1053.9058)"
+       inkscape:transform-center-y="-0.74011222"
+       inkscape:transform-center-x="0.0045429462"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8140,7 +8143,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11633)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,963.67747)" />
     <rect
        y="808.27338"
        x="404.54333"
@@ -8152,7 +8155,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11629)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <path
        sodipodi:type="star"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8168,9 +8171,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.004540092"
-       inkscape:transform-center-y="-0.74009437"
-       transform="matrix(0.02564446,1.1255656e-4,-1.8446176e-4,0.01564802,363.09358,1053.9058)"
+       inkscape:transform-center-x="0.0045429462"
+       inkscape:transform-center-y="-0.74011222"
+       transform="matrix(0.02564446,1.1255656e-4,-1.8446177e-4,0.01564802,363.09358,1053.9058)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -8186,7 +8189,7 @@
        height="124.50017"
        x="909.67053"
        y="955.49976"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <path
        clip-path="url(#clipPath11617)"
        inkscape:export-ydpi="90"
@@ -8206,17 +8209,17 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.4539052"
-       inkscape:transform-center-y="-1.8651262"
-       transform="matrix(0.00638447,2.8364302e-4,-0.00374756,0.03943303,417.99288,1076.0798)" />
+       inkscape:transform-center-x="0.45389843"
+       inkscape:transform-center-y="-1.8651443"
+       transform="matrix(0.00638447,2.8364302e-4,-0.00374756,0.03943303,417.99289,1076.0798)" />
     <path
        clip-path="url(#clipPath11613)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        transform="matrix(-0.00638447,2.8364302e-4,0.00374756,0.03943303,432.23687,1076.0798)"
-       inkscape:transform-center-y="-1.8651262"
-       inkscape:transform-center-x="-0.45391205"
+       inkscape:transform-center-y="-1.8651443"
+       inkscape:transform-center-x="-0.45390874"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8244,7 +8247,7 @@
        y="767.42236"
        ry="8.3602228"
        rx="1.4023697"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <rect
        clip-path="url(#clipPath11605)"
        inkscape:export-ydpi="90"
@@ -8256,13 +8259,13 @@
        height="24.702414"
        x="925.56409"
        y="808.27338"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <rect
        clip-path="url(#clipPath11601)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(0.10744948,0,0,-0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,-0.10744948,322.34844,971.67747)"
        y="-955.49976"
        x="909.67053"
        height="124.50017"
@@ -8288,17 +8291,17 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.45391205"
-       inkscape:transform-center-y="1.8651314"
+       inkscape:transform-center-x="-0.45390874"
+       inkscape:transform-center-y="1.8651134"
        transform="matrix(-0.00638447,-2.8364302e-4,0.00374756,-0.03943303,432.23687,1072.6111)" />
     <path
        clip-path="url(#clipPath11593)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(0.00638447,-2.8364302e-4,-0.00374756,-0.03943303,417.99288,1072.6111)"
-       inkscape:transform-center-y="1.8651314"
-       inkscape:transform-center-x="0.4539052"
+       transform="matrix(0.00638447,-2.8364302e-4,-0.00374756,-0.03943303,417.99289,1072.6111)"
+       inkscape:transform-center-y="1.8651134"
+       inkscape:transform-center-x="0.45389843"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8314,7 +8317,7 @@
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        sodipodi:type="star" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="955.49976"
        x="909.67053"
        height="124.50017"
@@ -8326,9 +8329,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11589)" />
     <path
-       transform="matrix(0.00638447,2.8364302e-4,-0.00374756,0.03943303,417.99288,1076.0798)"
-       inkscape:transform-center-y="-1.8651262"
-       inkscape:transform-center-x="0.4539052"
+       transform="matrix(0.00638447,2.8364302e-4,-0.00374756,0.03943303,417.99289,1076.0798)"
+       inkscape:transform-center-y="-1.8651443"
+       inkscape:transform-center-x="0.45389843"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8362,15 +8365,15 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.45391205"
-       inkscape:transform-center-y="-1.8651262"
+       inkscape:transform-center-x="-0.45390874"
+       inkscape:transform-center-y="-1.8651443"
        transform="matrix(-0.00638447,2.8364302e-4,0.00374756,0.03943303,432.23687,1076.0798)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11581)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        rx="1.4023697"
        ry="8.3602228"
        y="767.42236"
@@ -8384,7 +8387,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11577)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="808.27338"
        x="925.56409"
        height="24.702414"
@@ -8402,15 +8405,15 @@
        height="124.50017"
        x="909.67053"
        y="-955.49976"
-       transform="matrix(0.10744948,0,0,-0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,-0.10744948,322.34844,971.67747)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11569)" />
     <path
        transform="matrix(-0.00638447,-2.8364302e-4,0.00374756,-0.03943303,432.23687,1072.6111)"
-       inkscape:transform-center-y="1.8651314"
-       inkscape:transform-center-x="-0.45391205"
+       inkscape:transform-center-y="1.8651134"
+       inkscape:transform-center-x="-0.45390874"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8444,9 +8447,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.4539052"
-       inkscape:transform-center-y="1.8651314"
-       transform="matrix(0.00638447,-2.8364302e-4,-0.00374756,-0.03943303,417.99288,1072.6111)"
+       inkscape:transform-center-x="0.45389843"
+       inkscape:transform-center-y="1.8651134"
+       transform="matrix(0.00638447,-2.8364302e-4,-0.00374756,-0.03943303,417.99289,1072.6111)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -8462,7 +8465,7 @@
        height="124.50017"
        x="909.67053"
        y="955.49976"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <path
        clip-path="url(#clipPath11553)"
        inkscape:export-ydpi="90"
@@ -8482,17 +8485,17 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.4539052"
-       inkscape:transform-center-y="-1.8651262"
-       transform="matrix(0.00638447,2.8364302e-4,-0.00374756,0.03943303,417.99288,1076.0798)" />
+       inkscape:transform-center-x="0.45389843"
+       inkscape:transform-center-y="-1.8651443"
+       transform="matrix(0.00638447,2.8364302e-4,-0.00374756,0.03943303,417.99289,1076.0798)" />
     <path
        clip-path="url(#clipPath11549)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        transform="matrix(-0.00638447,2.8364302e-4,0.00374756,0.03943303,432.23687,1076.0798)"
-       inkscape:transform-center-y="-1.8651262"
-       inkscape:transform-center-x="-0.45391205"
+       inkscape:transform-center-y="-1.8651443"
+       inkscape:transform-center-x="-0.45390874"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8520,7 +8523,7 @@
        y="767.42236"
        ry="8.3602228"
        rx="1.4023697"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <rect
        clip-path="url(#clipPath11541)"
        inkscape:export-ydpi="90"
@@ -8532,13 +8535,13 @@
        height="24.702414"
        x="925.56409"
        y="808.27338"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67745)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)" />
     <rect
        clip-path="url(#clipPath11537)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(0.10744948,0,0,-0.10744948,322.34844,971.67745)"
+       transform="matrix(0.10744948,0,0,-0.10744948,322.34844,971.67747)"
        y="-955.49976"
        x="909.67053"
        height="124.50017"
@@ -8564,17 +8567,17 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.45391205"
-       inkscape:transform-center-y="1.8651314"
+       inkscape:transform-center-x="-0.45390874"
+       inkscape:transform-center-y="1.8651134"
        transform="matrix(-0.00638447,-2.8364302e-4,0.00374756,-0.03943303,432.23687,1072.6111)" />
     <path
        clip-path="url(#clipPath11529)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(0.00638447,-2.8364302e-4,-0.00374756,-0.03943303,417.99288,1072.6111)"
-       inkscape:transform-center-y="1.8651314"
-       inkscape:transform-center-x="0.4539052"
+       transform="matrix(0.00638447,-2.8364302e-4,-0.00374756,-0.03943303,417.99289,1072.6111)"
+       inkscape:transform-center-y="1.8651134"
+       inkscape:transform-center-x="0.45389843"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8594,7 +8597,7 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
        id="rect47288"
        width="49.363419"
@@ -8620,9 +8623,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.95864123"
-       inkscape:transform-center-y="-0.6739755"
-       transform="matrix(-0.01348401,1.025044e-4,0.00791485,0.01425057,453.35642,1071.4292)" />
+       inkscape:transform-center-x="-0.95863774"
+       inkscape:transform-center-y="-0.67399351"
+       transform="matrix(-0.01348401,1.0250441e-4,0.00791485,0.01425057,453.35642,1071.4292)" />
     <rect
        y="967.51825"
        x="-1227.3541"
@@ -8630,15 +8633,15 @@
        width="49.363419"
        id="rect47292"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67745)"
+       transform="matrix(-0.10744948,0,0,0.10744948,322.34844,971.67747)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11517)" />
     <path
-       transform="matrix(-0.01348401,1.025044e-4,0.00791485,0.01425057,453.35642,1071.4292)"
-       inkscape:transform-center-y="-0.6739755"
-       inkscape:transform-center-x="-0.95864123"
+       transform="matrix(-0.01348401,1.0250441e-4,0.00791485,0.01425057,453.35642,1071.4292)"
+       inkscape:transform-center-y="-0.67399351"
+       inkscape:transform-center-x="-0.95863774"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8665,7 +8668,7 @@
        x="-3585"
        y="827.21387"
        clip-path="url(#clipPath11509)"
-       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.4238)" />
+       transform="matrix(0.10744948,0,0,0.10744948,385.2064,978.42381)" />
     <path
        clip-path="url(#clipPath11505)"
        inkscape:export-ydpi="90"
@@ -8681,9 +8684,9 @@
        d="m 1380,-636.00001 c 0,-167.89457 208.6353,-304 466,-303.99999 257.3647,10e-6 466,136.10544 466,304 l -466,0 z"
        sodipodi:start="3.1415927"
        sodipodi:end="6.2831853"
-       transform="matrix(-0.56358818,0,0,0.06220671,1764.1379,1127.2864)" />
+       transform="matrix(-0.56358819,0,0,0.06220671,1764.1379,1127.2865)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54444)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -8696,8 +8699,8 @@
        clip-path="url(#clipPath11501)" />
     <path
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,277.62702,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="0.00352523"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="0.0035274109"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8717,7 +8720,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11497)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54444)"
        clip-path="url(#clipPath11493)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -8729,7 +8732,7 @@
        x="536.26624"
        y="888.3092" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54444)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -8742,8 +8745,8 @@
        clip-path="url(#clipPath11489)" />
     <path
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,277.62702,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="0.00352523"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="0.0035274109"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8781,11 +8784,11 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.00352523"
-       inkscape:transform-center-y="-0.57580193"
+       inkscape:transform-center-x="0.0035274109"
+       inkscape:transform-center-y="-0.57581982"
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,277.62702,1057.3982)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54444)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46962-3"
        width="39.26635"
@@ -8797,9 +8800,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11477)" />
     <path
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,287.34669,1064.1146)"
-       inkscape:transform-center-y="-0.52304676"
-       inkscape:transform-center-x="0.0019097759"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,287.3467,1064.1146)"
+       inkscape:transform-center-y="-0.52306469"
+       inkscape:transform-center-x="0.0019020093"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8837,13 +8840,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0019002276"
-       inkscape:transform-center-y="-0.52304067"
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,292.41218,1064.4216)" />
+       inkscape:transform-center-x="0.0019025"
+       inkscape:transform-center-y="-0.52295861"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,292.41218,1064.4217)" />
     <path
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,305.15261,1064.8821)"
-       inkscape:transform-center-y="-0.52303694"
-       inkscape:transform-center-x="0.0019064083"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,305.15262,1064.8821)"
+       inkscape:transform-center-y="-0.52305488"
+       inkscape:transform-center-x="0.0018987787"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -8863,7 +8866,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11465)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54444)"
        clip-path="url(#clipPath11461)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -8875,7 +8878,7 @@
        id="rect47126-5"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,221.93229,965.54444)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect47130-9"
        width="39.26635"
@@ -8901,8 +8904,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="1.0563291"
-       inkscape:transform-center-y="-0.95689116"
+       inkscape:transform-center-x="1.0563312"
+       inkscape:transform-center-y="-0.95690914"
        transform="matrix(0.01485799,1.4552421e-4,-0.00872135,0.02023124,268.50271,1062.0027)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
@@ -8919,7 +8922,7 @@
        height="59.285793"
        x="834.69049"
        y="896.21399"
-       transform="matrix(0.10744948,0,0,0.10744948,215.02482,968.15383)" />
+       transform="matrix(0.10744948,0,0,0.10744948,215.02482,968.15385)" />
     <rect
        clip-path="url(#clipPath11445)"
        inkscape:export-ydpi="90"
@@ -8931,7 +8934,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54444)" />
     <rect
        clip-path="url(#clipPath11441)"
        inkscape:export-ydpi="90"
@@ -8943,7 +8946,7 @@
        height="59.285793"
        x="834.69049"
        y="896.21399"
-       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54444)" />
     <path
        clip-path="url(#clipPath11437)"
        inkscape:export-ydpi="90"
@@ -8963,8 +8966,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.003529752"
-       inkscape:transform-center-y="-0.57580193"
+       inkscape:transform-center-x="-0.0035286121"
+       inkscape:transform-center-y="-0.57581982"
        transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,154.28242,1057.3982)" />
     <rect
        y="888.3092"
@@ -8977,7 +8980,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11433)"
-       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54444)" />
     <path
        clip-path="url(#clipPath11429)"
        inkscape:export-ydpi="90"
@@ -8997,8 +9000,8 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.003529752"
-       inkscape:transform-center-y="-0.57580193"
+       inkscape:transform-center-x="-0.0035286121"
+       inkscape:transform-center-y="-0.57581982"
        transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,154.28242,1057.3982)" />
     <rect
        clip-path="url(#clipPath11425)"
@@ -9011,7 +9014,7 @@
        width="39.26635"
        id="rect55038"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54444)" />
     <path
        clip-path="url(#clipPath11421)"
        inkscape:export-ydpi="90"
@@ -9031,13 +9034,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.80213169"
-       inkscape:transform-center-y="-0.72670528"
-       transform="matrix(-0.01128251,1.1050428e-4,0.00662261,0.01536272,132.09855,1064.0244)" />
+       inkscape:transform-center-x="-0.80212769"
+       inkscape:transform-center-y="-0.72672323"
+       transform="matrix(-0.01128252,1.1050428e-4,0.00662261,0.01536272,132.09855,1064.0244)" />
     <path
-       transform="matrix(-0.01077065,7.9534952e-5,7.7473232e-5,0.01105768,139.49726,1064.4216)"
-       inkscape:transform-center-y="-0.52304067"
-       inkscape:transform-center-x="-0.0019047497"
+       transform="matrix(-0.01077065,7.9534956e-5,7.7473229e-5,0.01105768,139.49726,1064.4217)"
+       inkscape:transform-center-y="-0.52295861"
+       inkscape:transform-center-x="-0.0019037013"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9075,13 +9078,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.0019109305"
-       inkscape:transform-center-y="-0.52303694"
-       transform="matrix(-0.01077065,7.9534952e-5,7.7473232e-5,0.01105768,126.75683,1064.8821)" />
+       inkscape:transform-center-x="-0.0019099801"
+       inkscape:transform-center-y="-0.52305488"
+       transform="matrix(-0.01077065,7.9534956e-5,7.7473229e-5,0.01105768,126.75683,1064.8821)" />
     <path
-       transform="matrix(-0.01128251,1.1050428e-4,0.00662261,0.01536272,132.09855,1064.0244)"
-       inkscape:transform-center-y="-0.72670528"
-       inkscape:transform-center-x="-0.80213169"
+       transform="matrix(-0.01128252,1.1050428e-4,0.00662261,0.01536272,132.09855,1064.0244)"
+       inkscape:transform-center-y="-0.72672323"
+       inkscape:transform-center-x="-0.80212769"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9111,9 +9114,9 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11405)"
-       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,209.97716,965.54444)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,196.62272,967.6933)"
+       transform="matrix(-0.10744948,0,0,0.10744948,196.62272,967.69332)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -9125,7 +9128,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11401)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54442)"
+       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54444)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -9138,8 +9141,8 @@
        clip-path="url(#clipPath11397)" />
     <path
        transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,276.77482,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="-0.0035245679"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="-0.0035224863"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9159,7 +9162,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11393)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54442)"
+       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54444)"
        clip-path="url(#clipPath11389)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -9171,7 +9174,7 @@
        x="536.26624"
        y="888.3092" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54442)"
+       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54444)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -9184,8 +9187,8 @@
        clip-path="url(#clipPath11385)" />
     <path
        transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,276.77482,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="-0.0035245679"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="-0.0035224863"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9205,7 +9208,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11381)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54442)"
+       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54444)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect55078"
        width="39.26635"
@@ -9217,9 +9220,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11377)" />
     <path
-       transform="matrix(-0.01128251,1.1050428e-4,0.00662261,0.01536272,172.92935,1064.0244)"
-       inkscape:transform-center-y="-0.72670528"
-       inkscape:transform-center-x="-0.80212636"
+       transform="matrix(-0.01128252,1.1050428e-4,0.00662261,0.01536272,172.92935,1064.0244)"
+       inkscape:transform-center-y="-0.72672323"
+       inkscape:transform-center-x="-0.80212199"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9239,9 +9242,9 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11373)" />
     <path
-       transform="matrix(-0.01077065,7.9534952e-5,7.7473232e-5,0.01105768,267.05516,1064.1146)"
-       inkscape:transform-center-y="-0.52304676"
-       inkscape:transform-center-x="-0.0019083688"
+       transform="matrix(-0.01077065,7.9534956e-5,7.7473229e-5,0.01105768,267.05516,1064.1146)"
+       inkscape:transform-center-y="-0.52306469"
+       inkscape:transform-center-x="-0.0019063397"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9279,13 +9282,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.0019188205"
-       inkscape:transform-center-y="-0.52304067"
-       transform="matrix(-0.01077065,7.9534952e-5,7.7473232e-5,0.01105768,261.98969,1064.4216)" />
+       inkscape:transform-center-x="-0.0019168303"
+       inkscape:transform-center-y="-0.52295861"
+       transform="matrix(-0.01077065,7.9534956e-5,7.7473229e-5,0.01105768,261.98969,1064.4217)" />
     <path
-       transform="matrix(-0.01077065,7.9534952e-5,7.7473232e-5,0.01105768,167.58763,1064.8821)"
-       inkscape:transform-center-y="-0.52303694"
-       inkscape:transform-center-x="-0.0019056207"
+       transform="matrix(-0.01077065,7.9534956e-5,7.7473229e-5,0.01105768,167.58763,1064.8821)"
+       inkscape:transform-center-y="-0.52305488"
+       inkscape:transform-center-x="-0.0019043563"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9323,11 +9326,11 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.80212636"
-       inkscape:transform-center-y="-0.72670528"
-       transform="matrix(-0.01128251,1.1050428e-4,0.00662261,0.01536272,172.92935,1064.0244)" />
+       inkscape:transform-center-x="-0.80212199"
+       inkscape:transform-center-y="-0.72672323"
+       transform="matrix(-0.01128252,1.1050428e-4,0.00662261,0.01536272,172.92935,1064.0244)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54442)"
+       transform="matrix(-0.10744948,0,0,0.10744948,332.46955,965.54444)"
        clip-path="url(#clipPath11353)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -9353,9 +9356,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-1.0563277"
-       inkscape:transform-center-y="-0.95689116"
-       transform="matrix(-0.01485799,1.4552421e-4,0.00872135,0.02023124,285.89914,1062.0027)"
+       inkscape:transform-center-x="-1.0563355"
+       inkscape:transform-center-y="-0.95690914"
+       transform="matrix(-0.01485799,1.4552421e-4,0.00872135,0.02023124,285.89915,1062.0027)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -9371,7 +9374,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,319.11512,967.6933)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,319.11513,967.69332)" />
     <rect
        clip-path="url(#clipPath11341)"
        inkscape:export-ydpi="90"
@@ -9383,9 +9386,9 @@
        height="59.285793"
        x="834.69049"
        y="896.21399"
-       transform="matrix(-0.10744948,0,0,0.10744948,257.71542,968.15383)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,257.71542,968.15385)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54444)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -9397,7 +9400,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11337)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54444)"
        y="896.21399"
        x="834.69049"
        height="59.285793"
@@ -9410,8 +9413,8 @@
        clip-path="url(#clipPath11333)" />
     <path
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,74.141638,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="0.0035325446"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="0.003533161"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9431,7 +9434,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11329)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54444)"
        clip-path="url(#clipPath11325)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -9443,7 +9446,7 @@
        x="536.26624"
        y="888.3092" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54444)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -9456,8 +9459,8 @@
        clip-path="url(#clipPath11321)" />
     <path
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,74.141638,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="0.0035325446"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="0.003533161"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9495,11 +9498,11 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0035325446"
-       inkscape:transform-center-y="-0.57580193"
+       inkscape:transform-center-x="0.003533161"
+       inkscape:transform-center-y="-0.57581982"
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,74.141638,1057.3982)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54444)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect55118"
        width="39.26635"
@@ -9529,13 +9532,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0019095422"
-       inkscape:transform-center-y="-0.52304067"
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,88.926796,1064.4216)" />
+       inkscape:transform-center-x="0.0019112501"
+       inkscape:transform-center-y="-0.52295861"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,88.926795,1064.4217)" />
     <path
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,101.66723,1064.8821)"
-       inkscape:transform-center-y="-0.52303694"
-       inkscape:transform-center-x="0.001911723"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,101.66723,1064.8821)"
+       inkscape:transform-center-y="-0.52305488"
+       inkscape:transform-center-x="0.0019125289"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9555,7 +9558,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11301)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54444)"
        clip-path="url(#clipPath11297)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -9567,7 +9570,7 @@
        id="rect55132"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54442)"
+       transform="matrix(0.10744948,0,0,0.10744948,18.446905,965.54444)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect55134"
        width="39.26635"
@@ -9589,7 +9592,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(0.10744948,0,0,0.10744948,31.801341,967.6933)" />
+       transform="matrix(0.10744948,0,0,0.10744948,31.801342,967.69332)" />
     <rect
        clip-path="url(#clipPath11285)"
        inkscape:export-ydpi="90"
@@ -9601,9 +9604,9 @@
        height="59.285793"
        x="834.69049"
        y="896.21399"
-       transform="matrix(0.10744948,0,0,0.10744948,11.539439,968.15383)" />
+       transform="matrix(0.10744948,0,0,0.10744948,11.539439,968.15385)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,290.53356,969.84237)"
+       transform="matrix(-0.10744948,0,0,0.10744948,290.53356,969.84239)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -9625,9 +9628,9 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,262.38181,967.6933)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,262.38181,967.69332)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,262.38181,961.03155)"
+       transform="matrix(-0.10744948,0,0,0.10744948,262.38181,961.03157)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -9649,7 +9652,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,294.83154,965.3295)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,294.83155,965.32952)" />
     <rect
        clip-path="url(#clipPath11265)"
        inkscape:export-ydpi="90"
@@ -9661,7 +9664,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54442)" />
+       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54444)" />
     <path
        clip-path="url(#clipPath11261)"
        inkscape:export-ydpi="90"
@@ -9681,9 +9684,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0035272666"
-       inkscape:transform-center-y="-0.57580193"
-       transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,84.217952,1057.3982)" />
+       inkscape:transform-center-x="0.0035269605"
+       inkscape:transform-center-y="-0.57581982"
+       transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,84.217953,1057.3982)" />
     <rect
        y="888.3092"
        x="536.26624"
@@ -9695,7 +9698,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11257)"
-       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54442)" />
+       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54444)" />
     <rect
        clip-path="url(#clipPath11253)"
        inkscape:export-ydpi="90"
@@ -9707,7 +9710,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54442)" />
+       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54444)" />
     <path
        clip-path="url(#clipPath11249)"
        inkscape:export-ydpi="90"
@@ -9727,9 +9730,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0035272666"
-       inkscape:transform-center-y="-0.57580193"
-       transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,84.217952,1057.3982)" />
+       inkscape:transform-center-x="0.0035269605"
+       inkscape:transform-center-y="-0.57581982"
+       transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,84.217953,1057.3982)" />
     <rect
        clip-path="url(#clipPath11245)"
        inkscape:export-ydpi="90"
@@ -9741,7 +9744,7 @@
        width="39.26635"
        id="rect55534"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54442)" />
+       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54444)" />
     <path
        clip-path="url(#clipPath11241)"
        inkscape:export-ydpi="90"
@@ -9761,13 +9764,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0019078125"
-       inkscape:transform-center-y="-0.52304676"
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,93.937626,1064.1146)" />
+       inkscape:transform-center-x="0.0019095589"
+       inkscape:transform-center-y="-0.52306469"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,93.937625,1064.1146)" />
     <path
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,99.003106,1064.4216)"
-       inkscape:transform-center-y="-0.52304067"
-       inkscape:transform-center-x="0.0019082641"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,99.003103,1064.4217)"
+       inkscape:transform-center-y="-0.52295861"
+       inkscape:transform-center-x="0.0019120494"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9805,9 +9808,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="0.0019093704"
-       inkscape:transform-center-y="-0.52303694"
-       transform="matrix(0.01077065,7.9534952e-5,-7.7473232e-5,0.01105768,111.74354,1064.8821)" />
+       inkscape:transform-center-x="0.0019102537"
+       inkscape:transform-center-y="-0.52305488"
+       transform="matrix(0.01077065,7.9534956e-5,-7.7473229e-5,0.01105768,111.74354,1064.8821)" />
     <rect
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect55542"
@@ -9819,7 +9822,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11229)"
-       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54442)" />
+       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54444)" />
     <rect
        clip-path="url(#clipPath11225)"
        inkscape:export-ydpi="90"
@@ -9831,15 +9834,15 @@
        width="39.26635"
        id="rect55544"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54442)" />
+       transform="matrix(0.10744948,0,0,0.10744948,28.523218,965.54444)" />
     <path
        clip-path="url(#clipPath11221)"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       transform="matrix(0.01485799,1.4552421e-4,-0.00872135,0.02023124,75.093632,1062.0027)"
-       inkscape:transform-center-y="-0.95689116"
-       inkscape:transform-center-x="1.0563304"
+       transform="matrix(0.01485799,1.4552421e-4,-0.00872135,0.02023124,75.093628,1062.0027)"
+       inkscape:transform-center-y="-0.95690914"
+       inkscape:transform-center-x="1.056335"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9865,7 +9868,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54444)" />
     <path
        clip-path="url(#clipPath11213)"
        inkscape:export-ydpi="90"
@@ -9885,9 +9888,9 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.0035305313"
-       inkscape:transform-center-y="-0.57580193"
-       transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,83.36576,1057.3982)" />
+       inkscape:transform-center-x="-0.0035309367"
+       inkscape:transform-center-y="-0.57581982"
+       transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,83.365761,1057.3982)" />
     <rect
        y="888.3092"
        x="536.26624"
@@ -9899,7 +9902,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11209)"
-       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54444)" />
     <rect
        clip-path="url(#clipPath11205)"
        inkscape:export-ydpi="90"
@@ -9911,7 +9914,7 @@
        height="73.119141"
        x="536.26624"
        y="888.3092"
-       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54444)" />
     <path
        clip-path="url(#clipPath11201)"
        inkscape:export-ydpi="90"
@@ -9931,13 +9934,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.0035305313"
-       inkscape:transform-center-y="-0.57580193"
-       transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,83.36576,1057.3982)" />
+       inkscape:transform-center-x="-0.0035309367"
+       inkscape:transform-center-y="-0.57581982"
+       transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,83.365761,1057.3982)" />
     <path
-       transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,83.36576,1057.3982)"
-       inkscape:transform-center-y="-0.57580193"
-       inkscape:transform-center-x="-0.0035305313"
+       transform="matrix(-0.0199514,8.7568871e-5,1.4351061e-4,0.01217418,83.365761,1057.3982)"
+       inkscape:transform-center-y="-0.57581982"
+       inkscape:transform-center-x="-0.0035309367"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -9967,7 +9970,7 @@
        width="39.26635"
        id="rect55564"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54444)" />
     <path
        clip-path="url(#clipPath11189)"
        inkscape:export-ydpi="90"
@@ -9987,13 +9990,13 @@
        inkscape:rounded="-1.800643e-015"
        inkscape:randomized="0"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
-       inkscape:transform-center-x="-0.0019060772"
-       inkscape:transform-center-y="-0.52304676"
-       transform="matrix(-0.01077065,7.9534952e-5,7.7473232e-5,0.01105768,73.646081,1064.1146)" />
+       inkscape:transform-center-x="-0.0019015351"
+       inkscape:transform-center-y="-0.52306469"
+       transform="matrix(-0.01077065,7.9534956e-5,7.7473229e-5,0.01105768,73.646077,1064.1146)" />
     <path
-       transform="matrix(-0.01077065,7.9534952e-5,7.7473232e-5,0.01105768,68.580601,1064.4216)"
-       inkscape:transform-center-y="-0.52304067"
-       inkscape:transform-center-x="-0.0019065289"
+       transform="matrix(-0.01077065,7.9534956e-5,7.7473229e-5,0.01105768,68.580605,1064.4217)"
+       inkscape:transform-center-y="-0.52295861"
+       inkscape:transform-center-x="-0.0019100257"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -10023,7 +10026,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11181)"
-       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54444)" />
     <rect
        clip-path="url(#clipPath11177)"
        inkscape:export-ydpi="90"
@@ -10035,9 +10038,9 @@
        width="39.26635"
        id="rect55572"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54442)" />
+       transform="matrix(-0.10744948,0,0,0.10744948,139.06049,965.54444)" />
     <rect
-       transform="matrix(-0.10744948,0,0,0.10744948,84.230553,967.6933)"
+       transform="matrix(-0.10744948,0,0,0.10744948,84.230552,967.69332)"
        y="888.3092"
        x="536.26624"
        height="73.119141"
@@ -10061,8 +10064,8 @@
        clip-path="url(#clipPath11169)" />
     <path
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,378.04317,1063.5312)"
-       inkscape:transform-center-y="-0.57587901"
-       inkscape:transform-center-x="0.0035202837"
+       inkscape:transform-center-y="-0.57589693"
+       inkscape:transform-center-x="0.0035232367"
        d="M 500.00001,291.66667 304.14693,293.07582 108.29384,294.485 205.00001,124.16667 301.70618,-46.151663 400.85309,122.7575 z"
        inkscape:randomized="0"
        inkscape:rounded="-1.800643e-015"
@@ -10081,47 +10084,39 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11165)" />
-    <path
-       style="fill:#229aff;fill-opacity:1"
-       inkscape:connector-curvature="0"
-       id="path5202"
-       d="m 424.06062,867.91169 c -8.04902,9.9637 -15.13705,18.14835 -19.73483,22.07255 -3.37505,2.88093 -11.17663,9.10894 -17.87386,9.10894 -16.84384,0 -27.98013,-12.98357 -27.98013,-29.83711 0,-16.84996 11.20982,-29.76899 28.04559,-29.76899 12.55534,0 20.6752,6.71612 26.81753,11.38318 6.084,4.62297 23.15556,18.22185 23.15556,18.22185 l 2.14155,1.58874 -6.82803,8.2465 5.79269,-0.0717 7.26728,-8.8168 c -18.44663,-14.5412 -5.88409,-4.60781 -30.27588,-23.75325 -10.61368,-7.59471 -15.48843,-11.19 -28.09043,-11.19 -20.41523,0 -32.44347,13.77503 -32.44347,34.21293 0,20.43522 11.96014,34.19375 32.37713,34.19375 6.27588,0 12.85209,-3.2076 19.54839,-9.1535 6.69723,-5.94591 13.74492,-13.58705 21.5044,-23.67114 z"
-       sodipodi:nodetypes="cscccscccccccscccc"
-       inkscape:export-filename="C:\Users\Brandon\Documents\dev\GitHub\InFuture\path4078.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Brandon\Documents\dev\GitHub\InFuture\path4078.png"
-       sodipodi:nodetypes="cscccscccccccscccc"
-       d="m 427.47688,870.68695 c 8.04816,-9.96379 15.1371,-18.14843 19.73395,-22.07255 3.37594,-2.88102 11.17757,-9.10903 17.87472,-9.10903 16.84297,0 27.98022,12.98358 27.98022,29.83712 0,16.84995 -11.20985,29.76907 -28.0456,29.76907 -12.55535,0 -20.67522,-6.71621 -26.8175,-11.38327 -6.08496,-4.62297 -23.15558,-18.22176 -23.15558,-18.22176 l -2.14161,-1.58883 6.82811,-8.2465 -5.79363,0.0717 -7.26639,8.81681 c 18.44664,14.54129 5.8841,4.6079 30.27592,23.75324 10.61366,7.59471 15.48838,11.19001 28.08948,11.19001 20.41615,0 32.44349,-13.77503 32.44349,-34.21293 0,-20.43522 -11.95926,-34.19376 -32.37719,-34.19376 -6.27586,0 -12.85112,3.2076 -19.54835,9.1536 -6.69627,5.9459 -13.74397,13.58696 -21.50433,23.67113 z"
-       id="path5204"
-       inkscape:connector-curvature="0"
-       style="fill:#f2f2f2;fill-opacity:1" />
     <text
        xml:space="preserve"
        style="font-size:63.82500076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Raleway;-inkscape-font-specification:Raleway"
        x="264.74347"
-       y="969.36682"
+       y="974.38684"
        id="text19445"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan19447"
          x="264.74347"
-         y="969.36682"><tspan
+         y="974.38684"><tspan
    style="font-size:63.82500076px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#229aff;fill-opacity:1;font-family:Raleway;-inkscape-font-specification:Raleway Ultra-Light"
    id="tspan19449">IN</tspan>FUTURE</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14.1833334px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d6eff7;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
        x="249.78485"
-       y="1002.5974"
+       y="1007.6174"
        id="text19459"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan19461"
          x="249.78485"
-         y="1002.5974">HACKATHON FOR THE INNOVATORS OF TOMORROW </tspan></text>
+         y="1007.6174">HACKATHON FOR THE INNOVATORS OF TOMORROW </tspan></text>
+    <path
+       style="fill:#229aff"
+       inkscape:connector-curvature="0"
+       d="m 409.02578,888.52065 c -5.20896,6.78378 -13.08297,10.6905 -21.65353,10.6905 -15.02119,0 -27.25618,-12.23501 -27.25618,-27.2562 0,-15.02119 12.23499,-27.25618 27.25618,-27.25618 10.81162,0 21.07812,3.48273 29.61839,10.0545 l 22.68321,17.71652 -8.05572,10.32707 h 7.6923 l 8.87341,-11.35675 -27.46819,-21.47182 c -9.63051,-7.41973 -21.13869,-11.32645 -33.31311,-11.32645 -18.38278,0 -33.31312,14.93032 -33.31312,33.31311 0,18.38278 14.93034,33.3131 33.31312,33.3131 10.4482,0 20.07872,-4.75471 26.4385,-13.05267 l 14.38521,-18.41307 1.45366,-1.84736 -7.66202,0 -12.99211,16.5657 z"
+       id="path3" />
+    <path
+       style="fill:#f2f2f2"
+       inkscape:connector-curvature="0"
+       d="m 464.2347,838.64184 c -10.44821,0 -20.07873,4.75469 -26.4385,13.05268 l -14.2035,18.17079 -1.63538,2.11993 7.66202,0 12.96183,-16.56571 c 5.20896,-6.78376 13.08297,-10.69048 21.65353,-10.69048 15.02119,0 27.25618,12.235 27.25618,27.25619 0,15.02118 -12.23499,27.2562 -27.25618,27.2562 -10.81162,0 -21.07812,-3.48275 -29.61839,-10.05452 l -22.6832,-17.71652 8.05571,-10.32707 h -7.6923 l -8.8734,11.35675 27.46818,21.47181 c 9.63052,7.41974 21.13869,11.32646 33.31312,11.32646 18.38278,0 33.31311,-14.93033 33.31311,-33.31311 0,-18.38279 -14.90005,-33.3434 -33.28283,-33.3434 z"
+       id="path5" />
   </g>
 </svg>

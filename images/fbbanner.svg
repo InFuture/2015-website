@@ -5992,9 +5992,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84852814"
-     inkscape:cx="444.39608"
-     inkscape:cy="97.79953"
+     inkscape:zoom="1.2"
+     inkscape:cx="351.25713"
+     inkscape:cy="134.56749"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -6015,7 +6015,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6424,20 +6424,6 @@
        inkscape:transform-center-y="-0.57589693"
        transform="matrix(0.0199514,8.7568871e-5,-1.4351061e-4,0.01217418,378.04317,1063.5312)" />
     <rect
-       rx="1.4023697"
-       ry="8.3602228"
-       y="718.01752"
-       x="449.88663"
-       height="49.404827"
-       width="2.8047395"
-       id="rect46828"
-       style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       clip-path="url(#clipPath12073)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,963.67747)" />
-    <rect
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46830"
        width="93.491325"
@@ -6675,20 +6661,6 @@
        width="84.142181"
        id="rect46860"
        style="fill:#2c5aa0;fill-opacity:1;stroke:none" />
-    <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,963.67747)"
-       clip-path="url(#clipPath12009)"
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
-       style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="rect46862"
-       width="2.8047395"
-       height="49.404827"
-       x="449.88663"
-       y="718.01752"
-       ry="8.3602228"
-       rx="1.4023697" />
     <rect
        transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.67747)"
        y="842.85675"
@@ -7258,7 +7230,7 @@
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11865)" />
     <rect
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,961.40813)"
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,969.93087)"
        style="fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect46940"
        width="2.8047395"
@@ -7279,8 +7251,8 @@
        sodipodi:cy="399.05618"
        sodipodi:rx="79.903069"
        sodipodi:ry="79.903069"
-       d="m 698.62151,399.05618 c 0,44.12925 -35.77382,79.90307 -79.90307,79.90307 -44.12924,0 -79.90306,-35.77382 -79.90306,-79.90307 0,-44.12924 35.77382,-79.90307 79.90306,-79.90307 44.12925,0 79.90307,35.77383 79.90307,79.90307 z"
-       transform="matrix(0.06034668,0,0,0.05314963,306.53969,1019.9253)"
+       d="m 698.62151,399.05618 a 79.903069,79.903069 0 1 1 -159.80613,0 79.903069,79.903069 0 1 1 159.80613,0 z"
+       transform="matrix(0.06034668,0,0,0.05314963,306.53969,1026.4463)"
        inkscape:export-filename="C:\Users\Brandon\Documents\dev\InFuture\infuturesil.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -8143,7 +8115,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        clip-path="url(#clipPath11633)"
-       transform="matrix(0.10744948,0,0,0.10744948,322.34844,963.67747)" />
+       transform="matrix(0.10744948,0,0,0.10744948,322.34844,971.5733)" />
     <rect
        y="808.27338"
        x="404.54333"

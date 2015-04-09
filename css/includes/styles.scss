@@ -1142,12 +1142,15 @@ background: rgb(128, 128, 128);
       }
       .title {
           font-size: 50px !important;
+          margin-top: 30px !important;
       }
       .caption {
           font-size: 18px !important;
+          margin: 0px 4px !important;
       }
       form {
           font-size: 20px !important;
+          margin-top: 30px !important;
 
           input.input-box {
               margin-top: 15px !important;
@@ -1171,7 +1174,7 @@ background: rgb(128, 128, 128);
         .contact {
             margin-left: 1em !important;
             margin-right: 1em !important;
-            margin-top: 170px !important;
+            margin-top: 65px !important;
         }
   }
   .sponsors-section {
@@ -1189,8 +1192,8 @@ background: rgb(128, 128, 128);
   }
 }
 
-@media only screen and (max-device-height: 550px) {
-  #see-more {
+@media only screen and (max-device-height: 540px) {
+  .scroll-arrow-container {
       display: none !important;
   }
 }

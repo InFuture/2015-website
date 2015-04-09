@@ -1,8 +1,10 @@
 function mailchimp(){
 	var hipHopMagician = $(".input-box").val();
 	$(".input-box").val("");
-	$('.input-box').attr('placeholder','Thanks! Please check your email. :)');
-
+	$('.input-box').attr('placeholder','Please check your email. :)');
+  $('.btnSubscribe').prop("disabled",!this.checked); 
+  $('.btnSubscribe').css({'background-color':'#c5c5c5','color':'#707070','border':'2px solid #c5c5c5'});
+  $('.btnSubscribe').html('Thanks!')
 	
 	$.post("/signup/", { email: hipHopMagician });
 	return false;

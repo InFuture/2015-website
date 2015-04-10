@@ -972,6 +972,9 @@ body {
     opacity: .99;
     border-radius: 28%;
     box-shadow: 0 0 30px 0 rgba(0,0,0,.05);
+    -o-transition: $transition;
+    -moz-transition: $transition;
+    -webkit-transition: $transition;
     transition: $transition;
     margin-top: 30px;
     border-radius: 50%;
@@ -984,14 +987,26 @@ body {
         position: absolute;
         top: 90%;
         left: -110%;
+        -o-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
+        -o-transition: $transition;
+        -moz-transition: $transition;
+        -webkit-transition: $transition;
         transition: $transition;
     }
     
     .fa {
         font-size: 38px;
         vertical-align: middle;
+        -o-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -webkit-transform: scale(.8);
         transform: scale(.8);
+        -o-transition: $transition;
+        -moz-transition: $transition;
+        -webkit-transition: $transition;
         transition: $transition;
     }
     

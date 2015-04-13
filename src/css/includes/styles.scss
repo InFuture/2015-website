@@ -155,22 +155,36 @@ body {
     }
 }
 
-.intro-social{
-        color: white;
-        padding-right: 15px;
-        margin-left: 15px;
-        font-size: 17px;
-        float: right;
-        
-        -webkit-transition: all 250ms ease-out;
-        -moz-transition: all 250ms ease-out;
-        -ms-transition: all 250ms ease-out;
-        -o-transition: all 250ms ease-out;
-        transition: all 250ms ease-out;
-        
-    } .intro-social:hover{
-        font-size: bold;
+.intro-social-container {
+    display: table;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    z-index: 90;
+    a {
+        color: $color-white;
+        margin-left: 30px;
+        font-size: 30px;
     }
+    .fb {
+        &:hover {
+            color: #112E6B;
+        }
+    }
+    .tw {
+        &:hover {
+            color: #3CF;
+        }
+    }
+    .md {
+        &:hover {
+            color: #333332;
+        }
+    }
+}
+
 
 .scroll-arrow-container {
     position: absolute;
@@ -361,10 +375,10 @@ body {
     background: #225eff no-repeat bottom center scroll;
     background-image: url(../images/infuturesil4.svg);
     // background-image: url(../images/infuturesil3.svg),-webkit-gradient(to bottom,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil4.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
-    background-image: url(../images/infuturesil4.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
-    background-image: url(../images/infuturesil4.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
-    background-image: url(../images/infuturesil4.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#c3b680,#ffb402);
+    background-image: url(../images/infuturesil4.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);  //#c3b680  extra orange color
+    background-image: url(../images/infuturesil4.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil4.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/infuturesil4.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
     color: $color-white !important;
     padding: 75px 0 29px 0;
     margin: 0;
@@ -1200,6 +1214,9 @@ background: rgb(128, 128, 128);
               margin-top: 20px !important;
           }
       }
+      .intro-social-container {
+        display: none;
+      }
   }
   .faq {
     padding-bottom: 0px !important;
@@ -1228,6 +1245,16 @@ background: rgb(128, 128, 128);
     .contact {
         margin-left: 1em !important;
         margin-right: 1em !important;
+    }
+  }
+  .footer {
+    .social-button {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        .fa {
+            font-size: 27px;
+        }
     }
   }
 }

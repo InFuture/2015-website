@@ -921,7 +921,8 @@ $colors: (
     "google": "#DC4A38",
     "email": "#F26798",
     "skype": "#00AFF0",
-    "mail": "#7C7C7C"
+    "mail": "#7C7C7C",
+    "medium":"#333332"
 );
 
 //button size
@@ -956,6 +957,10 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    
+    .medium{
+        font-size: 10px;
+    }
 }
 
 .social-button {    

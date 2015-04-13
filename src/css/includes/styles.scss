@@ -167,6 +167,12 @@ body {
         color: $color-white;
         margin-left: 30px;
         font-size: 30px;
+
+        -webkit-transition: all 250ms ease-out;
+        -moz-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        -o-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
     }
     .fb {
         &:hover {

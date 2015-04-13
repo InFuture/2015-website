@@ -155,10 +155,28 @@ body {
     }
 }
 
+.intro-social{
+        color: white;
+        padding-right: 15px;
+        margin-left: 15px;
+        font-size: 17px;
+        float: right;
+        
+        -webkit-transition: all 250ms ease-out;
+        -moz-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        -o-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+        
+    } .intro-social:hover{
+        font-size: bold;
+    }
+
 .scroll-arrow-container {
     position: absolute;
     bottom: 25px;
     width: 100%;
+    
     
     .scroll-arrow {
         width: 46px;

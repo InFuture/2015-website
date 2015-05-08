@@ -325,7 +325,7 @@ body {
 //    top: -175px;
     
     margin: 0;
-    padding: 15px 0;
+    padding: 25px 0;
     
 //    opacity: 0.7;
     
@@ -594,8 +594,9 @@ body {
     width: 100%;
     padding: 30px 0 30px 0;
     margin: 0 auto;
-    text-align: center;
+//    text-align: center;
     background-color: #1E3C69;
+    color: $color-white;
 
     // background: #4d4d4d no-repeat bottom center scroll;
     // background-image: url(../images/footer.svg);
@@ -603,42 +604,40 @@ body {
     .container {
         margin-left: auto;
         margin-right: auto;
-        
-        .footer-text {
-            display: inline;
-            margin: 0 5px;
-            color: $color-white;
-            text-align: left;
-            font-size: 14px;
-            line-height: 1.5;
-            font-family: $body-font;
-            font-weight: 400;
+       
+        .title {
+            font-family: $title-font;
+            font-size: 2.8rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            padding-top: 25px;
         }
-
-        .arrow-container {
-            height: 50px;
-            width: 50px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            text-align:center;
-            line-height:50px;
+        
+        .details {
+            font-family: $title-font;
+            font-size: 1.8rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            margin: 3px 0;
+            line-height: 2;
             
-            .up-arrow {
-                font-size: 38px;
+            a {
                 color: $color-white;
-                -webkit-transition: all 250ms ease-out;
-                -moz-transition: all 250ms ease-out;
-                -ms-transition: all 250ms ease-out;
-                -o-transition: all 250ms ease-out;
-                transition: all 250ms ease-out;
-                &:hover {
-                    font-size: 45px;
-                    color: #2199FF;
+                
+                &:nth-child(1) {
+                    margin-right: 20px;
+                }
+                
+                &:nth-child(2) { 
+                    margin-left: 20px;
                 }
             }
         }
-            
+        
+        .right {
+            text-align: center;
+            padding-top: 40px;
+        } 
     }
     
 }

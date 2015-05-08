@@ -277,8 +277,9 @@ body {
 }
 
 .btnSubscribe {
-    display: inline;
+    display: block;
     
+    margin: 75px auto 0 auto;
     padding: 7px 14px;
     font-family: $body-font !important;
     font-size: 18px !important;
@@ -396,6 +397,22 @@ body {
         font-weight: 400;
         margin-bottom: 5px !important;
         color: $color-white !important;
+    }
+    
+    .panel-nav {
+        li {
+            width: 125px;
+            height: 50px;
+            margin: 5px auto;
+            text-align: center;
+            font-family: $body-font;
+            font-size: 28px;
+            font-weight: 400;
+            
+            &.active {
+                background-color: $color-blue;
+            }
+        }
     }
     
     .question {
@@ -1217,7 +1234,7 @@ background: rgb(128, 128, 128);
               width: 90% !important;
           }
           button.btnSubscribe {
-              margin-top: 20px !important;
+              margin-top: 125px !important;
           }
       }
       .intro-social-container {

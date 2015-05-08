@@ -400,17 +400,22 @@ body {
     }
     
     .panel-nav {
-        li {
-            width: 125px;
-            height: 50px;
+        margin: 25px auto;
+        
+        div {
+            display: inline-block;
+            max-width: 200px;
             margin: 5px auto;
+            padding: 15px 0;
             text-align: center;
             font-family: $body-font;
             font-size: 28px;
             font-weight: 400;
+            border-bottom: 2px solid transparent;
             
-            &.active {
-                background-color: $color-blue;
+            &.active, &:hover {
+//                background-color: $color-blue;
+                border-bottom: 2px solid $color-blue;
             }
         }
     }

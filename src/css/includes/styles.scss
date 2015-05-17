@@ -376,15 +376,16 @@ background-color: #3d6ff7 !important;
 
 .faq {
     background: #225eff no-repeat bottom center scroll;
-//    background-image: url(../images/infuturesil4.svg);
-    background-image: url(../images/infuturesil4.svg);
+//    background-image: url(../images/city-sun.svg);
+    background-image: url(../images/city-sun.svg);
 //    // background-image: url(../images/infuturesil3.svg),-webkit-gradient(to bottom,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
-    background-image: url(../images/infuturesil4.svg),-webkit-linear-gradient(top,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);  //#c3b680  extra orange color
-    background-image: url(../images/infuturesil4.svg),-moz-linear-gradient(top,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
-    background-image: url(../images/infuturesil4.svg),-o-linear-gradient(top,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
-    background-image: url(../images/infuturesil4.svg),linear-gradient(to bottom,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
+    background-image: url(../images/city-sun.svg),-webkit-linear-gradient(top,#2767ff,#3e83ff,#88b8ff,#ffb402);  //#c3b680  extra orange color
+    background-image: url(../images/city-sun.svg),-moz-linear-gradient(top,#2767ff,#3e83ff,#88b8ff,#ffb402);
+    background-image: url(../images/city-sun.svg),-o-linear-gradient(top,#2767ff,#3e83ff,#88b8ff,#ffb402);
+    background-image: url(../images/city-sun.svg),linear-gradient(to bottom,#2767ff,#3e83ff,#88b8ff,#ffb402);
+    //#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402
     color: $color-white !important;
-    padding: 75px 0 320px 0;
+    padding: 50px 0 370px 0;
     margin: 0;
     text-align: center;
     
@@ -1383,10 +1384,10 @@ form {
 }
 .faq {
     padding-bottom: 0px !important;
-    background-image: url(../images/infuturesil4.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
-    background-image: url(../images/infuturesil4.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
-    background-image: url(../images/infuturesil4.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
-    background-image: url(../images/infuturesil4.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/city-sun.svg),-webkit-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/city-sun.svg),-moz-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/city-sun.svg),-o-linear-gradient(top,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
+    background-image: url(../images/city-sun.svg),linear-gradient(to bottom,#225eff,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402) !important;
     .row {
         margin-left: 1em !important;
         margin-right: 1em !important;

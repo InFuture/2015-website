@@ -480,7 +480,7 @@ body {
     }
 }
 
-.speakers {
+.speakers, .judges {
     width: 100%;
     padding: 50px 0;
     text-align: center;
@@ -490,12 +490,12 @@ body {
         font-family: $body-font !important;
         font-size: 48px;
         font-weight: 400;
-        margin-bottom: 5px !important;
+        margin-bottom: 25px !important;
         color: $color-white !important;
         text-transform: uppercase;
     }
     
-    .speaker {
+    .person {
         h1.name {
             font-family: $body-font !important;
             font-size: 24px;

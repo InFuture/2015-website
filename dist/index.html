@@ -29,7 +29,10 @@
             window.setTimeout(function () {
                 $("#faq-row" + section).removeClass("invisible");
             }, 200);
-        }</script><script type="text/javascript" src="js/jquery.easing.1.3.js"></script><script type="text/javascript" src="js/jquery.plusanchor.js"></script><script type="text/javascript">$(document).ready(function () {
+        }
+        var shiftWindow = function() { scrollBy(0, -50) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);</script><script type="text/javascript" src="js/jquery.easing.1.3.js"></script><script type="text/javascript" src="js/jquery.plusanchor.js"></script><script type="text/javascript">$(document).ready(function () {
         $('body').plusAnchor({
             easing: 'easeInOutExpo',
             speed: 500

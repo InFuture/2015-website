@@ -166,7 +166,7 @@
                     <p class="answer">InFuture will take place in the Greater New York City area in August of 2015.</p>
                 </div>
             </div>
-            <div class="row no-display" id="faq-row2">
+            <div class="row no-display invisible" id="faq-row2">
                 <div class="col-md-4">
                     <h1 class="question">Who can apply?</h1>
                     <p class="answer">Any student, up to and including the high school graduating class, is welcome to apply! Anyone in college and beyond is welcome to apply as a mentor. If you're unsure if you are eligible, shoot us an email at <a href="mailto:info@infuture.io">info@infuture.io</a></p>
@@ -180,7 +180,7 @@
                     <p class="answer">Single person teams are allowed, but we encourage you to work in group! Teams can have up to four people spanning any schools.</p>
                 </div>
             </div>
-            <div class="row no-display" id="faq-row3">
+            <div class="row no-display invisible" id="faq-row3">
                 <div class="col-md-4">
                     <h1 class="question">Will there be food?</h1>
                     <p class="answer">All meals, snacks, and drinks will be provided for the entire weekend. If you have a dietary restriction, please make sure to mention it in the application. There will be a wide variety of food.</p>
@@ -194,7 +194,7 @@
                     <p class="answer">More information will be released soon.</p>
                 </div>
             </div>
-            <div class="row no-display" id="faq-row4">
+            <div class="row no-display invisible" id="faq-row4">
                 <div class="col-md-4">
                     <h1 class="question">Will there be travel reimbursement?</h1>
                     <p class="answer">More information will be released soon.</p>
@@ -455,12 +455,19 @@
         	$("#faq-row2").addClass("no-display");
         	$("#faq-row3").addClass("no-display");
         	$("#faq-row4").addClass("no-display");
+        	$("#faq-row1").addClass("invisible");
+        	$("#faq-row2").addClass("invisible");
+        	$("#faq-row3").addClass("invisible");
+        	$("#faq-row4").addClass("invisible");
             $("#navtab1").removeClass("active");
             $("#navtab2").removeClass("active");
             $("#navtab3").removeClass("active");
             $("#navtab4").removeClass("active");
             $("#navtab" + section).addClass("active");
         	$("#faq-row" + section).removeClass("no-display");
+            window.setTimeout(function () {
+                $("#faq-row" + section).removeClass("invisible");
+            }, 200);
         }
     </script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>

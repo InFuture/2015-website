@@ -435,6 +435,14 @@ background-image: url(../images/city.svg);
     }
 }
 
+.row {
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -ms-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
 .question {
     font-family: $body-font !important;
     font-size: 28px;
@@ -738,6 +746,10 @@ color: $color-white;
 
 .no-display {
     display: none;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 /*margin: 0; }*/

@@ -662,32 +662,53 @@ a {
 }
 
 .schedule{
-    padding: 20px auto 20px auto;
+    padding: 50px 0 75px;
+    color: $color-white;
+    
     .title {
         font-size: 48px;
         font-family: $body-font !important;
         font-weight: 400;
         text-align: center;
         text-transform: uppercase;
-        padding: 20px auto 20px auto;
-        color: $color-white;
+        padding: 20px 0;
     }
-    .subtitle{
-        font-size: 24px;
+    
+    .sub-header {
+        font-size: 36px;
         font-family: $body-font !important;
         font-weight: 400;
         text-align: center;
-        text-transform: uppercase;
-        padding: 20px auto 10px auto;
-        color: $color-white;
+        margin: 25px auto 5px;
     }
-    table{
-        font-size: 24px;
-        font-family: $body-font !important;
-        color: $color-white;
-        border-collapse: separate;
-        border-spacing: 40px 3px; 
-        text-align: center;
+    
+    .row {
+        padding: 15px 0;
+        
+        .time, .event {
+            font-size: 24px;
+            font-family: $body-font !important;
+            font-weight: 400;
+            text-align: right;
+            
+            span {
+                font-size: 16px;
+                margin-left: 2px;
+            }
+        }
+        
+        .event {
+            text-align: left;
+        }
+        
+        .location {
+            font-size: 18px;
+            font-family: $body-font !important;
+            font-weight: 400;
+            text-align: left;
+            margin: 0;
+            color: #dbdbdb;
+        }
     }
 }
 

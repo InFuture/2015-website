@@ -400,24 +400,39 @@ background-image: url(../images/city.svg);
         
         div {
             display: inline-block;
-            margin: 5px auto;
-            padding: 15px 0;
-            text-align: center;
-            font-family: $body-font;
-            font-size: 28px;
-            font-weight: 400;
-            border-bottom: 2px solid transparent;
-            -webkit-transition: all 250ms ease-out;
-            -moz-transition: all 250ms ease-out;
-            -ms-transition: all 250ms ease-out;
-            -o-transition: all 250ms ease-out;
-            transition: all 250ms ease-out;
-
-            &.active, &:hover {
-//                background-color: $color-blue;
-border-bottom: 2px solid $color-blue;
-}
-}
+            margin: 5px 0;
+            padding: 0;
+//            cursor: pointer;
+            
+            button.navtab {
+                width: 100%;
+//                margin: 5px auto;
+                padding-top: 15px;
+                padding-bottom: 15px;
+//                padding-left: 0;
+//                padding-right: 0;
+                
+                text-align: center;
+                font-family: $body-font;
+                font-size: 24px;
+                font-weight: 400;
+                background-color: rgba(255, 255, 255, 0.07);
+                border: none;
+                text-transform: uppercase;
+                
+                -webkit-transition: all 250ms ease-out;
+                -moz-transition: all 250ms ease-out;
+                -ms-transition: all 250ms ease-out;
+                -o-transition: all 250ms ease-out;
+                transition: all 250ms ease-out;
+                
+                &.active, &:hover {
+                    //                background-color: $color-blue;
+    //                border-bottom: 2px solid $color-blue;
+                    background-color: rgba(255, 255, 255, 0.15);
+                }
+            }
+    }
 }
 
 .question {
@@ -427,6 +442,7 @@ border-bottom: 2px solid $color-blue;
     text-align: left;
     margin: 45px auto 10px auto;
     color: $color-white !important;
+//    text-transform: uppercase;
 }
 
 .answer {
@@ -435,7 +451,7 @@ border-bottom: 2px solid $color-blue;
     font-weight: 400;
     text-align: left;
     line-height: 2;
-    color: $color-white !important;
+    color: #ebebeb !important;
 }
 
 a {
@@ -718,6 +734,10 @@ color: $color-white;
         } 
     }
     
+}
+
+.no-display {
+    display: none;
 }
 
 /*margin: 0; }*/

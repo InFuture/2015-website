@@ -355,7 +355,7 @@ background-color: #3d6ff7 !important;
         
         .numbers {
             font-weight: 400;
-            font-size: 60px;
+            font-size: 48px;
             color: $color-white;
             margin: 7px;
             padding: 0;
@@ -363,7 +363,7 @@ background-color: #3d6ff7 !important;
         
         .object {
             font-weight: 300;
-            font-size: 25px;
+            font-size: 24px;
             color: $color-bluewhite;
             margin: 7px;
             padding: 0;
@@ -376,7 +376,7 @@ background-color: #3d6ff7 !important;
 .faq {
     background: #225eff no-repeat bottom center scroll;
 //    background-image: url(../images/city.svg);
-background-image: url(../images/city.svg);
+    background-image: url(../images/city.svg);
 //    // background-image: url(../images/infuturesil3.svg),-webkit-gradient(to bottom,#225eff,#4381ff,#63a2ff,#7eb2ff,#acdeff);
     background-image: url(../images/city.svg),-webkit-linear-gradient(top,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);  //#c3b680  extra orange color
     background-image: url(../images/city.svg),-moz-linear-gradient(top,#2767ff,#2c71ff,#3e83ff,#5096ff,#88b8ff,#ffb402);
@@ -506,7 +506,7 @@ a {
 
 .speakers, .judges {
     width: 100%;
-    padding: 50px 0;
+    padding: 50px 0 75px;
     text-align: center;
     background-color: #005397;
     
@@ -555,7 +555,7 @@ a {
 
 .sponsors-section {
     width: 100%;
-    padding: 0 0 110px 0;
+    padding: 50px 0 110px !important;
     margin: 0 !important;
     text-align: center;
 

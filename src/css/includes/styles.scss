@@ -57,7 +57,32 @@ html, body{
 
 body {
     background-color: #225eff !important;
-    padding-top: 40px;
+}
+
+.navBar {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    display: block;
+    .contain {
+        display: table;
+        margin: 0 auto;
+        background-color: rgba(22, 47, 108, 0.9);
+        text-align: center;
+        padding-left: 8em;
+        padding-right: 8em;
+        border-radius: 5px;
+        a {
+            display: table-cell;
+            color: #DEDEEF;
+            padding: 0.2em 1em;
+            font-size: 30px;
+            font-family: $title-font;
+        }
+    }
 }
 
 .introduction {
@@ -395,6 +420,7 @@ background-color: #3d6ff7 !important;
         font-weight: 400;
         margin-bottom: 5px !important;
         color: $color-white !important;
+        padding: 20px 0;
     }
     
     .panel-nav {
@@ -519,6 +545,7 @@ a {
         margin-bottom: 25px !important;
         color: $color-white !important;
         text-transform: uppercase;
+        padding: 20px 0;
     }
     
     .person {
@@ -588,8 +615,9 @@ a {
         font-weight: 400;
         text-align: center;
         text-transform: uppercase;
-        margin: 0 auto 20px auto;
+        margin: 20px auto 20px auto;
         color: $color-white;
+        padding: 20px 0;
     }
 
     .sponsor-container {

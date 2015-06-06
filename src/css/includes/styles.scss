@@ -80,7 +80,7 @@ body {
             color: #DEDEEF;
             padding: 0.2em 1em;
             font-size: 30px;
-            font-family: $title-font;
+            font-family: "Helvetica";
         }
     }
 }
@@ -1280,107 +1280,6 @@ body {
 }
 
 @media only screen and (max-device-width: 480px) {
-    #menuButton, #navS, #navSBG, #closeButton, .button {
-        height: 70px !important;
-    }
-    #menuButton, #closeButton {
-        width: 70px !important
-    }
-    #navS {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 20;
-      background-color: transparent;
-      A {
-        text-decoration: none;
-    }
-    #navSBG {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 21;
-      background-color: rgba(39,37,50, 0.8);
-      text-align: center;
-      display: table;
-      padding: 0 !important;
-      .button {
-          position: relative;
-          top: 0;
-          left: 0;
-          z-index: 21;
-          font-size: 4.5vw;
-          text-align: center;
-          vertical-align: middle;
-          color: white;
-          background-color: transparent !important;
-          cursor: pointer;
-          transition: color 0.5s;
-          display: inline-block;
-          font-family: $body-font;
-          width: 100% !important;
-          margin: 1em auto !important;
-          line-height: 55px !important;
-      }
-      .buttonText{
-          margin: 0;
-      }
-  }
-}
-#menuButton {
-  transition: background-color 0.5s;
-  z-index: 11;
-  display: block !important;
-  line-height: normal !important;
-  .menuButtonSection {
-      position: relative;
-      background-color: white;
-      top: 0 !important;
-      left: 0 !important;
-      margin: 10.5px 14px !important;
-      height: 7px !important;
-      width: 42px !important;
-      display: block !important;
-  }
-  .topSection {
-      margin-top: 14px !important;
-  }
-  .botSection{
-    margin-bottom: 14px !important;
-}
-}
-#closeButton, #menuButton {
-  position: fixed;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-}
-#closeButton {
-  display: none;
-  transition: background-color 0.5s;
-  z-index: 22;
-  .closeButtonSection {
-      position: absolute;
-      margin: 45% 20%;
-      height: 10%;
-      width: 60%;
-      background-color: white;
-      &:first-child {
-          -ms-transform: rotate(45deg);
-          -moz-transform: rotate(45deg); 
-          -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-      }
-      &:last-child {
-          -ms-transform: rotate(-45deg);
-          -moz-transform: rotate(-45deg);     
-          -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-      }
-  }
-}
 .introduction {
   .logo {
     height: 63.15px !important;
@@ -1477,4 +1376,116 @@ form {
   #see-more {
       display: none !important;
   }
+} 
+@media screen and (max-width: 1355px) {
+    .navBar {
+        display: none;
+    }
+    #menuButton, #navS, #navSBG, #closeButton {
+        height: 70px !important;
+    }
+    #menuButton, #closeButton {
+        width: 70px !important
+    }
+    #navS {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 20;
+      background-color: transparent;
+      A {
+        text-decoration: none;
+    }
+    #navSBG {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 21;
+      background-color: rgba(39,37,50, 0.8);
+      text-align: center;
+      display: table;
+      padding: 0 !important;
+      .button {
+          position: relative;
+          top: 0;
+          left: 0;
+          z-index: 21;
+          font-size: 15px;
+          text-align: center;
+          vertical-align: middle;
+          color: white;
+          background-color: transparent !important;
+          cursor: pointer;
+          transition: color 0.5s;
+          display: inline-block;
+          font-family: $body-font;
+          width: 100% !important;
+          margin: 1em auto !important;
+          line-height: 55px !important;
+          height: 39px;
+      }
+      .buttonText{
+          margin: 0;
+      }
+  }
+}
+    #menuButton {
+      transition: background-color 0.5s;
+      z-index: 11;
+      display: block !important;
+      line-height: normal !important;
+      .menuButtonSection {
+          position: relative;
+          background-color: white;
+          top: 0 !important;
+          left: 0 !important;
+          margin: 10.5px 14px !important;
+          height: 7px !important;
+          width: 42px !important;
+          display: block !important;
+      }
+      .topSection {
+          margin-top: 14px !important;
+      }
+      .botSection{
+        margin-bottom: 14px !important;
+    }
+    }
+    #closeButton, #menuButton {
+      position: fixed;
+      top: 0;
+      left: 0;
+      cursor: pointer;
+    }
+    #closeButton {
+      display: none;
+      transition: background-color 0.5s;
+      z-index: 22;
+      .closeButtonSection {
+          position: absolute;
+          margin: 45% 20%;
+          height: 10%;
+          width: 60%;
+          background-color: white;
+          &:first-child {
+              -ms-transform: rotate(45deg);
+              -moz-transform: rotate(45deg); 
+              -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+          }
+          &:last-child {
+              -ms-transform: rotate(-45deg);
+              -moz-transform: rotate(-45deg);     
+              -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+          }
+      }
+    }
+}
+@media screen and (min-width: 1356px) {
+    #navS, #navSBG {
+        display: none;
+    }
 }

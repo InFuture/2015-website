@@ -34,8 +34,8 @@ module.exports = function(grunt){
 
         watch: {
             style: {
-                files: "src/css/**/*.scss",
-                tasks: ['sass', 'htmlmin']
+                files: ['src/css/**/*.scss', '*.html', '*.js'],
+                tasks: ['sass', 'htmlmin', 'uglify']
             }
         }
     });

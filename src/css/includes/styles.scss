@@ -189,6 +189,14 @@ body {
             color: #333332;
         }
     }
+    
+    .tm {
+        &:hover {
+            color: #2ecc71;
+        } &:visited {
+            color: $color-white;
+        }
+    }
 }
 
 

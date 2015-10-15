@@ -150,6 +150,17 @@ body {
             text-shadow: 0px 0px 3px $color-elgray;
             text-transform: uppercase;
         }
+        
+        h3.caption {
+            margin: 30px auto -5px auto;
+            padding: 0;
+            
+            color: $color-white;
+            font-weight: 200;
+            font-family: $title-font !important;
+            font-size: 24px;
+
+        }
 
 
     }
@@ -262,7 +273,7 @@ body {
 //}
 
 .subscriptionForm {
-    margin: 65px auto 0 auto !important;
+    margin: 30px auto 0 auto !important;
 }
 
 .input-box {
@@ -991,6 +1002,12 @@ html {
 
 body {
     background-color: #ecf0f1;
+}
+
+.hackGenYLogo {
+    margin: 0;
+    padding: 0;
+    height: 75px;
 }
 
 .social-buttons {
